@@ -7,3 +7,5 @@ Sentencepiece: pip install sentencepiece
 
 # RUN
 python train.py --output_dir 'path' --rom_path 'path/game' --spm_path 'path'
+
+# References
