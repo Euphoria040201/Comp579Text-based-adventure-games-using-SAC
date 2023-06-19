@@ -16,6 +16,7 @@ EPS_END = 0.05
 EPS_DECAY = 200
 steps_done = 0
 
+#SAC is inspired by https://github.com/toshikwa/sac-discrete.pytorch
 
 State = namedtuple('State', ('obs','look', 'inv'))
 Transition = namedtuple('Transition', ('state', 'next_state', 'act', 'valids','next_valids', 'rew', 'done'))
