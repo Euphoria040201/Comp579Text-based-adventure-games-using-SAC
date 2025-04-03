@@ -28,13 +28,13 @@ import  pickle
 
 
 
-def configure_logger(log_dir, add_tb=1, add_wb=True, args=None):
+def configure_logger(log_dir, add_tb=1, add_wb=True, args=None,name="default_name"):
     logger.configure(log_dir, format_strs=['log'])
     global tb
     log_types = [logger.make_output_format('csv', log_dir), logger.make_output_format('json', log_dir),
                  logger.make_output_format('stdout', log_dir)]
     if add_tb: log_types += [logger.make_output_format('tensorboard', log_dir)]
-    if add_wb: log_types += [logger.make_output_format('wandb', log_dir, args=args)]
+    if add_wb: log_types += [logger.make_output_format('wandb', log_dir, args=args,run_name=name)]
     tb = logger.Logger(log_dir, log_types)
     global log
     log = logger.log
@@ -191,7 +191,10 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 def main():
     torch.set_num_threads(2)
     args = parse_args()
-    configure_logger(args.output_dir, args.tensorboard, args.wandb, args)
+
+    game_name = args.rom_path.split("/")[-1]
+    run_name = f"{args.seed}_{game_name}"
+    configure_logger(args.output_dir, args.tensorboard, args.wandb, args, name=run_name)
     set_seed_everywhere(args.seed)
     agent = SACAgent(args)
     envs = [JerichoEnv(args.rom_path, args.seed, args.env_step_limit)

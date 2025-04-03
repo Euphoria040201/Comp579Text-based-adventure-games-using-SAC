@@ -105,8 +105,8 @@ class JSONOutputFormat(KVWriter):
 
 
 class WandBOutputFormat(KVWriter):
-    def __init__(self, args):
-        wandb.init(project=args.wandb_project, entity="angela-h", config=args)
+    def __init__(self, args,run_name="default_expr_name"):
+        wandb.init(project=args.wandb_project, entity="angela-h", config=args, name=run_name)
         self.output_dir = args.output_dir
 
     def writekvs(self, kvs):
@@ -190,7 +190,7 @@ class TensorBoardOutputFormat(KVWriter):
             self.writer = None
 
 
-def make_output_format(format, ev_dir, log_suffix='', args=None):
+def make_output_format(format, ev_dir, log_suffix='', args=None,run_name=None):
     os.makedirs(ev_dir, exist_ok=True)
     if format == 'stdout':
         return HumanOutputFormat(sys.stdout)
@@ -203,7 +203,7 @@ def make_output_format(format, ev_dir, log_suffix='', args=None):
     elif format == 'tensorboard':
         return TensorBoardOutputFormat(osp.join(ev_dir, 'tb%s' % log_suffix))
     elif format == 'wandb':
-        return WandBOutputFormat(args)
+        return WandBOutputFormat(args,run_name=run_name)
     else:
         raise ValueError('Unknown format specified: %s' % (format,))
 
