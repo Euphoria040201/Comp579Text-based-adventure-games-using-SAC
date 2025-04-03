@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 #SBATCH --partition=long
-#SBATCH --mem=50GB
+#SBATCH --gres=gpu:rtx8000:1
+#SBATCH --mem=30GB
 #SBATCH --time=60:00:00
+#SBATCH --cpus-per-gpu=1
 #SBATCH --output=sbatch_out/textgame1.%A.out
 #SBATCH --job-name=textgame1
 
