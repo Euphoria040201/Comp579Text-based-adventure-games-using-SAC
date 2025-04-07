@@ -60,6 +60,7 @@ def parse_args():
     parser.add_argument('--embedding_dim', default=128, type=int)
     parser.add_argument('--hidden_dim', default=128, type=int)
     parser.add_argument('--load_checkpoint', default="")
+    parser.add_argument('--rnd_scale', default=0.3, type=float)
     #Reward shaping
     parser.add_argument('--reward_shaping', default=True, type=bool)
     # logger
@@ -67,8 +68,9 @@ def parse_args():
     parser.add_argument('--wandb', default=0, type=int)
     parser.add_argument('--wandb_project', default='', type=str)
     parser.add_argument('--wandb_group', default='', type=str)
+    parser.add_argument('--agent_type', default='SAC', type=str) #REM/RND/SAC
+    parser.add_argument('--sample_strat', default='uniform', type=str) #recency,'prioritized'
     return parser.parse_args()
-
 
 def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
     LEARN_STEPS = int(args.max_steps)
@@ -84,7 +86,7 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
     print(f'--> Saving logs at: {log_dir}')
 
 
-    expert_memory_replay =ReplayMemory(args.memory_size)
+    expert_memory_replay =ReplayMemory(args.memory_size, sampling_strategy=args.sample_strat)
 
     #print(f'--> Initial Expert memory size: {len(expert_memory_replay)}')
 
@@ -114,6 +116,7 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
     for step in range(1, max_steps+1):
         #print('Step',step)
+        # assert len(states) == len(valid_ids), f"Mismatch: {len(states)} states vs {len(valid_ids)} actions"
         action_ids,action_idxs = agent.choose_action(states,valid_ids)
         #print('####126 info ',infos)
         action_strs = [info['valid'][idx] for info, idx in zip(infos, action_idxs)]
@@ -188,6 +191,7 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
                 log('env_es',env.end_scores[-100:])
 
 
+
 def main():
     torch.set_num_threads(2)
     args = parse_args()
@@ -196,7 +200,12 @@ def main():
     run_name = f"{args.seed}_{game_name}"
     configure_logger(args.output_dir, args.tensorboard, args.wandb, args, name=run_name)
     set_seed_everywhere(args.seed)
-    agent = SACAgent(args)
+    if args.agent_type =='SAC':
+        agent = SACAgent(args)
+    elif args.agent_type == "RND":
+        agent = RNDAgent(args)
+    else:
+        agent = REMSACAgent(args)
     envs = [JerichoEnv(args.rom_path, args.seed, args.env_step_limit)
                 for _ in range(args.num_envs)]
 

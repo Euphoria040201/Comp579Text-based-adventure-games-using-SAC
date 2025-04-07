@@ -202,8 +202,7 @@ class SACAgent(nn.Module):
         return actor_loss
 
     def update(self, args,replay_buffer, logger, step):
-        self.transitions = transitions = replay_buffer.sample(
-            self.batch_size,self.device)
+        transitions = replay_buffer.sample(self.batch_size, self.device, self)
         batch = Transition(*zip(*transitions))
 
         critic_loss = self.update_critic(args.reward_shaping, batch, logger,step)
@@ -232,3 +231,213 @@ class SACAgent(nn.Module):
             }, self.save_path) #pjoin(self.save_path, 'model.pt')
         except Exception as e:
             print("Error saving model.")
+
+
+class REMCritic(nn.Module):
+    """
+    Random Ensemble Mixture (REM) Critic for SAC, it mintains original 
+    DoubleQCritic interface but with ensemble voting
+    Paper: "Random Ensemble Mixture for RL" (Agarwal et al., 2020)
+    """
+    def __init__(self, vocab_size, embedding_dim, hidden_dim, num_ensemble=4):
+        super().__init__()
+        self.num_ensemble = num_ensemble
+        self.embedding = nn.Embedding(vocab_size, embedding_dim)
+        
+        #shared encoders 
+        self.obs_encoder = nn.GRU(embedding_dim, hidden_dim)#(more efficient than separate ones)
+        self.look_encoder = nn.GRU(embedding_dim, hidden_dim)
+        self.act_encoder = nn.GRU(embedding_dim, hidden_dim)
+        self.inv_encoder = nn.GRU(embedding_dim, hidden_dim)
+        
+        # Ensemble heads
+        self.ensemble = nn.ModuleList([
+            nn.Sequential(
+                nn.Linear(4 * hidden_dim, hidden_dim),
+                nn.ReLU(),
+                nn.Linear(hidden_dim, hidden_dim),
+                nn.ReLU(),
+                nn.Linear(hidden_dim, 1))
+            for _ in range(num_ensemble)
+        ])
+
+    def packed_rnn(self, x, rnn):
+        """Batch processing of variable-length seq"""
+        lengths = torch.tensor([len(n) for n in x], dtype=torch.long)
+        lengths, idx_sort = torch.sort(lengths, dim=0, descending=True)
+        _, idx_unsort = torch.sort(idx_sort, dim=0)
+        idx_sort = torch.autograd.Variable(idx_sort).to(device)
+        idx_unsort = torch.autograd.Variable(idx_unsort).to(device)
+        padded_x = pad_sequences(x)
+        x_tt = torch.from_numpy(padded_x).type(torch.long).to(device)
+        x_tt = x_tt.index_select(0, idx_sort)
+        embed = self.embedding(x_tt).permute(1,0,2)
+        packed = nn.utils.rnn.pack_padded_sequence(embed, lengths)
+        out, _ = rnn(packed)
+        out, _ = nn.utils.rnn.pad_packed_sequence(out)
+        idx = (lengths-1).view(-1,1).expand(len(lengths), out.size(2)).unsqueeze(0).to(device)
+        out = out.gather(0, idx).squeeze(0)
+        return out.index_select(0, idx_unsort)
+
+    def forward(self, state_batch, act_batch):
+        """process each batch elmt separately to handle variable actions"""
+        # =state components is processed in batch (shared across ensemble)
+        obs_out = self.packed_rnn([s.obs for s in state_batch], self.obs_encoder)
+        look_out = self.packed_rnn([s.look for s in state_batch], self.look_encoder)
+        inv_out = self.packed_rnn([s.inv for s in state_batch], self.inv_encoder)
+        state_out = torch.cat((obs_out, look_out, inv_out), dim=1)
+        
+        batch_q_values = []
+        for i in range(len(state_batch)):
+            # actions for specific elmt
+            valid_acts = act_batch[i]
+            act_out = self.packed_rnn(valid_acts, self.act_encoder)
+            
+            #combo with state feats
+            state_expanded = state_out[i].unsqueeze(0).expand(len(valid_acts), -1)
+            z = torch.cat((state_expanded, act_out), dim=1)
+            
+            # get ensemble pred
+            q_values = torch.stack([head(z).squeeze(-1) for head in self.ensemble])  # shape=[K, num_acts]
+            batch_q_values.append(q_values)
+            
+        return batch_q_values
+
+class REMSACAgent(SACAgent):
+    """SAC with REM critics"""
+    def __init__(self, args):
+        super().__init__(args)
+        # original critics -> to ver with REM versions
+        self.critic1 = REMCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic2 = REMCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic_target = REMCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic_target2 = REMCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+
+        self.critic_target.load_state_dict(self.critic1.state_dict())
+        self.critic_target2.load_state_dict(self.critic2.state_dict())
+
+    def update_critic(self, reward_shaping, batch, logger, step):
+        with torch.no_grad():
+            # random mixture weights for ensemble
+            alpha = torch.rand(self.critic1.num_ensemble, device=device).softmax(0)
+            
+            #targets per batch elmt
+            next_Q_values = []
+            target_V = []
+            for i in range(len(batch.next_state)):
+                #ensemble Q-values for next state
+                next_Q1 = self.critic_target([batch.next_state[i]], [batch.next_valids[i]])[0]  # shape is [K, num_acts]
+                next_Q2 = self.critic_target2([batch.next_state[i]], [batch.next_valids[i]])[0]
+                
+                next_Q = (alpha.unsqueeze(-1) * torch.min(next_Q1, next_Q2)).sum(0)
+                next_Q_values.append(next_Q.max())
+                
+                act_idxs, act_probs, log_prob = self.actor.act([batch.next_state[i]], [batch.next_valids[i]])
+                v = (act_probs[0] * (next_Q - self.alpha.detach() * log_prob[0])).sum()
+                target_V.append(v)
+            
+            next_Q = torch.stack(next_Q_values) 
+            target_V = torch.stack(target_V)  # [B] shape
+
+            if reward_shaping:
+                reward = torch.tensor(batch.rew, dtype=torch.float, device=device)
+ 
+                current_V = []
+                for i in range(len(batch.state)):
+                    current_Q1 = self.critic_target([batch.state[i]], [batch.valids[i]])[0] 
+                    current_Q2 = self.critic_target2([batch.state[i]], [batch.valids[i]])[0]
+                    current_Q = (alpha.unsqueeze(-1) * torch.min(current_Q1, current_Q2)).sum(0)
+                    
+                    act_idxs, act_probs, log_prob = self.actor.act([batch.state[i]], [batch.valids[i]])
+                    v = (act_probs[0] * (current_Q - self.alpha.detach() * log_prob[0])).sum()
+                    current_V.append(v)
+                
+                current_V = torch.stack(current_V)
+
+                shaped_rewards = (1-0.1)*current_V + 0.1*(reward + self.rs_discount*target_V)
+                reward_shaping = self.rs_discount*target_V - shaped_rewards
+                targets = reward_shaping + reward
+            else:
+                targets = torch.tensor(batch.rew, dtype=torch.float, device=device)
+
+            targets = targets + (1-torch.tensor(batch.done, dtype=torch.float, device=device)) * self.discount * next_Q
+        current_Q1 = []
+        current_Q2 = []
+        for i in range(len(batch.state)):
+            q1_all = self.critic1([batch.state[i]], [batch.valids[i]])[0] 
+            q2_all = self.critic2([batch.state[i]], [batch.valids[i]])[0]
+
+            act_idx = batch.valids[i].index(batch.act[i])
+
+            current_Q1.append(q1_all[:, act_idx]) 
+            current_Q2.append(q2_all[:, act_idx])
+        
+        current_Q1 = torch.stack(current_Q1).t()
+        current_Q2 = torch.stack(current_Q2).t()
+        Q1_loss = (alpha.unsqueeze(-1) * (current_Q1 - targets).pow(2)).mean()
+        Q2_loss = (alpha.unsqueeze(-1) * (current_Q2 - targets).pow(2)).mean()
+
+        self.critic_optimizer1.zero_grad()
+        self.critic_optimizer2.zero_grad()
+        Q1_loss.backward()
+        Q2_loss.backward()
+        nn.utils.clip_grad_norm_(self.critic1.parameters(), self.clip)
+        nn.utils.clip_grad_norm_(self.critic2.parameters(), self.clip)
+        self.critic_optimizer1.step()
+        self.critic_optimizer2.step()
+        
+        return Q1_loss + Q2_loss
+    def update_actor_and_alpha(self, batch, logger, step):
+        act_idxs, act_probs, log_prob = self.actor.act(batch.state, batch.valids)
+        
+        with torch.no_grad():
+            actor_Q1 = self.critic1(batch.state, batch.valids)
+            actor_Q2 = self.critic2(batch.state, batch.valids)
+            actor_Q = [torch.min(q1, q2) for q1, q2 in zip(actor_Q1, actor_Q2)]
+
+        # entropies and Q-values per batch elmt
+        losses = []
+        for i in range(len(batch.state)):
+            q = actor_Q[i]
+            act = act_probs[i]
+            log_p = log_prob[i]
+
+            if q.dim() == 1:
+                q = q.unsqueeze(0)
+            if act.dim() == 1:
+                act = act.unsqueeze(0)
+            if isinstance(log_p, torch.Tensor) and log_p.dim() == 0:
+                log_p = log_p.unsqueeze(0)
+
+            entropy = -torch.sum(act * log_p, dim=-1)
+            q_value = torch.sum(q * act, dim=-1)
+            losses.append(-q_value - self.alpha.detach() * entropy)
+        
+        # avg losses across batch
+        actor_loss = torch.stack(losses).mean()
+
+        self.actor_optimizer.zero_grad()
+        actor_loss.backward()
+        nn.utils.clip_grad_norm_(self.actor.parameters(), self.clip)
+        self.actor_optimizer.step()
+
+        if self.learnable_temperature:
+            avg_entropy = torch.stack([
+                -torch.sum(act * log, dim=-1) 
+                for act, log in zip(act_probs, log_prob)
+            ]).mean()
+            
+            target_entropy = 0.98 * -torch.log(1 / torch.tensor(
+                [len(valids) for valids in batch.valids], 
+                device=device
+            )).mean()
+            
+            alpha_loss = (self.alpha * (target_entropy - avg_entropy)).mean()
+            
+            self.log_alpha_optimizer.zero_grad()
+            alpha_loss.backward()
+            self.log_alpha_optimizer.step()
+            logger.log('train_alpha/loss', alpha_loss, step)
+
+        return actor_loss
+

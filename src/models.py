@@ -1,7 +1,8 @@
 import numpy as np
 import torch
-from torch import nn
+import torch.nn as nn
 import torch.nn.functional as F
+
 from collections import namedtuple
 import itertools
 import utils
@@ -66,6 +67,9 @@ class DoubleQCritic(nn.Module):
         return out
 
     def forward(self, state_batch, act_batch):
+        # print(state_batch)
+        # print(type(state_batch))
+        # print("*"*20)
         state = State(*zip(*state_batch))
         act_sizes = [len(a) for a in act_batch]
         act_batch = list(itertools.chain.from_iterable(act_batch))
@@ -155,3 +159,56 @@ class CateoricalPolicy(torch.nn.Module):
             act = [vals[idx] for vals,idx in zip(act_values,act_idxs)]
             log_prob = [torch.log(a) for a in act]
         return act_idxs,act_probs,log_action_probs
+
+    def encode_state(self, state_batch):
+        state = State(*zip(*state_batch))
+        obs_out = self.packed_rnn(state.obs, self.obs_encoder)
+        look_out = self.packed_rnn(state.look, self.look_encoder)
+        inv_out = self.packed_rnn(state.inv, self.inv_encoder)
+        state_out = torch.cat((obs_out, look_out, inv_out), dim=1)
+        return state_out
+
+
+class NoisyLinear(nn.Module):
+    def __init__(self, in_features, out_features, std_init=0.5):
+        super(NoisyLinear, self).__init__()
+        self.in_features = in_features
+        self.out_features = out_features
+        self.std_init = std_init
+
+        self.weight_mu = nn.Parameter(torch.empty(out_features, in_features))
+        self.weight_sigma = nn.Parameter(torch.empty(out_features, in_features))
+        self.register_buffer("weight_epsilon", torch.empty(out_features, in_features))
+
+        self.bias_mu = nn.Parameter(torch.empty(out_features))
+        self.bias_sigma = nn.Parameter(torch.empty(out_features))
+        self.register_buffer("bias_epsilon", torch.empty(out_features))
+
+        self.reset_parameters()
+        self.reset_noise()
+
+    def reset_parameters(self):
+        mu_range = 1 / np.sqrt(self.in_features)
+        self.weight_mu.data.uniform_(-mu_range, mu_range)
+        self.weight_sigma.data.fill_(self.std_init / np.sqrt(self.in_features))
+        self.bias_mu.data.uniform_(-mu_range, mu_range)
+        self.bias_sigma.data.fill_(self.std_init / np.sqrt(self.out_features))
+
+    def reset_noise(self):
+        epsilon_in = self._scale_noise(self.in_features)
+        epsilon_out = self._scale_noise(self.out_features)
+        self.weight_epsilon.copy_(epsilon_out.ger(epsilon_in))
+        self.bias_epsilon.copy_(epsilon_out)
+
+    def _scale_noise(self, size):
+        x = torch.randn(size)
+        return x.sign().mul_(x.abs().sqrt_())
+
+    def forward(self, x):
+        if self.training:
+            weight = self.weight_mu + self.weight_sigma * self.weight_epsilon
+            bias = self.bias_mu + self.bias_sigma * self.bias_epsilon
+        else:
+            weight = self.weight_mu
+            bias = self.bias_mu
+        return F.linear(x, weight, bias)
