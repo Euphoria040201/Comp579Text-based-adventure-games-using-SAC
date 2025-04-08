@@ -457,4 +457,25 @@ class REMSACAgent(SACAgent):
 
         return actor_loss
 
+class RNDModel(nn.Module):
+    def __init__(self, input_dim, hidden_dim):
+        super(RNDModel, self).__init__()
+
+        self.target = nn.Sequential(
+            nn.Linear(384, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, hidden_dim)
+        )
+        for param in self.target.parameters():
+            param.requires_grad = False
+
+        self.predictor = nn.Sequential(
+            nn.Linear(384, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, hidden_dim)
+        )
+
+    def forward(self, x):
+        return self.predictor(x), self.target(x)
+
 
