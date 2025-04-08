@@ -135,7 +135,9 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
 
             ob, reward, done, info = env.step(action)
-
+            if i%100==0:
+                print('Step',step,'Env',i,'Action',action_strs[i],'Reward',reward,'Done',done)
+                print(f"obs: {ob}")
             score = info['score']
             next_obs, next_rewards, next_dones, next_infos = \
                 next_obs + [ob], next_rewards + [reward], next_dones + [done], next_infos + [info]

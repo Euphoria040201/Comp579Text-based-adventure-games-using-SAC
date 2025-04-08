@@ -241,6 +241,7 @@ class REMCritic(nn.Module):
     """
     def __init__(self, vocab_size, embedding_dim, hidden_dim, num_ensemble=4):
         super().__init__()
+        
         self.num_ensemble = num_ensemble
         self.embedding = nn.Embedding(vocab_size, embedding_dim)
         
@@ -260,6 +261,11 @@ class REMCritic(nn.Module):
                 nn.Linear(hidden_dim, 1))
             for _ in range(num_ensemble)
         ])
+        for i, head in enumerate(self.ensemble):
+            for layer in head:
+                if isinstance(layer, nn.Linear):
+                    nn.init.normal_(layer.weight, mean=0, std=0.1*i+0.1)
+                    nn.init.constant_(layer.bias, 0.1*i)
 
     def packed_rnn(self, x, rnn):
         """Batch processing of variable-length seq"""
@@ -319,7 +325,9 @@ class REMSACAgent(SACAgent):
     def update_critic(self, reward_shaping, batch, logger, step):
         with torch.no_grad():
             # random mixture weights for ensemble
-            alpha = torch.rand(self.critic1.num_ensemble, device=device).softmax(0)
+            # alpha = torch.rand(self.critic1.num_ensemble, device=device).softmax(0)
+            # Replace random weights with prioritized ensemble
+            alpha = F.softmax(torch.randn(self.critic1.num_ensemble, device=device), dim=0)
             
             #targets per batch elmt
             next_Q_values = []
@@ -359,6 +367,10 @@ class REMSACAgent(SACAgent):
                 targets = reward_shaping + reward
             else:
                 targets = torch.tensor(batch.rew, dtype=torch.float, device=device)
+            # Add target value clipping
+           
+            next_Q = torch.clamp(next_Q, min=-10, max=10) #-50~50
+            targets = torch.clamp(targets, min=-10, max=10) #-20~20
 
             targets = targets + (1-torch.tensor(batch.done, dtype=torch.float, device=device)) * self.discount * next_Q
         current_Q1 = []
@@ -427,11 +439,15 @@ class REMSACAgent(SACAgent):
                 for act, log in zip(act_probs, log_prob)
             ]).mean()
             
-            target_entropy = 0.98 * -torch.log(1 / torch.tensor(
-                [len(valids) for valids in batch.valids], 
-                device=device
+            # target_entropy = 0.98 * -torch.log(1 / torch.tensor(
+            #     [len(valids) for valids in batch.valids], 
+            #     device=device
+            # )).mean()
+            target_entropy = 0.5 * -torch.log(1 / torch.tensor(
+            [len(valids) for valids in batch.valids], device=device
             )).mean()
-            
+            self.alpha = torch.clamp(self.alpha, min=0.01, max=1.0)
+                
             alpha_loss = (self.alpha * (target_entropy - avg_entropy)).mean()
             
             self.log_alpha_optimizer.zero_grad()
@@ -440,4 +456,5 @@ class REMSACAgent(SACAgent):
             logger.log('train_alpha/loss', alpha_loss, step)
 
         return actor_loss
+
 
