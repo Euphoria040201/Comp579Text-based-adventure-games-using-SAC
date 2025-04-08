@@ -478,4 +478,91 @@ class RNDModel(nn.Module):
     def forward(self, x):
         return self.predictor(x), self.target(x)
 
+class RNDAgent(nn.Module):
+    def __init__(self, args):
+        super().__init__()
+        self.sp = spm.SentencePieceProcessor()
+        self.sp.Load(args.spm_path)
+        self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
+        self.discount = 0.90
+        self.batch_size = args.batch_size
+        self.clip = 5
 
+        self.critic1 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic2 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.actor = CateoricalPolicy(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+
+        self.rnd = RNDModel(args.embedding_dim, args.hidden_dim).to(self.device)
+        self.rnd_optimizer = torch.optim.Adam(self.rnd.predictor.parameters(), lr=1e-4)
+
+        self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=0.0003)
+        self.critic_optimizer1 = torch.optim.Adam(self.critic1.parameters(), lr=0.0003)
+        self.critic_optimizer2 = torch.optim.Adam(self.critic2.parameters(), lr=0.0003)
+
+        set_seed_everywhere(args.seed)
+
+    def compute_intrinsic_reward(self, states):
+        with torch.no_grad():
+            features = self.actor.encode_state(states)
+            pred, target = self.rnd(features)
+            return F.mse_loss(pred, target, reduction='none').mean(dim=1)
+
+    def choose_action(self,states, poss_acts, sample=True):
+        global steps_done
+        sample = random.random()
+        eps_threshold = EPS_END + (EPS_START - EPS_END) * \
+            math.exp(-1. * steps_done / EPS_DECAY)
+        steps_done += 1
+        if sample > eps_threshold:
+            with torch.no_grad():
+                idxs, values,_= self.actor.act(states, poss_acts)
+                act_ids = [poss_acts[batch][idx] for batch, idx in enumerate(idxs)]
+        else:
+
+            idxs = torch.tensor([random.randrange(len(act)) for act in poss_acts], device=device, dtype=torch.long)
+            act_ids = [poss_acts[batch][idx] for batch, idx in enumerate(idxs)]
+
+        return  act_ids,idxs
+
+
+    def update(self, args,replay_buffer, logger, step):
+        transitions = replay_buffer.sample(self.batch_size, self.device, self)
+        batch = Transition(*zip(*transitions))
+
+        with torch.no_grad():
+            intrinsic_reward = self.compute_intrinsic_reward(batch.state)
+            reward = torch.tensor(batch.rew, dtype=torch.float, device=self.device)
+            rewards = reward + args.rnd_scale * intrinsic_reward
+
+        index = [valids.index(x) for valids, x in zip(batch.valids, batch.act)]
+        index = torch.LongTensor(index).to(self.device)
+        current_Q1 = self.critic1(batch.state, batch.valids)
+        current_Q2 = self.critic2(batch.state, batch.valids)
+        current_Q1 = torch.stack([q1.gather(0, idx) for q1, idx in zip(current_Q1, index)])
+        current_Q2 = torch.stack([q2.gather(0, idx) for q2, idx in zip(current_Q2, index)])
+
+        with torch.no_grad():
+            target_Q = rewards  # no next state value for simplicity as offline RND
+
+        Q1_loss = F.mse_loss(current_Q1, target_Q)
+        Q2_loss = F.mse_loss(current_Q2, target_Q)
+
+        self.critic_optimizer1.zero_grad()
+        self.critic_optimizer2.zero_grad()
+        Q1_loss.backward()
+        Q2_loss.backward()
+        nn.utils.clip_grad_norm_(self.critic1.parameters(), self.clip)
+        nn.utils.clip_grad_norm_(self.critic2.parameters(), self.clip)
+        self.critic_optimizer1.step()
+        self.critic_optimizer2.step()
+
+        # RND pred update
+        features = self.actor.encode_state(batch.state)
+        pred, target = self.rnd(features)
+        rnd_loss = F.mse_loss(pred, target.detach())
+
+        self.rnd_optimizer.zero_grad()
+        rnd_loss.backward()
+        self.rnd_optimizer.step()
+
+        return Q1_loss + Q2_loss, rnd_loss
