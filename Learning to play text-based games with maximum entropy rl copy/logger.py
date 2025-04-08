@@ -106,7 +106,7 @@ class JSONOutputFormat(KVWriter):
 
 class WandBOutputFormat(KVWriter):
     def __init__(self, args):
-        wandb.init(project=args.wandb_project, groupd=args.wandb_group, entity="", config=args)
+        wandb.init(project=args.wandb_project, entity='euphoria040201-mcgill-university', config=args)
         self.output_dir = args.output_dir
 
     def writekvs(self, kvs):

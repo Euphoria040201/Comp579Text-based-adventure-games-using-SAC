@@ -6,7 +6,7 @@ Jericho enviroment and downloads games(z-machine-games-master/jericho-game-suite
 Sentencepiece: pip install sentencepiece
 
 # RUN
-python train.py --output_dir 'output' --rom_path 'z-machine-games-master/jericho-game-suite/905.z5' --spm_path 'unigram_8k.model'
+python train.py --output_dir 'output' --rom_path 'z-machine-games-master/jericho-game-suite/zork1.z5' --spm_path 'unigram_8k.model' --wandb=1 --wandb_project='Comp579'
 
 # References
 Our experiments are based on the publicly accessible Jericho environment that provides the environment for playing all games in our experiments.

@@ -72,6 +72,21 @@ class SACAgent(nn.Module):
         self.critic_target.train()
         set_seed_everywhere(args.seed)
         self.save_path =  os.path.join( args.output_dir, 'model'+'.pt')
+        self.good_word_list = [
+            "better", "success", "open", "unlock", "new", "discover",
+            "explore", "gain", "win", "reward", "treasure", "gold",
+            "magic", "power", "strong", "found", "secret", "hidden",
+            "achievement", "safe", "light", "progress", "advance",
+            "level up", "heal", "improve", "key", "special", "victory",
+            "bonus", "item", "weapon", "helpful"
+        ]
+        self.bad_word_list = [
+            "ignore", "hit", "miss", "fail", "lose", "blocked", "stuck",
+            "invalid", "impossible", "wrong", "cannot", "locked", "unable",
+            "error", "nothing", "empty", "dark", "dead", "danger", "trap",
+            "hostile", "injured", "hurt", "poison", "damage", "useless",
+            "waste", "boring", "repeat", "already"
+        ]
 
     def train(self, training=True):
         self.training = training
