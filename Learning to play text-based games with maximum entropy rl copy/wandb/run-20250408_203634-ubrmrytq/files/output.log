@@ -1,0 +1,602 @@
+--> Saving logs at: output/game_name/2025-04-08_20-36-37
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Opening the small mailbox reveals a leaflet.
+
+
+[Step 0] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 1] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 1] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 1] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 1] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 1] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 1] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 1] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 1] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 2] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 2] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 2] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 2] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 2] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 2] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 2] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 2] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 3] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+On the ground is a pile of leaves.
+
+
+[Step 3] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 3] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 3] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 3] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 3] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 3] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 3] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 4] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 4] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 4] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 4] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 4] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 4] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 4] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 4] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+Learn begins!
+[Step 5] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 5] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 5] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 5] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 6] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 6] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 6] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 6] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 6] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 6] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 6] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 6] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 7] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 7] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 7] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 7] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 7] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 7] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 7] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 7] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 8] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'shake nest', 'throw nest at tree', 'throw nest at egg', 'throw egg at tree', 'open egg with nest']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 8] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 8] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 8] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 8] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Thrown.
+
+
+[Step 9] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'shake nest', 'throw nest at tree', 'throw nest at egg', 'throw egg at tree']
+New Scene!
+OBSERVATION: The concept of using a bird's nest is certainly original.
+
+
+[Step 9] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 9] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 9] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 9] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 10] Valid Actions: ['take egg', 'up', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'go around forest', 'shake nest', 'throw nest at egg', 'throw egg at tree', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 10] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 10] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 10] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 10] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 10] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 10] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 10] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 11] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'go around trees', 'shake nest', 'throw nest at egg', 'throw egg at trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 11] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 11] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 11] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 11] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 11] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 11] Valid Actions: ['down', 'up']
+Bad words matched: ['impossible']
+OBSERVATION: Rocky Ledge
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.
+
+
+New Scene!
+OBSERVATION: Rocky Ledge
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.
+
+
+[Step 11] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 12] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'go around trees', 'shake nest', 'throw nest at egg', 'throw egg at nest', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 12] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 12] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 12] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 12] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 12] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 12] Valid Actions: ['up', 'north']
+New Scene!
+OBSERVATION: Canyon Bottom
+You are beneath the walls of the river canyon which may be climbable here. The lesser part of the runoff of Aragain Falls flows by below. To the north is a narrow path.
+
+
+[Step 12] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 13] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down nest', 'go around trees', 'throw nest at egg', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: The contents of the bird's nest spills to the ground.
+
+
+[Step 13] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take sack', 'take bottle', 'take all', 'up', 'close window', 'west']
+Traceback (most recent call last):
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 221, in <module>
+    main()
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 207, in main
+    train(agent, envs, args, args.max_steps, args.update_freq,
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 135, in train
+    ob, reward, done, info = env.step(action, step)
+                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/env.py", line 145, in step
+    gap = total_steps - self.last_seen[scene_id]
+                        ^^^^^^^^^^^^^^
+AttributeError: 'JerichoEnv' object has no attribute 'last_seen'

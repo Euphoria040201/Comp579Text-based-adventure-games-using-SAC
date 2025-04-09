@@ -96,7 +96,7 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
     episode_reward = 0
     start = time.time()
     recover_reward = 0
-
+    old_scores = [envs[i].max_score for i in range(args.num_envs)]
     obs, rewards, dones, infos, transitions = [], [], [], [], []
     env_steps, max_score, d_in, d_out = 0, 0, defaultdict(list), defaultdict(list)
     #####INITIAL_STATES####
@@ -121,6 +121,7 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
         next_obs, next_rewards, next_dones, next_infos = [], [], [], []
         for i, (env, action) in enumerate(zip(envs, action_strs)):
             if dones[i]:
+                old_scores[i] = 0
                 env_steps += infos[i]['moves']
                 score = infos[i]['score']
                 ob, info = env.reset()
@@ -132,8 +133,14 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
 
             ob, reward, done, info = env.step(action)
-
+            prev_score = old_scores[i]
             score = info['score']
+            score_diff = score - prev_score
+            if score_diff != 0:
+                reward = score_diff
+            old_scores[i] = score
+
+
             next_obs, next_rewards, next_dones, next_infos = \
                 next_obs + [ob], next_rewards + [reward], next_dones + [done], next_infos + [info]
 

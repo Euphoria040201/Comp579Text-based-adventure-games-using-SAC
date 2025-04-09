@@ -42,10 +42,13 @@ class JerichoEnv:
             "hostile", "injured", "hurt", "poison", "damage", "useless",
             "waste", "boring", "repeat", "already", "bad", "badly", "grue", "impassable"
         ]
-        self.aux_reward_value = 0.3
+        self.aux_reward_value = 0.0
         self.not_repeat_value = 1
         self.visited_scenes = set()
+        self.scene_visit_count = collections.defaultdict(int)
+        self.punishment_multiple_same_scene_in_one_game_value = 0.08 #if entering the same scene in one game, the base punishment
         self.use_aux_reward = use_aux_reward
+        
 
     def get_scene_id(self, observation):
         #This function returns hash of observation and avoid reward hacking through repeatedly entering same scene.
@@ -71,11 +74,21 @@ class JerichoEnv:
             print("OBSERVATION:", observation)
             aux_reward -= self.aux_reward_value
 
+        
+        
+        
+        times_visited = self.scene_visit_count[scene_id] #this gives the number of times the same scene appear in one episode
+        if times_visited > 0:
+            repeated_scene_punishment = times_visited * self.punishment_multiple_same_scene_in_one_game_value
+            aux_reward -= repeated_scene_punishment
+            print(f"Punishing repeated scene: times_visited={times_visited}, punishment={repeated_scene_punishment:.2f}")
+        self.scene_visit_count[scene_id] += 1
+
+
         if scene_id not in self.visited_scenes:
             print("New Scene!")
             print("OBSERVATION:", observation)
             aux_reward += self.not_repeat_value #encourage not reentering scenes
-        
         self.visited_scenes.add(scene_id)
         return aux_reward
     #TODO: add increasing punishment for 重复的状态，但是要在reset后清除decay
@@ -127,6 +140,7 @@ class JerichoEnv:
         info['inv'] = inv
         info['look'] = look
         self.env.set_state(save)
+        self.scene_visit_count.clear()
         self.steps = 0
         self.max_score = 0
         return initial_ob, info

@@ -1,0 +1,15 @@
+{"time":"2025-04-08T17:23:44.539949149-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/wandb/run-20250408_172344-bygg7k0s/logs/debug-core.log"}
+{"time":"2025-04-08T17:23:44.688291779-04:00","level":"INFO","msg":"created new stream","id":"bygg7k0s"}
+{"time":"2025-04-08T17:23:44.688350299-04:00","level":"INFO","msg":"stream: started","id":"bygg7k0s"}
+{"time":"2025-04-08T17:23:44.688412761-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"bygg7k0s"}
+{"time":"2025-04-08T17:23:44.688484003-04:00","level":"INFO","msg":"handler: started","stream_id":"bygg7k0s"}
+{"time":"2025-04-08T17:23:44.688547588-04:00","level":"INFO","msg":"sender: started","stream_id":"bygg7k0s"}
+{"time":"2025-04-08T17:23:45.017681408-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T17:24:49.198105304-04:00","level":"INFO","msg":"stream: closing","id":"bygg7k0s"}
+{"time":"2025-04-08T17:24:49.19813441-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T17:24:49.198997552-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T17:24:49.50533408-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T17:24:49.638463673-04:00","level":"INFO","msg":"handler: closed","stream_id":"bygg7k0s"}
+{"time":"2025-04-08T17:24:49.638492546-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bygg7k0s"}
+{"time":"2025-04-08T17:24:49.638543666-04:00","level":"INFO","msg":"sender: closed","stream_id":"bygg7k0s"}
+{"time":"2025-04-08T17:24:49.638598073-04:00","level":"INFO","msg":"stream: closed","id":"bygg7k0s"}

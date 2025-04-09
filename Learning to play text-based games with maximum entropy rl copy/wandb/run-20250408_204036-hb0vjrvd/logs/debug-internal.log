@@ -1,0 +1,7 @@
+{"time":"2025-04-08T20:40:36.682715141-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/wandb/run-20250408_204036-hb0vjrvd/logs/debug-core.log"}
+{"time":"2025-04-08T20:40:36.834752841-04:00","level":"INFO","msg":"created new stream","id":"hb0vjrvd"}
+{"time":"2025-04-08T20:40:36.834953015-04:00","level":"INFO","msg":"stream: started","id":"hb0vjrvd"}
+{"time":"2025-04-08T20:40:36.835055575-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"hb0vjrvd"}
+{"time":"2025-04-08T20:40:36.835171562-04:00","level":"INFO","msg":"sender: started","stream_id":"hb0vjrvd"}
+{"time":"2025-04-08T20:40:36.835089086-04:00","level":"INFO","msg":"handler: started","stream_id":"hb0vjrvd"}
+{"time":"2025-04-08T20:40:37.279151518-04:00","level":"INFO","msg":"Starting system monitor"}

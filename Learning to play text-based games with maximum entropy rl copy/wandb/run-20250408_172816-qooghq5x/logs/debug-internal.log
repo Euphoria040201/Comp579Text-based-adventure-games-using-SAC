@@ -1,0 +1,16 @@
+{"time":"2025-04-08T17:28:16.399025395-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/wandb/run-20250408_172816-qooghq5x/logs/debug-core.log"}
+{"time":"2025-04-08T17:28:16.539842789-04:00","level":"INFO","msg":"created new stream","id":"qooghq5x"}
+{"time":"2025-04-08T17:28:16.539883038-04:00","level":"INFO","msg":"stream: started","id":"qooghq5x"}
+{"time":"2025-04-08T17:28:16.539961643-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"qooghq5x"}
+{"time":"2025-04-08T17:28:16.540050307-04:00","level":"INFO","msg":"handler: started","stream_id":"qooghq5x"}
+{"time":"2025-04-08T17:28:16.540040861-04:00","level":"INFO","msg":"sender: started","stream_id":"qooghq5x"}
+{"time":"2025-04-08T17:28:21.166272532-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T17:29:06.20332142-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-08T17:29:32.21696229-04:00","level":"INFO","msg":"stream: closing","id":"qooghq5x"}
+{"time":"2025-04-08T17:29:32.217001388-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T17:29:32.217511179-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T17:29:32.605365781-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T17:29:32.703337267-04:00","level":"INFO","msg":"handler: closed","stream_id":"qooghq5x"}
+{"time":"2025-04-08T17:29:32.703487949-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qooghq5x"}
+{"time":"2025-04-08T17:29:32.703572291-04:00","level":"INFO","msg":"sender: closed","stream_id":"qooghq5x"}
+{"time":"2025-04-08T17:29:32.703611549-04:00","level":"INFO","msg":"stream: closed","id":"qooghq5x"}

@@ -1,0 +1,2962 @@
+--> Saving logs at: output/game_name/2025-04-08_17-23-46
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Opening the small mailbox reveals a leaflet.
+
+
+[Step 0] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 0] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 1] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 1] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 1] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 1] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 1] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 1] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 1] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 1] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 2] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 2] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 2] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 2] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 2] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 2] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 2] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 2] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 3] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+On the ground is a pile of leaves.
+
+
+[Step 3] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 3] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 3] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 3] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 3] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 3] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 3] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 4] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 4] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 4] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 4] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 4] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 4] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 4] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 4] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+Learn begins!
+[Step 5] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 5] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 5] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 5] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 5] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 6] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 6] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 6] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 6] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 6] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 6] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 6] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 6] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 7] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 7] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 7] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 7] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 7] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 7] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 7] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 7] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 8] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'shake nest', 'throw egg at tree', 'throw nest at tree', 'throw nest at egg', 'open egg with nest']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 8] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 8] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 8] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 8] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 8] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 8] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 8] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Thrown.
+
+
+[Step 9] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'shake nest', 'throw egg at tree', 'throw nest at tree', 'throw nest at egg']
+New Scene!
+OBSERVATION: The concept of using a bird's nest is certainly original.
+
+
+[Step 9] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+
+[Step 9] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 9] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 9] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 10] Valid Actions: ['take egg', 'up', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake nest', 'throw egg at tree', 'throw nest at egg', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 10] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 10] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 10] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 10] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 10] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 10] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 10] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 11] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'go around trees', 'shake nest', 'throw egg at nest', 'throw nest at egg', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 11] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 11] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 11] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 11] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 11] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 11] Valid Actions: ['down', 'up']
+Bad words matched: ['impossible']
+OBSERVATION: Rocky Ledge
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.
+
+
+New Scene!
+OBSERVATION: Rocky Ledge
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.
+
+
+[Step 11] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 12] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'go around trees', 'shake nest', 'throw nest at egg', 'throw egg at nest', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a dimly lit forest, with large trees all around.
+
+
+[Step 12] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 12] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 12] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 12] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 12] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 12] Valid Actions: ['up', 'north']
+New Scene!
+OBSERVATION: Canyon Bottom
+You are beneath the walls of the river canyon which may be climbable here. The lesser part of the runoff of Aragain Falls flows by below. To the north is a narrow path.
+
+
+[Step 12] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 13] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down nest', 'go around trees', 'throw nest at egg', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: The contents of the bird's nest spills to the ground.
+
+
+[Step 13] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take sack', 'take bottle', 'take all', 'up', 'close window', 'west']
+New Scene!
+OBSERVATION: Kitchen
+You are in the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.
+On the table is an elongated brown sack, smelling of hot peppers.
+A bottle is sitting on the table.
+The glass bottle contains:
+  A quantity of water
+
+
+[Step 13] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 13] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 13] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 13] Valid Actions: ['down', 'take nest', 'take on egg', 'close nest', 'put down egg', 'put egg in nest', 'throw egg at tree']
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 13] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION: End of Rainbow
+You are on a small, rocky beach on the continuation of the Frigid River past the Falls. The beach is narrow due to the presence of the White Cliffs. The river canyon opens here and sunlight shines in from above. A rainbow crosses over the falls to the east and a narrow path continues to the southwest.
+
+
+[Step 13] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 14] Valid Actions: ['open nest', 'take egg', 'take on egg', 'put down nest', 'go around trees', 'throw nest at egg', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Closed.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 14] Valid Actions: ['down', 'north']
+Bad words matched: ['grue']
+OBSERVATION: You have moved into a dark place.
+It is pitch black. You are likely to be eaten by a grue.
+
+
+New Scene!
+OBSERVATION: You have moved into a dark place.
+It is pitch black. You are likely to be eaten by a grue.
+
+
+[Step 14] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 14] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 14] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 14] Valid Actions: ['down', 'open nest', 'take nest', 'take on egg', 'put down egg', 'throw egg at tree']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 14] Valid Actions: ['up', 'north']
+New Scene!
+OBSERVATION: Canyon Bottom
+
+
+[Step 14] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 15] Valid Actions: ['open nest', 'take egg', 'take canary', 'take nest', 'take all', 'close egg', 'go around trees', 'south', 'west', 'east']
+Bad words matched: ['empty', 'damage', 'bad']
+OBSERVATION: Your rather indelicate handling of the egg has caused it some damage, although you have succeeded in opening it. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: Your rather indelicate handling of the egg has caused it some damage, although you have succeeded in opening it. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+   ****  You have died  ****
+
+Now, let's take a look here... Well, you probably deserve another chance. I can't quite fix you up completely, but you can't have everything.
+
+Forest
+
+
+[Step 15] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 15] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 15] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 15] Valid Actions: ['down', 'open nest', 'take nest']
+Good words matched: ['open']
+OBSERVATION: The egg falls to the ground and springs open, seriously damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+Bad words matched: ['empty', 'bad']
+OBSERVATION: The egg falls to the ground and springs open, seriously damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: The egg falls to the ground and springs open, seriously damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 15] Valid Actions: ['down', 'up']
+New Scene!
+OBSERVATION: Rocky Ledge
+
+
+[Step 15] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 16] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 16] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 16] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 16] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 16] Valid Actions: ['down', 'take nest', 'close nest']
+New Scene!
+OBSERVATION: Opened.
+
+
+[Step 16] Valid Actions: ['east', 'jump', 'west', 'northwest']
+New Scene!
+OBSERVATION: Canyon View
+
+
+[Step 16] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 17] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 0] Valid Actions: ['go around trees', 'north', 'south', 'east']
+[Step 17] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Opening the small mailbox reveals a leaflet.
+
+
+[Step 17] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 17] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+On the ground is a pile of leaves.
+
+
+[Step 17] Valid Actions: ['down', 'close nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=1, punishment=0.10
+New Scene!
+OBSERVATION: Nice view, lousy place to jump.
+
+   ****  You have died  ****
+
+Now, let's take a look here... Well, you probably deserve another chance. I can't quite fix you up completely, but you can't have everything.
+
+Forest
+
+
+[Step 17] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 18] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 1] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 18] Valid Actions: ['close mailbox', 'put down leaflet', 'north', 'put leaflet in mailbox', 'south', 'west']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 18] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 18] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 18] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 18] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 19] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 2] Valid Actions: ['go around trees', 'south', 'west', 'east']
+[Step 19] Valid Actions: ['put down leaflet', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 19] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Closed.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 19] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 19] Valid Actions: ['down', 'close nest', 'put down nest', 'throw nest at tree']
+New Scene!
+OBSERVATION: Opened.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 0] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Opening the small mailbox reveals a leaflet.
+
+
+[Step 19] Valid Actions: ['north']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 20] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 3] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+[Step 20] Valid Actions: ['take leaflet', 'go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 20] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 20] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 20] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 1] Valid Actions: ['close mailbox', 'put down leaflet', 'north', 'put leaflet in mailbox', 'south', 'west']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 20] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+You hear in the distance the chirping of a song bird.
+
+
+[Step 21] Valid Actions: ['take leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Done.
+In disturbing the pile of leaves, a grating is revealed.
+
+
+[Step 4] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+
+[Step 21] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 21] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: The nest falls to the ground, and the egg spills out of it, seriously damaged.
+
+
+[Step 21] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 21] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Thrown.
+
+
+[Step 2] Valid Actions: ['put down leaflet', 'go around trees', 'north', 'south', 'east']
+[Step 21] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 22] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 5] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 22] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 22] Valid Actions: ['take egg', 'take canary', 'up', 'close egg', 'go around forest', 'north', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Forest Path
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: Forest Path
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 22] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 22] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 3] Valid Actions: ['put down leaflet', 'go around trees', 'south', 'west', 'east']
+[Step 22] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+
+
+[Step 23] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 6] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+
+
+[Step 23] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 23] Valid Actions: ['take canary', 'up', 'close egg', 'put down egg', 'put down canary', 'go around forest', 'shake egg', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 23] Valid Actions: ['go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+You hear in the distance the chirping of a song bird.
+
+
+[Step 23] Valid Actions: ['down']
+New Scene!
+OBSERVATION: The bird's nest falls to the ground.
+
+
+[Step 4] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 23] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 24] Valid Actions: ['open nest', 'take egg', 'take canary', 'take nest', 'take all', 'close egg', 'go around trees', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Forest
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+There is a bird's nest here.
+
+
+New Scene!
+OBSERVATION: Forest
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+There is a bird's nest here.
+
+
+[Step 7] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 24] Valid Actions: ['put down leaves', 'south', 'west', 'east']
+Good words matched: ['taken']
+OBSERVATION: In disturbing the pile of leaves, a grating is revealed.
+Taken.
+
+
+New Scene!
+OBSERVATION: In disturbing the pile of leaves, a grating is revealed.
+Taken.
+
+
+[Step 24] Valid Actions: ['take canary', 'up', 'close egg', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: The contents of the broken jewel-encrusted egg spills to the ground.
+
+
+[Step 24] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 24] Valid Actions: ['open nest', 'take egg', 'take canary', 'take nest', 'take all', 'up', 'close egg', 'go around forest', 'north', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Forest Path
+There is a bird's nest here.
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 5] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+[Step 24] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 25] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 8] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+On the ground is a pile of leaves.
+
+
+[Step 25] Valid Actions: ['take leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 25] Valid Actions: ['take leaves', 'close egg', 'put down egg', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 25] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 25] Valid Actions: ['open egg', 'open nest', 'take egg', 'take nest', 'take all', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 6] Valid Actions: ['go around trees', 'north', 'south', 'east']
+[Step 25] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 26] Valid Actions: ['open nest', 'take egg', 'take canary', 'take nest', 'take all', 'close egg', 'go around trees', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Forest
+There is a somewhat ruined egg here.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+There is a bird's nest here.
+
+
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 9] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 26] Valid Actions: ['take leaflet', 'go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+A small leaflet is on the ground.
+
+
+[Step 26] Valid Actions: ['open egg', 'take leaves', 'put down egg', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 26] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 26] Valid Actions: ['open egg', 'open nest', 'take nest', 'up', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 7] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+[Step 26] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 27] Valid Actions: ['open egg', 'open nest', 'take egg', 'take nest', 'take all', 'go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 10] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 27] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+You hear in the distance the chirping of a song bird.
+
+
+[Step 27] Valid Actions: ['take leaves', 'close egg', 'put down egg', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Opened.
+
+
+[Step 27] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 27] Valid Actions: ['open egg', 'put down egg', 'go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+
+[Step 8] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+A small leaflet is on the ground.
+
+
+[Step 27] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 28] Valid Actions: ['open egg', 'take egg', 'take nest', 'take all', 'close nest', 'go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Opened.
+
+
+[Step 11] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 28] Valid Actions: ['take leaflet', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 28] Valid Actions: ['take canary', 'up', 'close egg', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a broken clockwork canary here.
+
+
+[Step 28] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 28] Valid Actions: ['open egg', 'put down egg', 'go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest
+
+
+[Step 9] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 28] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 29] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 12] Valid Actions: ['north']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 29] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 29] Valid Actions: ['close egg', 'put down egg', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 29] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 29] Valid Actions: ['take canary', 'close egg', 'put down canary', 'put down egg', 'go around trees', 'shake egg', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: The broken jewel-encrusted egg opens.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: The broken jewel-encrusted egg opens.
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 10] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 29] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: The window closes (more easily than it opened).
+
+
+[Step 30] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 13] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 30] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 30] Valid Actions: ['close egg', 'put down egg', 'go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 30] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 30] Valid Actions: ['take canary', 'close egg', 'put down canary', 'put down egg', 'go around trees', 'shake egg', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 11] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+[Step 30] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 31] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 14] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+
+
+[Step 31] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 31] Valid Actions: ['take egg', 'close egg', 'go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 31] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 31] Valid Actions: ['take canary', 'close egg', 'put down egg', 'put down canary', 'west', 'shake egg', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 12] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+[Step 31] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 32] Valid Actions: ['take leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 15] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 32] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 32] Valid Actions: ['open egg', 'take egg', 'go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 32] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 32] Valid Actions: ['take canary', 'close egg', 'put down egg', 'west', 'south', 'east']
+New Scene!
+OBSERVATION: The contents of the broken jewel-encrusted egg spills to the ground.
+
+
+[Step 13] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 32] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 33] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 16] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 33] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 33] Valid Actions: ['take egg', 'close egg', 'go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 33] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 33] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'west', 'put canary in egg', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 14] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 33] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 34] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 17] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 34] Valid Actions: ['take leaflet', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 34] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 34] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 34] Valid Actions: ['take egg', 'take canary', 'take all', 'close egg', 'west', 'south', 'east']
+New Scene!
+OBSERVATION: broken clockwork canary: Dropped.
+broken jewel-encrusted egg: Dropped.
+
+
+[Step 15] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 34] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 35] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 18] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+You hear in the distance the chirping of a song bird.
+
+
+[Step 35] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 35] Valid Actions: ['take canary', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 35] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 35] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'west', 'put canary in egg', 'south', 'east']
+Good words matched: ['taken']
+OBSERVATION: broken jewel-encrusted egg: Taken.
+broken clockwork canary: Taken.
+
+
+New Scene!
+OBSERVATION: broken jewel-encrusted egg: Taken.
+broken clockwork canary: Taken.
+
+
+[Step 16] Valid Actions: ['east', 'jump', 'west', 'northwest']
+[Step 35] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 36] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 19] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 36] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 36] Valid Actions: ['up', 'put down canary', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 36] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 36] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'go around trees', 'put canary in egg', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 17] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 36] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 37] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 20] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 37] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 37] Valid Actions: ['put down canary', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 37] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 37] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'go around forest', 'put canary in egg', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 18] Valid Actions: ['west', 'south', 'east']
+New Scene!
+OBSERVATION: South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+
+[Step 37] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 38] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 21] Valid Actions: ['north']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 38] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 38] Valid Actions: ['take leaves', 'put down canary', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+On the ground is a pile of leaves.
+
+
+[Step 38] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 38] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'go around trees', 'put canary in egg', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 19] Valid Actions: ['close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+
+
+[Step 38] Valid Actions: ['north']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 39] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 22] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 39] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 39] Valid Actions: ['up', 'put down canary', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 39] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 39] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'go around trees', 'put canary in egg', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 20] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 39] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 40] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take sack', 'take bottle', 'take all', 'up', 'close window', 'west']
+New Scene!
+OBSERVATION: Kitchen
+You are in the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.
+On the table is an elongated brown sack, smelling of hot peppers.
+A bottle is sitting on the table.
+The glass bottle contains:
+  A quantity of water
+
+
+[Step 23] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 40] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 40] Valid Actions: ['down', 'open nest', 'take nest', 'put down canary', 'throw canary at tree']
+New Scene!
+OBSERVATION: Up a Tree
+There is a bird's nest here.
+
+
+[Step 40] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 40] Valid Actions: ['take egg', 'take canary', 'take all', 'close egg', 'go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 21] Valid Actions: ['close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Opened.
+
+
+[Step 40] Valid Actions: ['north']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 41] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take bottle', 'up', 'close window', 'put down sack', 'put sack on table', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 24] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 41] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 41] Valid Actions: ['down', 'take nest', 'close nest', 'put down canary', 'put canary in nest', 'throw canary at tree']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 41] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 41] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'go around trees', 'put canary in egg', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 22] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 41] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=12, punishment=1.20
+[Step 42] Valid Actions: ['turn on lantern', 'open sack', 'open case', 'take lantern', 'take sword', 'take all', 'put down sack', 'push rug', 'throw sack at lantern', 'east']
+Good words matched: ['great']
+OBSERVATION: Living Room
+You are in the living room. There is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+Above the trophy case hangs an elvish sword of great antiquity.
+A battery-powered brass lantern is on the trophy case.
+
+
+New Scene!
+OBSERVATION: Living Room
+You are in the living room. There is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+Above the trophy case hangs an elvish sword of great antiquity.
+A battery-powered brass lantern is on the trophy case.
+
+
+[Step 25] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=12, punishment=1.20
+[Step 42] Valid Actions: ['close mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 42] Valid Actions: ['down', 'open nest', 'take nest', 'put down canary', 'throw canary at tree']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 42] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 42] Valid Actions: ['close egg', 'put down canary', 'put down egg', 'put down all', 'go around trees', 'put canary in egg', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 23] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 42] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 43] Valid Actions: ['open sack', 'open case', 'blow out lantern', 'take lantern', 'take sword', 'take all', 'put down sack', 'push rug', 'throw sack at lantern', 'east']
+New Scene!
+OBSERVATION: The brass lantern is now on.
+
+
+[Step 26] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 43] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 43] Valid Actions: ['down', 'take nest', 'close nest', 'put down canary', 'put canary in nest', 'throw canary at tree']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 43] Valid Actions: ['down', 'take egg', 'take canary', 'take nest', 'close egg', 'close nest']
+Good words matched: ['open']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+Bad words matched: ['empty', 'bad', 'badly']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 43] Valid Actions: ['take canary', 'close egg', 'put down egg', 'go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 24] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+New Scene!
+OBSERVATION: Forest
+You hear in the distance the chirping of a song bird.
+
+
+[Step 43] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Up a Tree
+There is a bird's nest here.
+
+
+[Step 44] Valid Actions: ['open sack', 'open case', 'put out lantern', 'put down sack', 'put down lantern', 'put down sword', 'put down all', 'push rug', 'throw sack at lantern', 'east']
+Good words matched: ['taken']
+OBSERVATION: trophy case: The trophy case is securely fastened to the wall.
+sword: Taken.
+brass lantern: Taken.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+Bad words matched: ['cannot']
+OBSERVATION: trophy case: The trophy case is securely fastened to the wall.
+sword: Taken.
+brass lantern: Taken.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+New Scene!
+OBSERVATION: trophy case: The trophy case is securely fastened to the wall.
+sword: Taken.
+brass lantern: Taken.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+[Step 27] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 44] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 44] Valid Actions: ['down', 'take canary', 'take nest', 'take all', 'close nest']
+New Scene!
+OBSERVATION: Thrown.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 44] Valid Actions: ['down', 'take canary', 'take nest', 'close egg', 'close nest', 'put down egg', 'put down canary', 'shake egg', 'put egg in nest', 'put canary in nest', 'throw egg at tree', 'throw canary at tree']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 44] Valid Actions: ['open egg', 'take canary', 'put down egg', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 25] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 44] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 45] Valid Actions: ['open sack', 'open case', 'put out lantern', 'take sword', 'put down sack', 'put down lantern', 'put down all', 'push rug', 'throw sack at lantern', 'east']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 28] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 45] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 45] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 45] Valid Actions: ['take canary', 'up', 'close egg', 'put down egg', 'put down canary', 'go around forest', 'shake egg', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 45] Valid Actions: ['open egg', 'open nest', 'take nest', 'up', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+
+
+[Step 26] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 45] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=13, punishment=1.30
+[Step 46] Valid Actions: ['open sack', 'open case', 'blow out lantern', 'take sack', 'take lantern', 'take sword', 'take all', 'push rug', 'east']
+New Scene!
+OBSERVATION: brass lantern: Dropped.
+brown sack: Dropped.
+
+
+[Step 29] Valid Actions: ['down', 'up']
+Bad words matched: ['impossible']
+OBSERVATION: Rocky Ledge
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.
+
+
+New Scene!
+OBSERVATION: Rocky Ledge
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the main flow from Aragain Falls twists along a passage which it is impossible for you to enter. Below you is the canyon bottom. Above you is more cliff, which appears climbable.
+
+
+[Step 46] Valid Actions: ['west', 'south', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 46] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 46] Valid Actions: ['take canary', 'close egg', 'put down egg', 'put down canary', 'east', 'shake egg', 'north', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 46] Valid Actions: ['open egg', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 27] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 46] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 47] Valid Actions: ['open sack', 'open case', 'blow out lantern', 'take sack', 'take lantern', 'take all', 'put down sword', 'push rug', 'throw sword at lantern', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 30] Valid Actions: ['east', 'jump', 'west', 'northwest']
+New Scene!
+OBSERVATION: Canyon View
+
+
+[Step 47] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 47] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 47] Valid Actions: ['close egg', 'put down egg', 'put down canary', 'put down all', 'east', 'put canary in egg', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 47] Valid Actions: ['open egg', 'take egg', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 28] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 47] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 48] Valid Actions: ['open sack', 'open case', 'blow out lantern', 'take sack', 'take lantern', 'take sword', 'take all', 'push rug', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+New Scene!
+OBSERVATION: Nice view, lousy place to jump.
+
+   ****  You have died  ****
+
+Now, let's take a look here... Well, you probably deserve another chance. I can't quite fix you up completely, but you can't have everything.
+
+Forest
+
+
+[Step 48] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: The window closes (more easily than it opened).
+
+
+[Step 48] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 48] Valid Actions: ['take egg', 'take canary', 'take all', 'close egg', 'east', 'north', 'west']
+New Scene!
+OBSERVATION: broken clockwork canary: Dropped.
+broken jewel-encrusted egg: Dropped.
+
+
+[Step 48] Valid Actions: ['open egg', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 29] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 48] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=14, punishment=1.40
+[Step 49] Valid Actions: ['open sack', 'open case', 'put out lantern', 'put down sack', 'put down lantern', 'put down sword', 'put down all', 'push rug', 'throw sack at lantern', 'east']
+Good words matched: ['taken']
+OBSERVATION: sword: Taken.
+brown sack: Taken.
+brass lantern: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+Bad words matched: ['cannot']
+OBSERVATION: sword: Taken.
+brown sack: Taken.
+brass lantern: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+New Scene!
+OBSERVATION: sword: Taken.
+brown sack: Taken.
+brass lantern: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+[Step 49] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 49] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 49] Valid Actions: ['take egg', 'close egg', 'put down canary', 'east', 'put canary in egg', 'north', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 49] Valid Actions: ['close egg', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 30] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 49] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=15, punishment=1.50
+[Step 50] Valid Actions: ['open case', 'put out lantern', 'take lunch', 'take garlic', 'close sack', 'put down sack', 'put down lantern', 'put down lunch', 'put down garlic', 'put down sword', 'put down all', 'push rug', 'shake sack', 'take all from sack', 'throw sack at lantern', 'east']
+New Scene!
+OBSERVATION: Opening the brown sack reveals a lunch, and a clove of garlic.
+
+
+[Step 0] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+[Step 50] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 50] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 50] Valid Actions: ['open egg', 'take egg', 'put down canary', 'east', 'north', 'west']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 50] Valid Actions: ['open egg', 'put down egg', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 31] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 50] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 51] Valid Actions: ['open case', 'take lunch', 'take garlic', 'take lantern', 'close sack', 'put down sack', 'put down lunch', 'put down garlic', 'put down sword', 'put down all', 'push rug', 'shake sack', 'take all from sack', 'east']
+Good words matched: ['light']
+OBSERVATION: The lamp has smashed into the floor, and the light has gone out.
+
+
+New Scene!
+OBSERVATION: The lamp has smashed into the floor, and the light has gone out.
+
+
+[Step 1] Valid Actions: ['close mailbox', 'put down leaflet', 'north', 'put leaflet in mailbox', 'south', 'west']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+
+
+New Scene!
+OBSERVATION: Taken.
+
+
+[Step 51] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 51] Valid Actions: ['east', 'jump', 'west', 'northwest']
+Good words matched: ['great']
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+New Scene!
+OBSERVATION: Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+
+[Step 51] Valid Actions: ['take egg', 'close egg', 'put down canary', 'east', 'put canary in egg', 'north', 'west']
+New Scene!
+OBSERVATION: Opened.
+
+
+[Step 51] Valid Actions: ['open egg', 'take canary', 'put down egg', 'go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+There is a broken clockwork canary here.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 32] Valid Actions: ['north']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 51] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 52] Valid Actions: ['take lunch', 'take garlic', 'take lantern', 'close sack', 'close case', 'put down sack', 'put down lunch', 'put down garlic', 'put down sword', 'put down all', 'push rug', 'shake sack', 'put sack in case', 'put lunch in case', 'put garlic in case', 'put sword in case', 'take all from sack', 'put all in case', 'fill case with sack', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 2] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Done.
+
+
+[Step 52] Valid Actions: ['east', 'jump', 'west', 'northwest']
+New Scene!
+OBSERVATION: Canyon View
+
+
+[Step 52] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 52] Valid Actions: ['up', 'put down canary', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 52] Valid Actions: ['open egg', 'put down egg', 'go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 33] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 52] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 53] Valid Actions: ['take sack', 'take lunch', 'take garlic', 'take lantern', 'take sword', 'take all', 'close sack', 'close case', 'push rug', 'take all from sack', 'east']
+New Scene!
+OBSERVATION: brown sack: Dropped.
+sword: Dropped.
+
+
+[Step 3] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: Closed.
+
+
+New Scene!
+OBSERVATION: Nice view, lousy place to jump.
+
+   ****  You have died  ****
+
+Now, let's take a look here... Well, you probably deserve another chance. I can't quite fix you up completely, but you can't have everything.
+
+Forest
+A small leaflet is on the ground.
+
+
+[Step 53] Valid Actions: ['go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+You hear in the distance the chirping of a song bird.
+
+
+[Step 53] Valid Actions: ['put down canary', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=12, punishment=1.20
+[Step 53] Valid Actions: ['open egg', 'take egg', 'go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 34] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 53] Valid Actions: ['down', 'open nest', 'take nest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 54] Valid Actions: ['take sack', 'take garlic', 'take lantern', 'take sword', 'take all', 'close sack', 'close case', 'put down lunch', 'push rug', 'put lunch in sack', 'put lunch in case', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 4] Valid Actions: ['go around trees', 'north', 'south', 'east']
+[Step 54] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 54] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=13, punishment=1.30
+[Step 54] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 35] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 54] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 55] Valid Actions: ['take sack', 'take garlic', 'take lantern', 'take all', 'close sack', 'close case', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'put lunch in sack', 'put lunch in case', 'put sword in case', 'put all in case', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 5] Valid Actions: ['go around trees', 'south', 'west', 'east']
+[Step 0] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+[Step 55] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 55] Valid Actions: ['take canary', 'north']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 55] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 36] Valid Actions: ['take leaflet', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 55] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down nest', 'put down egg', 'shake nest', 'throw nest at tree', 'throw nest at egg', 'throw egg at tree', 'open egg with nest']
+Good words matched: ['gold']
+OBSERVATION: The bird's nest opens.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: The bird's nest opens.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 56] Valid Actions: ['take sack', 'take garlic', 'close sack', 'close case', 'put down lunch', 'put down lantern', 'put down sword', 'put down all', 'push rug', 'put lunch in sack', 'put lunch in case', 'put lantern in sack', 'put lantern in case', 'put sword in case', 'put all in sack', 'put all in case', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 6] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 1] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+
+[Step 56] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 56] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 56] Valid Actions: ['open nest', 'take nest', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 37] Valid Actions: ['put down leaflet', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 56] Valid Actions: ['down', 'take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'shake egg', 'shake nest', 'put canary in nest', 'throw egg at tree', 'throw nest at tree']
+Good words matched: ['open']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+You hear in the distance the chirping of a song bird.
+
+
+Bad words matched: ['empty', 'bad', 'badly']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+You hear in the distance the chirping of a song bird.
+
+
+New Scene!
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 57] Valid Actions: ['take sack', 'take garlic', 'take lantern', 'close sack', 'close case', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'put lunch in sack', 'put lunch in case', 'put sword in case', 'take all from sack', 'put all in case', 'east']
+New Scene!
+OBSERVATION: Done.
+
+
+[Step 7] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+[Step 2] Valid Actions: ['open window', 'south', 'north', 'east']
+[Step 57] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 57] Valid Actions: ['take canary', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 57] Valid Actions: ['take nest', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 38] Valid Actions: ['put down leaflet', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 57] Valid Actions: ['down', 'take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down canary', 'put down nest', 'shake nest', 'put canary in egg', 'take all from nest', 'throw egg at tree', 'throw canary at tree', 'throw nest at tree']
+New Scene!
+OBSERVATION: Done.
+
+
+[Step 58] Valid Actions: ['take sack', 'take lantern', 'close sack', 'close case', 'put down lunch', 'put down garlic', 'put down sword', 'put down all', 'push rug', 'put lunch in sack', 'put lunch in case', 'put garlic in sack', 'put garlic in case', 'put sword in case', 'put all in sack', 'put all in case', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 8] Valid Actions: ['go around trees', 'south', 'west', 'east']
+[Step 3] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 58] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 58] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 58] Valid Actions: ['up', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 39] Valid Actions: ['put down leaflet', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 58] Valid Actions: ['down', 'take canary', 'close nest', 'put down canary', 'put down nest', 'shake nest', 'throw canary at tree', 'throw nest at tree']
+New Scene!
+OBSERVATION: The broken jewel-encrusted egg falls to the ground.
+
+
+[Step 59] Valid Actions: ['take sack', 'take lunch', 'take lantern', 'close sack', 'close case', 'put down garlic', 'put down sword', 'put down all', 'push rug', 'put garlic in sack', 'put garlic in case', 'put sword in case', 'take all from sack', 'put all in case', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 9] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 4] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+New Scene!
+OBSERVATION: West of House
+There is a small mailbox here.
+The small mailbox contains:
+  A leaflet
+
+
+[Step 59] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=12, punishment=1.20
+[Step 59] Valid Actions: ['take canary', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 59] Valid Actions: ['take nest', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 40] Valid Actions: ['take leaflet', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 59] Valid Actions: ['down']
+New Scene!
+OBSERVATION: The bird's nest falls to the ground.
+
+
+[Step 60] Valid Actions: ['take sack', 'take lunch', 'take garlic', 'take lantern', 'close sack', 'close case', 'put down sword', 'push rug', 'put sword in case', 'take all from sack', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 10] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 5] Valid Actions: ['go around trees', 'north', 'south', 'east']
+[Step 60] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 60] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=14, punishment=1.40
+[Step 60] Valid Actions: ['east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+
+
+[Step 41] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 60] Valid Actions: ['take egg', 'take canary', 'take nest', 'take all', 'up', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+The bird's nest contains:
+  A broken clockwork canary
+There is a somewhat ruined egg here.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 61] Valid Actions: ['take sack', 'take lunch', 'take garlic', 'take lantern', 'take sword', 'take all', 'close sack', 'close case', 'push rug', 'take all from sack', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 11] Valid Actions: ['north']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 6] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+[Step 61] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=13, punishment=1.30
+[Step 61] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=15, punishment=1.50
+[Step 61] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 42] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 61] Valid Actions: ['take leaves', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 62] Valid Actions: ['open case', 'take sack', 'take lunch', 'take lantern', 'take sword', 'take all', 'close sack', 'push rug', 'take all from sack', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 12] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 7] Valid Actions: ['put down leaves', 'south', 'west', 'east']
+[Step 62] Valid Actions: ['north']
+Bad words matched: ['impassable']
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+New Scene!
+OBSERVATION: Forest
+The forest thins out, revealing impassable mountains.
+
+
+[Step 62] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=16, punishment=1.60
+[Step 62] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 43] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+
+[Step 62] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=16, punishment=1.60
+[Step 63] Valid Actions: ['open case', 'take sack', 'take sword', 'take all', 'close sack', 'put down lunch', 'put down lantern', 'put down all', 'push rug', 'put lunch in sack', 'put lantern in sack', 'put all in sack', 'east']
+Good words matched: ['taken']
+OBSERVATION: lunch: Taken.
+broken lantern: Taken.
+
+
+New Scene!
+OBSERVATION: lunch: Taken.
+broken lantern: Taken.
+
+
+[Step 13] Valid Actions: ['north']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 8] Valid Actions: ['take leaves', 'south', 'west', 'east']
+[Step 63] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=14, punishment=1.40
+[Step 63] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 63] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 44] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Good words matched: ['open', 'great']
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+New Scene!
+OBSERVATION: With great effort, you open the window far enough to allow entry.
+
+
+[Step 63] Valid Actions: ['take egg', 'take canary', 'take nest', 'take all', 'up', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+The bird's nest contains:
+  A broken clockwork canary
+There is a somewhat ruined egg here.
+
+
+[Step 64] Valid Actions: ['open sack', 'open case', 'take sack', 'take sword', 'take all', 'put down lunch', 'put down lantern', 'put down all', 'push rug', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 14] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 9] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+[Step 64] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 64] Valid Actions: ['down', 'take nest', 'close nest']
+New Scene!
+OBSERVATION: Up a Tree
+Beside you on the branch is a small bird's nest.
+
+
+[Step 64] Valid Actions: ['take canary', 'go around trees', 'north', 'south', 'east']
+New Scene!
+OBSERVATION: Forest
+There is a broken clockwork canary here.
+
+
+[Step 45] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take sack', 'take bottle', 'take all', 'up', 'close window', 'west']
+New Scene!
+OBSERVATION: Kitchen
+You are in the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.
+On the table is an elongated brown sack, smelling of hot peppers.
+A bottle is sitting on the table.
+The glass bottle contains:
+  A quantity of water
+
+
+[Step 64] Valid Actions: ['down']
+New Scene!
+OBSERVATION: Up a Tree
+
+
+[Step 65] Valid Actions: ['open sack', 'open case', 'take sack', 'put down lunch', 'put down lantern', 'put down sword', 'put down all', 'push rug', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 15] Valid Actions: ['north']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 10] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 65] Valid Actions: ['down', 'take canary', 'take nest', 'take all', 'close nest']
+New Scene!
+OBSERVATION: Up a Tree
+There is a broken clockwork canary here.
+There is a bird's nest here.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 65] Valid Actions: ['down', 'close nest', 'put down nest', 'throw nest at tree']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+You hear in the distance the chirping of a song bird.
+
+
+New Scene!
+OBSERVATION: Taken.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 65] Valid Actions: ['put down canary', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 46] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'up', 'close window', 'put down sack', 'put down bottle', 'put down all', 'put sack on table', 'put bottle on table', 'put water on table', 'put all on table', 'west']
+Good words matched: ['taken']
+OBSERVATION: brown sack: Taken.
+glass bottle: Taken.
+
+
+New Scene!
+OBSERVATION: brown sack: Taken.
+glass bottle: Taken.
+
+
+[Step 65] Valid Actions: ['take egg', 'take canary', 'take nest', 'take all', 'up', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 66] Valid Actions: ['open sack', 'open case', 'take sack', 'take lantern', 'take all', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 16] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 11] Valid Actions: ['down', 'open nest', 'take nest']
+New Scene!
+OBSERVATION: Closed.
+
+
+[Step 66] Valid Actions: ['down', 'close nest', 'put down canary', 'put down nest', 'put down all', 'put canary in nest', 'throw canary at tree', 'throw nest at tree']
+Good words matched: ['taken']
+OBSERVATION: broken clockwork canary: Taken.
+bird's nest: Taken.
+
+
+New Scene!
+OBSERVATION: broken clockwork canary: Taken.
+bird's nest: Taken.
+
+
+[Step 66] Valid Actions: ['down', 'take nest', 'close nest']
+New Scene!
+OBSERVATION: Thrown.
+
+
+[Step 66] Valid Actions: ['take canary', 'go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 47] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take sack', 'up', 'close window', 'put down bottle', 'put bottle on table', 'put water on table', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 66] Valid Actions: ['open egg', 'take egg', 'take canary', 'take nest', 'take all', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 67] Valid Actions: ['open sack', 'open case', 'take sack', 'put down lunch', 'put down lantern', 'put down sword', 'put down all', 'push rug', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 17] Valid Actions: ['north']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 12] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: The bird's nest opens.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+New Scene!
+OBSERVATION: The bird's nest opens.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+
+
+[Step 67] Valid Actions: ['down', 'put down canary', 'throw canary at tree']
+New Scene!
+OBSERVATION: The bird's nest falls to the ground.
+
+
+[Step 67] Valid Actions: ['down', 'open nest', 'take nest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 67] Valid Actions: ['put down canary', 'go around trees', 'north', 'south', 'east']
+Good words matched: ['taken']
+OBSERVATION: Taken.
+You hear in the distance the chirping of a song bird.
+
+
+New Scene!
+OBSERVATION: Taken.
+You hear in the distance the chirping of a song bird.
+
+
+New Scene!
+OBSERVATION: This was not a very safe place to try jumping.
+Geronimo...
+
+   ****  You have died  ****
+
+Now, let's take a look here... Well, you probably deserve another chance. I can't quite fix you up completely, but you can't have everything.
+
+Forest
+A small leaflet is on the ground.
+
+
+[Step 67] Valid Actions: ['open egg', 'open nest', 'take egg', 'take nest', 'take all', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 68] Valid Actions: ['open sack', 'open case', 'take sack', 'take lantern', 'take all', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 18] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 13] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'shake nest', 'throw egg at tree', 'throw nest at tree', 'throw nest at egg', 'open egg with nest']
+[Step 68] Valid Actions: ['down', 'take canary']
+New Scene!
+OBSERVATION: Thrown.
+
+
+[Step 68] Valid Actions: ['down', 'take nest', 'close nest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 68] Valid Actions: ['take leaves', 'put down canary', 'pull leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+
+[Step 68] Valid Actions: ['open egg', 'take egg', 'take canary', 'take nest', 'take all', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Opening the bird's nest reveals a broken clockwork canary.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 69] Valid Actions: ['open sack', 'open case', 'take lantern', 'put down sack', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 19] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 14] Valid Actions: ['down', 'take egg', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'shake nest', 'throw egg at tree', 'throw nest at tree', 'throw nest at egg']
+New Scene!
+OBSERVATION: The concept of using a bird's nest is certainly original.
+
+
+[Step 69] Valid Actions: ['take nest', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+
+
+[Step 69] Valid Actions: ['down', 'close nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 69] Valid Actions: ['put down canary', 'put down leaves', 'put down all', 'put canary in grating', 'south', 'west', 'east']
+Good words matched: ['taken']
+OBSERVATION: In disturbing the pile of leaves, a grating is revealed.
+Taken.
+
+
+New Scene!
+OBSERVATION: In disturbing the pile of leaves, a grating is revealed.
+Taken.
+
+
+[Step 0] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+[Step 69] Valid Actions: ['open egg', 'take egg', 'take canary', 'up', 'close nest', 'put down canary', 'put down nest', 'go around forest', 'shake nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 70] Valid Actions: ['open sack', 'take garlic', 'take lantern', 'close case', 'put down sack', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'put sack in case', 'put lunch in case', 'put sword in case', 'put all in case', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 20] Valid Actions: ['go around trees', 'north', 'south', 'east']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 15] Valid Actions: ['take egg', 'up', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake nest', 'throw egg at tree', 'throw nest at egg', 'north', 'south', 'west', 'east']
+[Step 70] Valid Actions: ['go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 70] Valid Actions: ['down', 'open nest', 'put down nest', 'throw nest at tree']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 70] Valid Actions: ['take nest', 'up', 'close nest', 'put down leaves', 'put down canary', 'put down all', 'go around forest', 'put canary in nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 1] Valid Actions: ['open mailbox', 'north', 'south', 'west']
+[Step 70] Valid Actions: ['take canary', 'close nest', 'put down canary', 'put down nest', 'east', 'shake nest', 'north', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 71] Valid Actions: ['open sack', 'take sack', 'take garlic', 'take lantern', 'take all', 'close case', 'put down lunch', 'put down sword', 'put down all', 'push rug', 'put lunch in case', 'put sword in case', 'put all in case', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 21] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+[Step 16] Valid Actions: ['take egg', 'take nest', 'up', 'take on egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 71] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 71] Valid Actions: ['down']
+New Scene!
+OBSERVATION: The bird's nest falls to the ground.
+
+
+[Step 71] Valid Actions: ['take canary', 'take nest', 'up', 'close nest', 'put down leaves', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Done.
+
+
+[Step 2] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 71] Valid Actions: ['take canary', 'take nest', 'close nest', 'east', 'north', 'west']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 72] Valid Actions: ['open sack', 'take sack', 'take pepper', 'take garlic', 'take lantern', 'take sword', 'take all', 'close case', 'push rug', 'east']
+New Scene!
+OBSERVATION: sword: Dropped.
+lunch: Dropped.
+
+
+[Step 22] Valid Actions: ['down', 'take egg', 'take nest', 'take on egg', 'close nest']
+Good words matched: ['gold']
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+You hear in the distance the chirping of a song bird.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird's nest.
+In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 17] Valid Actions: ['take egg', 'up', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake nest', 'throw egg at tree', 'throw nest at egg', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 72] Valid Actions: ['north']
+Punishing repeated scene: times_visited=15, punishment=1.50
+[Step 72] Valid Actions: ['open nest', 'take nest', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+
+
+[Step 72] Valid Actions: ['take canary', 'up', 'close nest', 'put down leaves', 'put down canary', 'put down nest', 'put down all', 'go around forest', 'shake nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 3] Valid Actions: ['close mailbox', 'put down leaflet', 'north', 'put leaflet in mailbox', 'south', 'west']
+[Step 72] Valid Actions: ['take canary', 'close nest', 'put down canary', 'put down nest', 'east', 'shake nest', 'north', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 73] Valid Actions: ['open sack', 'take sack', 'take pepper', 'take garlic', 'take sword', 'take all', 'close case', 'put down lantern', 'push rug', 'put lantern in case', 'east']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 23] Valid Actions: ['down', 'take egg', 'take canary', 'take nest', 'close egg', 'close nest']
+Good words matched: ['open']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+Bad words matched: ['empty', 'bad', 'badly']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 18] Valid Actions: ['take egg', 'take on egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake nest', 'throw egg at path', 'throw nest at egg', 'north', 'south', 'west', 'east']
+[Step 73] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=16, punishment=1.60
+[Step 73] Valid Actions: ['go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=17, punishment=1.70
+[Step 73] Valid Actions: ['take canary', 'up', 'close nest', 'put down nest', 'put down leaves', 'put down all', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: The contents of the bird's nest spills to the ground.
+
+
+[Step 4] Valid Actions: ['take leaflet', 'close mailbox', 'north', 'south', 'west']
+[Step 73] Valid Actions: ['take canary', 'close nest', 'put down nest', 'east', 'north', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 74] Valid Actions: ['open sack', 'open trap', 'take sack', 'take pepper', 'take garlic', 'take sword', 'take all', 'close case', 'put down lantern', 'put lantern in case', 'east']
+Good words matched: ['great']
+OBSERVATION: With a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+
+
+New Scene!
+OBSERVATION: With a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+
+
+[Step 24] Valid Actions: ['up', 'go around forest', 'north', 'south', 'west', 'east']
+[Step 19] Valid Actions: ['take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake egg', 'shake nest', 'put canary in nest', 'north', 'south', 'west', 'east']
+Good words matched: ['open']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+Bad words matched: ['empty', 'bad', 'badly']
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: There is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 74] Valid Actions: ['take nest', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 74] Valid Actions: ['take canary', 'north']
+New Scene!
+OBSERVATION: Forest
+There is a broken clockwork canary here.
+
+
+[Step 74] Valid Actions: ['close nest', 'put down leaves', 'put down nest', 'put down all', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 5] Valid Actions: ['west', 'south', 'east']
+[Step 74] Valid Actions: ['open egg', 'take egg', 'up', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Forest Path
+There is a somewhat ruined egg here.
+
+
+[Step 75] Valid Actions: ['open sack', 'open trap', 'take sack', 'take pepper', 'take garlic', 'take lantern', 'take sword', 'take all', 'close case', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 25] Valid Actions: ['down', 'take egg', 'take canary', 'take nest', 'close egg', 'close nest']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Up a Tree
+Beside you on the branch is a small bird's nest.
+The bird's nest contains:
+  A broken jewel-encrusted egg
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: Up a Tree
+Beside you on the branch is a small bird's nest.
+The bird's nest contains:
+  A broken jewel-encrusted egg
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 20] Valid Actions: ['take egg', 'take canary', 'take nest', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 75] Valid Actions: ['up', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 75] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 75] Valid Actions: ['take nest', 'close nest', 'put down leaves', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 6] Valid Actions: ['open window', 'south', 'north', 'east']
+[Step 75] Valid Actions: ['open egg', 'take egg', 'take nest', 'take all', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 76] Valid Actions: ['open sack', 'open trap', 'take garlic', 'close case', 'put down sack', 'put down lunch', 'put down lantern', 'put down sword', 'put down all', 'put sack in case', 'put lunch in case', 'put lantern in case', 'put sword in case', 'put all in case', 'east']
+Good words matched: ['taken']
+OBSERVATION: broken lantern: Taken.
+lunch: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+Bad words matched: ['cannot']
+OBSERVATION: broken lantern: Taken.
+lunch: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+New Scene!
+OBSERVATION: broken lantern: Taken.
+lunch: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+[Step 26] Valid Actions: ['down', 'take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'shake egg', 'shake nest', 'put canary in nest', 'throw egg at tree', 'throw nest at tree']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 21] Valid Actions: ['take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake egg', 'shake nest', 'put canary in nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 76] Valid Actions: ['take nest', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 76] Valid Actions: ['take canary', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 76] Valid Actions: ['close nest', 'put down leaves', 'put down nest', 'put down all', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 7] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+[Step 76] Valid Actions: ['open egg', 'take egg', 'up', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 77] Valid Actions: ['open sack', 'open trap', 'take sack', 'take pepper', 'take garlic', 'take lantern', 'take sword', 'take all', 'close case', 'east']
+New Scene!
+OBSERVATION: brown sack: Dropped.
+sword: Dropped.
+lunch: Dropped.
+broken lantern: Dropped.
+
+
+[Step 27] Valid Actions: ['down']
+New Scene!
+OBSERVATION: The bird's nest falls to the ground.
+
+
+[Step 22] Valid Actions: ['take egg', 'take canary', 'take nest', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 77] Valid Actions: ['open nest', 'take nest', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 77] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 77] Valid Actions: ['take nest', 'close nest', 'put down leaves', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 8] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: The window closes (more easily than it opened).
+
+
+[Step 77] Valid Actions: ['open egg', 'take egg', 'take nest', 'take all', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Dropped.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 78] Valid Actions: ['open sack', 'open trap', 'take sack', 'take garlic', 'take lantern', 'take sword', 'take all', 'close case', 'put down lunch', 'put lunch in case', 'east']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 28] Valid Actions: ['take egg', 'take canary', 'take nest', 'up', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Forest Path
+There is a bird's nest here.
+The bird's nest contains:
+  A broken jewel-encrusted egg
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+New Scene!
+OBSERVATION: Forest Path
+There is a bird's nest here.
+The bird's nest contains:
+  A broken jewel-encrusted egg
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+[Step 23] Valid Actions: ['take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake egg', 'shake nest', 'put canary in nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 78] Valid Actions: ['open nest', 'up', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 78] Valid Actions: ['take canary', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 78] Valid Actions: ['close nest', 'put down leaves', 'put down nest', 'put down all', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=10, punishment=1.00
+[Step 9] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 78] Valid Actions: ['open egg', 'take egg', 'up', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 79] Valid Actions: ['open sack', 'open trap', 'take garlic', 'close case', 'put down sack', 'put down lunch', 'put down lantern', 'put down sword', 'put down all', 'put sack in case', 'put lunch in case', 'put lantern in case', 'put sword in case', 'put all in case', 'east']
+Good words matched: ['taken']
+OBSERVATION: broken lantern: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+Bad words matched: ['cannot']
+OBSERVATION: broken lantern: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+New Scene!
+OBSERVATION: broken lantern: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+[Step 29] Valid Actions: ['take egg', 'take canary', 'up', 'close egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake egg', 'shake nest', 'put canary in nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 24] Valid Actions: ['take egg', 'take canary', 'take nest', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 79] Valid Actions: ['open nest', 'take nest', 'up', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 79] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 79] Valid Actions: ['take nest', 'close nest', 'put down leaves', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 10] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'take sack', 'take bottle', 'take all', 'up', 'close window', 'west']
+[Step 79] Valid Actions: ['open egg', 'take egg', 'take nest', 'take all', 'up', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 80] Valid Actions: ['open sack', 'open trap', 'take sack', 'take pepper', 'take garlic', 'take lantern', 'take sword', 'take all', 'close case', 'east']
+New Scene!
+OBSERVATION: brown sack: Dropped.
+sword: Dropped.
+broken lantern: Dropped.
+lunch: Dropped.
+
+
+[Step 30] Valid Actions: ['take egg', 'take canary', 'take nest', 'up', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Dropped.
+
+
+[Step 25] Valid Actions: ['take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'go around forest', 'shake egg', 'shake nest', 'put canary in nest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 80] Valid Actions: ['open nest', 'up', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 80] Valid Actions: ['take canary', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 80] Valid Actions: ['close nest', 'put down leaves', 'put down nest', 'put down all', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=11, punishment=1.10
+[Step 11] Valid Actions: ['jump', 'east', 'open sack', 'open bottle', 'up', 'close window', 'put down sack', 'put down bottle', 'put down all', 'put sack on table', 'put bottle on table', 'put water on table', 'put all on table', 'west']
+[Step 80] Valid Actions: ['open egg', 'take egg', 'up', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 81] Valid Actions: ['open sack', 'open trap', 'take garlic', 'close case', 'put down sack', 'put down lunch', 'put down lantern', 'put down sword', 'put down all', 'put sack in case', 'put lunch in case', 'put lantern in case', 'put sword in case', 'put all in case', 'east']
+Good words matched: ['taken']
+OBSERVATION: lunch: Taken.
+broken lantern: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+Bad words matched: ['cannot']
+OBSERVATION: lunch: Taken.
+broken lantern: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+New Scene!
+OBSERVATION: lunch: Taken.
+broken lantern: Taken.
+sword: Taken.
+brown sack: Taken.
+trophy case: The trophy case is securely fastened to the wall.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+[Step 31] Valid Actions: ['down']
+New Scene!
+OBSERVATION: Up a Tree
+
+
+[Step 26] Valid Actions: ['take egg', 'take canary', 'close egg', 'close nest', 'put down egg', 'put down nest', 'go around trees', 'shake egg', 'shake nest', 'put canary in nest', 'south', 'west', 'east']
+[Step 81] Valid Actions: ['open nest', 'take leaves', 'put down nest', 'pull leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 81] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 81] Valid Actions: ['take leaves', 'close nest', 'put down nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 12] Valid Actions: ['jump', 'open sack', 'open bottle', 'open window', 'up', 'put down sack', 'put down bottle', 'put down all', 'put sack on table', 'put bottle on table', 'put water on table', 'put all on table', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 81] Valid Actions: ['take canary', 'close nest', 'put down nest', 'east', 'north', 'west']
+New Scene!
+OBSERVATION: North of House
+There is a broken clockwork canary here.
+
+
+[Step 82] Valid Actions: ['open sack', 'open trap', 'take garlic', 'take lantern', 'close case', 'put down sack', 'put down lunch', 'put down sword', 'put down all', 'put sack in case', 'put lunch in case', 'put sword in case', 'put all in case', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 32] Valid Actions: ['take egg', 'take canary', 'take nest', 'up', 'close egg', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Bad words matched: ['empty', 'bad']
+OBSERVATION: Forest Path
+There is a bird's nest here.
+The bird's nest contains:
+  A broken jewel-encrusted egg
+There is a golden clockwork canary nestled in the egg. It seems to have recently had a bad experience. The mountings for its jewel-like eyes are empty, and its silver beak is crumpled. Through a cracked crystal window below its left wing you can see the remains of intricate machinery. It is not clear what result winding it would have, as the mainspring seems sprung.
+
+
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 27] Valid Actions: ['take egg', 'take canary', 'take nest', 'close egg', 'close nest', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.50
+[Step 82] Valid Actions: ['open nest', 'take leaves', 'take nest', 'take all', 'pull leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.30
+[Step 82] Valid Actions: ['take canary', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.60
+[Step 82] Valid Actions: ['take leaves', 'take nest', 'take all', 'close nest', 'go around forest', 'north', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 13] Valid Actions: ['jump', 'open sack', 'open window', 'open bottle', 'take sack', 'take bottle', 'take all', 'up', 'west']
+New Scene!
+OBSERVATION: glass bottle: Dropped.
+brown sack: Dropped.
+
+
+[Step 82] Valid Actions: ['take canary', 'take nest', 'take all', 'close nest', 'east', 'north', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 83] Valid Actions: ['down', 'open sack', 'take garlic', 'take lantern', 'close trap', 'close case', 'put down sack', 'put down lunch', 'put down sword', 'put down all', 'put sack in case', 'put lunch in case', 'put sword in case', 'put all in case', 'east']
+New Scene!
+OBSERVATION: The door reluctantly opens to reveal a rickety staircase descending into darkness.
+
+
+[Step 33] Valid Actions: ['east', 'north', 'west']
+[Step 28] Valid Actions: ['open egg', 'take egg', 'take nest', 'close nest', 'go around trees', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: Closed.
+You hear in the distance the chirping of a song bird.
+
+
+[Step 83] Valid Actions: ['open nest', 'put down leaves', 'put down nest', 'put down all', 'put nest in grating', 'south', 'west', 'east']
+Good words matched: ['taken']
+OBSERVATION: bird's nest: Taken.
+pile of leaves: In disturbing the pile of leaves, a grating is revealed.
+Taken.
+
+
+New Scene!
+OBSERVATION: bird's nest: Taken.
+pile of leaves: In disturbing the pile of leaves, a grating is revealed.
+Taken.
+
+
+[Step 83] Valid Actions: ['put down canary', 'north']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 83] Valid Actions: ['open window', 'south', 'north', 'east']
+New Scene!
+OBSERVATION: Behind House
+
+
+[Step 14] Valid Actions: ['jump', 'open window', 'open bottle', 'take sack', 'take food', 'take garlic', 'take bottle', 'take all', 'up', 'close sack', 'take all from sack', 'west']
+New Scene!
+OBSERVATION: Opening the brown sack reveals a lunch, and a clove of garlic.
+
+
+[Step 83] Valid Actions: ['take canary', 'close nest', 'put down nest', 'east', 'north', 'west']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 84] Valid Actions: ['down', 'open sack', 'take pepper', 'take garlic', 'take lantern', 'take all', 'close trap', 'close case', 'put down sack', 'put down sword', 'put down all', 'put sack in case', 'put sword in case', 'put all in case', 'east']
+Punishing repeated scene: times_visited=8, punishment=0.80
+[Step 34] Valid Actions: ['open window', 'south', 'north', 'east']
+[Step 29] Valid Actions: ['go around trees', 'north', 'west', 'northwest']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 84] Valid Actions: ['put down leaves', 'south', 'west', 'east']
+New Scene!
+OBSERVATION: The bird's nest goes through the grating into the darkness below.
+
+
+[Step 84] Valid Actions: ['put down canary', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=18, punishment=1.80
+[Step 84] Valid Actions: ['east', 'north', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 15] Valid Actions: ['turn on lantern', 'open case', 'take lantern', 'take sword', 'take all', 'push rug', 'east']
+Good words matched: ['great']
+OBSERVATION: Living Room
+You are in the living room. There is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+Above the trophy case hangs an elvish sword of great antiquity.
+A battery-powered brass lantern is on the trophy case.
+
+
+New Scene!
+OBSERVATION: Living Room
+You are in the living room. There is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+Above the trophy case hangs an elvish sword of great antiquity.
+A battery-powered brass lantern is on the trophy case.
+
+
+[Step 84] Valid Actions: ['open mailbox', 'close nest', 'put down nest', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.20
+[Step 85] Valid Actions: ['down', 'open sack', 'take pepper', 'take garlic', 'take lantern', 'take sword', 'take all', 'close trap', 'close case', 'put down sack', 'put sack in case', 'east']
+Punishing repeated scene: times_visited=9, punishment=0.90
+[Step 35] Valid Actions: ['west', 'close window', 'south', 'north', 'east']
+[Step 30] Valid Actions: ['west', 'south', 'east']
+[Step 85] Valid Actions: ['take leaves', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.40
+[Step 85] Valid Actions: ['take canary', 'go around trees', 'south', 'west', 'east']
+Punishing repeated scene: times_visited=7, punishment=0.70
+[Step 85] Valid Actions: ['open window', 'south', 'north', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.10
+[Step 16] Valid Actions: ['turn on lantern', 'open case', 'put down lantern', 'put down sword', 'put down all', 'push rug', 'throw lantern at door', 'east']
+Good words matched: ['taken']
+OBSERVATION: trophy case: The trophy case is securely fastened to the wall.
+sword: Taken.
+brass lantern: Taken.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+Bad words matched: ['cannot']
+OBSERVATION: trophy case: The trophy case is securely fastened to the wall.
+sword: Taken.
+brass lantern: Taken.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+New Scene!
+OBSERVATION: trophy case: The trophy case is securely fastened to the wall.
+sword: Taken.
+brass lantern: Taken.
+carpet: The rug is extremely heavy and cannot be carried.
+
+
+[Step 85] Valid Actions: ['open mailbox', 'take nest', 'close nest', 'north', 'south', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.50
+Traceback (most recent call last):
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 217, in <module>
+    main()
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 203, in main
+    train(agent, envs, args, args.max_steps, args.update_freq,
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 177, in train
+    critic_loss, actor_loss=agent.update(args,expert_memory_replay,logger,step)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/sac_rs.py", line 224, in update
+    critic_loss = self.update_critic(args.reward_shaping, batch, logger,step)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/sac_rs.py", line 134, in update_critic
+    target_Q2 = self.critic_target2(batch.next_state, batch.next_valids)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/myenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/myenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/models.py", line 76, in forward
+    inv = self.packed_rnn(state.inv, self.inv_encoder)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/models.py", line 63, in packed_rnn
+    out = out.gather(0, idx).squeeze(0)
+          ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
