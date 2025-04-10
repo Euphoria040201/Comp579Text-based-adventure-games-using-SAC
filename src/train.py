@@ -28,13 +28,17 @@ import  pickle
 
 
 
-def configure_logger(log_dir, add_tb=1, add_wb=1, args=None):
+
+def configure_logger(log_dir, add_tb=1, add_wb=True, args=None,name="default_name"):
+
     logger.configure(log_dir, format_strs=['log'])
     global tb
     log_types = [logger.make_output_format('csv', log_dir), logger.make_output_format('json', log_dir),
                  logger.make_output_format('stdout', log_dir)]
     if add_tb: log_types += [logger.make_output_format('tensorboard', log_dir)]
-    if add_wb: log_types += [logger.make_output_format('wandb', log_dir, args=args)]
+
+    if add_wb: log_types += [logger.make_output_format('wandb', log_dir, args=args,run_name=name)]
+
     tb = logger.Logger(log_dir, log_types)
     global log
     log = logger.log
@@ -45,10 +49,12 @@ def parse_args():
     parser.add_argument('--rom_path', default= '/905.z5')
     parser.add_argument('--env_name', default='game_name')
     parser.add_argument('--spm_path', default='.../unigram_8k.model')
-    parser.add_argument('--env_step_limit', default=200, type=int)
+
+    parser.add_argument('--env_step_limit', default=100, type=int)
     parser.add_argument('--seed', default=0, type=int)
     parser.add_argument('--num_envs', default=8, type=int)
-    parser.add_argument('--max_steps', default=1000000, type=int)
+    parser.add_argument('--max_steps', default=10000, type=int)
+
     parser.add_argument('--update_freq', default=1, type=int)
     parser.add_argument('--checkpoint_freq', default=5000, type=int)
     parser.add_argument('--log_freq', default=100, type=int)
@@ -60,13 +66,19 @@ def parse_args():
     parser.add_argument('--embedding_dim', default=128, type=int)
     parser.add_argument('--hidden_dim', default=128, type=int)
     parser.add_argument('--load_checkpoint', default="")
+
+    parser.add_argument('--rnd_scale', default=0.3, type=float)
     #Reward shaping
-    parser.add_argument('--reward_shaping', default=False, type=bool)
+    parser.add_argument('--reward_shaping', default=True, type=bool)
+
     # logger
     parser.add_argument('--tensorboard', default=0, type=int)
     parser.add_argument('--wandb', default=0, type=int)
     parser.add_argument('--wandb_project', default='', type=str)
     parser.add_argument('--wandb_group', default='', type=str)
+
+    parser.add_argument('--agent_type', default='SAC', type=str) #REM/RND/SAC
+    parser.add_argument('--sample_strat', default='uniform', type=str) #recency,'prioritized'
     return parser.parse_args()
 
 
@@ -84,7 +96,9 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
     print(f'--> Saving logs at: {log_dir}')
 
 
-    expert_memory_replay =ReplayMemory(args.memory_size)
+
+    expert_memory_replay =ReplayMemory(args.memory_size, sampling_strategy=args.sample_strat)
+
 
     #print(f'--> Initial Expert memory size: {len(expert_memory_replay)}')
 
@@ -96,7 +110,9 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
     episode_reward = 0
     start = time.time()
     recover_reward = 0
+
     old_scores = [envs[i].max_score for i in range(args.num_envs)]
+
     obs, rewards, dones, infos, transitions = [], [], [], [], []
     env_steps, max_score, d_in, d_out = 0, 0, defaultdict(list), defaultdict(list)
     #####INITIAL_STATES####
@@ -114,6 +130,8 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
     for step in range(1, max_steps+1):
         #print('Step',step)
+
+        # assert len(states) == len(valid_ids), f"Mismatch: {len(states)} states vs {len(valid_ids)} actions"
         action_ids,action_idxs = agent.choose_action(states,valid_ids)
         #print('####126 info ',infos)
         action_strs = [info['valid'][idx] for info, idx in zip(infos, action_idxs)]
@@ -121,7 +139,9 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
         next_obs, next_rewards, next_dones, next_infos = [], [], [], []
         for i, (env, action) in enumerate(zip(envs, action_strs)):
             if dones[i]:
+
                 old_scores[i] = 0
+
                 env_steps += infos[i]['moves']
                 score = infos[i]['score']
                 ob, info = env.reset()
@@ -133,6 +153,12 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
 
             ob, reward, done, info = env.step(action)
+
+            if i%100==0:
+                print('Step',step,'Env',i,'Action',action_strs[i],'Reward',reward,'Done',done)
+                print(f"obs: {ob}")
+            score = info['score']
+
             
             prev_score = old_scores[i]
             score = info['score']
@@ -197,12 +223,22 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
                 log('env_es',env.end_scores[-100:])
 
 
+
 def main():
     torch.set_num_threads(2)
     args = parse_args()
-    configure_logger(args.output_dir, args.tensorboard, args.wandb, args)
+
+    game_name = args.rom_path.split("/")[-1]
+    run_name = f"{args.seed}_{game_name}"
+    configure_logger(args.output_dir, args.tensorboard, args.wandb, args, name=run_name)
     set_seed_everywhere(args.seed)
-    agent = SACAgent(args)
+    if args.agent_type =='SAC':
+        agent = SACAgent(args)
+    elif args.agent_type == "RND":
+        agent = RNDAgent(args)
+    else:
+        agent = REMSACAgent(args)
+        
     envs = [JerichoEnv(args.rom_path, args.seed, args.env_step_limit)
                 for _ in range(args.num_envs)]
 

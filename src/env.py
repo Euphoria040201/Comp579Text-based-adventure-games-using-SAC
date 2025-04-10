@@ -7,6 +7,7 @@ from jericho.defines import TemplateAction
 from jericho.util import *
 import hashlib
 import re
+
 class JerichoEnv:
     """
         Based on: Keep CALM and Explore - Yao et al. '20
@@ -26,6 +27,7 @@ class JerichoEnv:
         self.get_valid = get_valid
         self.max_score = 0
         self.end_scores = []
+
         #The code below for auxiliary reward
         self.good_word_list = [
             "lantern", "cellar", "egg", "sword"
@@ -83,7 +85,6 @@ class JerichoEnv:
         return aux_reward
     #TODO: add increasing punishment for 重复的状态，但是要在reset后清除decay
     
-
     def step(self, action):
         ob, reward, done, info = self.env.step(action)
         cur_loc = 'unknown'
@@ -102,6 +103,7 @@ class JerichoEnv:
                 info['inv'] = cur_inv.lower()
 
                 valid = self.env.get_valid_actions(use_parallel=False)
+
                 print(f"[Step {self.steps}] Valid Actions: {valid}")
                 if len(valid) == 0:
                     valid = ['wait','yes','no']
@@ -113,6 +115,7 @@ class JerichoEnv:
             done = True
         self.max_score = max(self.max_score, info['score'])
         if done: self.end_scores.append(info['score'])
+
 
         if self.use_aux_reward:
             aux_reward = self.calculate_aux_reward(ob, reward)
@@ -131,6 +134,7 @@ class JerichoEnv:
         info['look'] = look
         self.env.set_state(save)
         self.scene_visit_count.clear()
+
         self.steps = 0
         self.max_score = 0
         return initial_ob, info
