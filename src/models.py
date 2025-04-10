@@ -2,7 +2,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
 from collections import namedtuple
 import itertools
 import utils
@@ -67,9 +66,11 @@ class DoubleQCritic(nn.Module):
         return out
 
     def forward(self, state_batch, act_batch):
+
         # print(state_batch)
         # print(type(state_batch))
         # print("*"*20)
+
         state = State(*zip(*state_batch))
         act_sizes = [len(a) for a in act_batch]
         act_batch = list(itertools.chain.from_iterable(act_batch))
@@ -160,6 +161,7 @@ class CateoricalPolicy(torch.nn.Module):
             log_prob = [torch.log(a) for a in act]
         return act_idxs,act_probs,log_action_probs
 
+
     def encode_state(self, state_batch):
         state = State(*zip(*state_batch))
         obs_out = self.packed_rnn(state.obs, self.obs_encoder)
@@ -212,3 +214,4 @@ class NoisyLinear(nn.Module):
             weight = self.weight_mu
             bias = self.bias_mu
         return F.linear(x, weight, bias)
+

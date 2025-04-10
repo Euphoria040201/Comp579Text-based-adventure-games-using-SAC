@@ -1,0 +1,466 @@
+Logging to output
+>> Action1: west
+Reward1: 2, Score 2, Done False
+
+>> Action2: west
+Reward2: 1, Score 3, Done False
+
+>> Action3: east
+Reward3: 1.0, Score 3, Done False
+
+>> Action4: west
+Reward4: 1.0, Score 3, Done False
+
+>> Action5: east
+Reward5: -0.08, Score 3, Done False
+
+>> Action6: east
+Reward6: 1.0, Score 3, Done False
+
+>> Action7: north
+Reward7: 1, Score 4, Done False
+
+>> Action8: south
+Reward8: -0.08, Score 4, Done False
+
+>> Action9: west
+Reward9: -0.16, Score 4, Done False
+
+>> Action10: east
+Reward10: -0.16, Score 4, Done False
+
+>> Action11: south
+Reward11: 1, Score 5, Done False
+
+>> Action12: north
+Reward12: -0.24, Score 5, Done False
+
+>> Action13: north
+Reward13: 1.0, Score 5, Done False
+
+>> Action14: south
+Reward14: -0.32, Score 5, Done False
+
+>> Action15: south
+Reward15: 1.0, Score 5, Done False
+
+>> Action16: southeast
+Reward16: 1, Score 6, Done False
+
+>> Action17: open car
+Reward17: 1.0, Score 6, Done False
+
+>> Action18: north
+Reward18: -0.08, Score 6, Done False
+
+>> Action19: west
+Reward19: 1, Score 7, Done False
+
+>> Action20: up
+Reward20: 1.0, Score 7, Done True
+
+>> Action21: reset
+Reward21: 0, Score 1, Done False
+
+>> Action22: east
+Reward22: 2, Score 2, Done False
+
+>> Action23: west
+Reward23: 0.0, Score 2, Done False
+
+>> Action24: east
+Reward24: 1.0, Score 2, Done False
+
+>> Action25: east
+Reward25: 1, Score 3, Done False
+
+>> Action26: west
+Reward26: -0.08, Score 3, Done False
+
+>> Action27: west
+Reward27: -0.08, Score 3, Done False
+
+>> Action28: north
+Reward28: 1, Score 4, Done False
+
+>> Action29: south
+Reward29: -0.16, Score 4, Done False
+
+>> Action30: north
+Reward30: 0.0, Score 4, Done False
+
+>> Action31: south
+Reward31: -0.24, Score 4, Done False
+
+>> Action32: east
+Reward32: -0.16, Score 4, Done False
+
+>> Action33: east
+Reward33: 1.0, Score 4, Done False
+
+>> Action34: west
+Reward34: -0.24, Score 4, Done False
+
+>> Action35: east
+Reward35: -0.08, Score 4, Done False
+
+>> Action36: south
+Reward36: 1, Score 5, Done False
+
+>> Action37: north
+Reward37: -0.16, Score 5, Done False
+
+>> Action38: south
+Reward38: 1.0, Score 5, Done False
+
+>> Action39: south
+Reward39: 1, Score 6, Done False
+
+>> Action40: leave well
+Reward40: -0.08, Score 6, Done False
+
+>> Action41: get in well
+Reward41: 1, Score 7, Done False
+
+>> Action42: take other
+Reward42: 1.0, Score 7, Done False
+
+>> Action43: get in well
+Reward43: 1.0, Score 7, Done False
+
+>> Action44: get in well
+Reward44: -0.08, Score 7, Done False
+
+>> Action45: get in well
+Reward45: -0.16, Score 7, Done False
+
+>> Action46: get up
+Reward46: 1.0, Score 7, Done False
+
+>> Action47: get in well
+Reward47: -0.24, Score 7, Done False
+
+>> Action48: get in well
+Reward48: -0.32, Score 7, Done False
+
+>> Action49: get in well
+Reward49: -0.4, Score 7, Done False
+
+>> Action50: put other down
+Reward50: 1.0, Score 7, Done False
+
+>> Action51: take other
+Reward51: -0.08, Score 7, Done False
+
+>> Action52: get in well
+Reward52: -0.48, Score 7, Done False
+
+>> Action53: put other down
+Reward53: -0.08, Score 7, Done False
+
+>> Action54: take other
+Reward54: -0.16, Score 7, Done False
+
+>> Action55: get in well
+Reward55: -0.56, Score 7, Done False
+
+>> Action56: get up
+Reward56: -0.08, Score 7, Done False
+
+>> Action57: leave well
+Reward57: -0.16, Score 7, Done False
+
+>> Action58: leave well
+Reward58: -0.24, Score 7, Done False
+
+>> Action59: leave well
+Reward59: -0.32, Score 7, Done False
+
+>> Action60: put fuse down
+Reward60: 1.0, Score 7, Done False
+
+>> Action61: leave well
+Reward61: 1.0, Score 7, Done False
+
+>> Action62: take fuse
+Reward62: 1.0, Score 7, Done False
+
+>> Action63: get in well
+Reward63: -0.64, Score 7, Done False
+
+>> Action64: get in well
+Reward64: -0.72, Score 7, Done False
+
+>> Action65: get up
+Reward65: -0.16, Score 7, Done False
+
+>> Action66: north
+Reward66: -0.08, Score 7, Done False
+
+>> Action67: east
+Reward67: 1, Score 8, Done False
+
+>> Action68: take long
+Reward68: -0.08, Score 8, Done False
+
+>> Action69: take all
+Reward69: 1.0, Score 8, Done False
+
+>> Action70: west
+Reward70: -0.16, Score 8, Done False
+
+>> Action71: put long down
+Reward71: -0.08, Score 8, Done False
+
+>> Action72: put statue down
+Reward72: -0.16, Score 8, Done False
+
+>> Action73: put wire down
+Reward73: -0.24, Score 8, Done False
+
+>> Action74: east
+Reward74: 1.0, Score 8, Done False
+
+>> Action75: put all down
+Reward75: 1.0, Score 8, Done False
+
+>> Action76: take all
+Reward76: 1.0, Score 8, Done False
+
+>> Action77: put fuse down
+Reward77: -0.32, Score 8, Done False
+
+>> Action78: take fuse
+Reward78: -0.16, Score 8, Done False
+
+>> Action79: put fuse down
+Reward79: -0.4, Score 8, Done False
+
+>> Action80: take fuse
+Reward80: -0.24, Score 8, Done False
+
+>> Action81: put all down
+Reward81: 1.0, Score 8, Done False
+
+>> Action82: take all
+Reward82: 1.0, Score 8, Done False
+
+>> Action83: put pots down
+Reward83: -0.48, Score 8, Done False
+
+>> Action84: put fuse down
+Reward84: -0.56, Score 8, Done False
+
+>> Action85: take all
+Reward85: -0.08, Score 8, Done False
+
+>> Action86: put all down
+Reward86: -0.08, Score 8, Done False
+
+>> Action87: take pots
+Reward87: -0.32, Score 8, Done False
+
+>> Action88: take fuse
+Reward88: -0.4, Score 8, Done False
+
+>> Action89: put fuse down
+Reward89: -0.64, Score 8, Done False
+
+>> Action90: put pots down
+Reward90: -0.72, Score 8, Done False
+
+>> Action91: take all
+Reward91: -0.08, Score 8, Done False
+
+>> Action92: put pots down
+Reward92: -0.8, Score 8, Done False
+
+>> Action93: put fuse down
+Reward93: -0.88, Score 8, Done False
+
+>> Action94: take fuse
+Reward94: -0.48, Score 8, Done False
+
+>> Action95: put fuse down
+Reward95: -0.96, Score 8, Done False
+
+>> Action96: take fuse
+Reward96: -0.56, Score 8, Done False
+
+>> Action97: take pots
+Reward97: -0.64, Score 8, Done False
+
+>> Action98: put all down
+Reward98: -0.16, Score 8, Done False
+
+>> Action99: west
+Reward99: 1.0, Score 8, Done False
+
+>> Action100: take all
+Reward100: 1.0, Score 8, Done False
+
+>> Action101: put all down
+Reward101: 1.0, Score 8, Done False
+
+>> Action102: take all
+Reward102: -0.08, Score 8, Done False
+
+>> Action103: put all down
+Reward103: -0.08, Score 8, Done False
+
+>> Action104: take wire
+Reward104: -0.72, Score 8, Done False
+
+>> Action105: take all
+Reward105: 1.0, Score 8, Done False
+
+>> Action106: put statue down
+Reward106: -1.04, Score 8, Done False
+
+>> Action107: south
+Reward107: -0.24, Score 8, Done False
+
+>> Action108: put long down
+Reward108: -1.12, Score 8, Done False
+
+>> Action109: get in well
+Reward109: -0.8, Score 8, Done False
+
+>> Action110: get in well
+Reward110: -0.88, Score 8, Done False
+
+>> Action111: put other down
+Reward111: 1.0, Score 8, Done False
+
+>> Action112: take other
+Reward112: 1.0, Score 8, Done False
+
+>> Action113: put other down
+Reward113: -0.08, Score 8, Done False
+
+>> Action114: get up
+Reward114: 1.0, Score 8, Done False
+
+>> Action115: north
+Reward115: 1.0, Score 8, Done False
+
+>> Action116: east
+Reward116: 1.0, Score 8, Done False
+
+>> Action117: take all
+Reward117: -0.16, Score 8, Done False
+
+>> Action118: put fuse down
+Reward118: -1.2, Score 8, Done False
+
+>> Action119: west
+Reward119: -0.08, Score 8, Done False
+
+>> Action120: take statue
+Reward120: -0.8, Score 8, Done False
+
+>> Action121: put all down
+Reward121: 1.0, Score 8, Done False
+
+>> Action122: take all
+Reward122: 1.0, Score 8, Done False
+
+>> Action123: put all down
+Reward123: -0.08, Score 8, Done False
+
+>> Action124: take statue
+Reward124: -0.88, Score 8, Done False
+
+>> Action125: east
+Reward125: 1.0, Score 8, Done False
+
+>> Action126: west
+Reward126: 1.0, Score 8, Done False
+
+>> Action127: east
+Reward127: -0.08, Score 8, Done False
+
+>> Action128: west
+Reward128: -0.08, Score 8, Done False
+
+>> Action129: south
+Reward129: -0.08, Score 8, Done False
+
+>> Action130: north
+Reward130: -0.16, Score 8, Done False
+
+>> Action131: north
+Reward131: -0.24, Score 8, Done False
+
+>> Action132: south
+Reward132: -0.24, Score 8, Done False
+
+>> Action133: south
+Reward133: -0.16, Score 8, Done False
+
+>> Action134: north
+Reward134: -0.32, Score 8, Done False
+
+>> Action135: east
+Reward135: -0.16, Score 8, Done False
+
+>> Action136: west
+Reward136: -0.4, Score 8, Done False
+
+>> Action137: north
+Reward137: -0.32, Score 8, Done False
+
+>> Action138: south
+Reward138: -0.48, Score 8, Done False
+
+>> Action139: east
+Reward139: -0.24, Score 8, Done False
+
+>> Action140: take fuse
+Reward140: -0.96, Score 8, Done False
+
+>> Action141: west
+Reward141: -0.56, Score 8, Done False
+
+>> Action142: take pots
+Reward142: -1.04, Score 8, Done False
+
+>> Action143: put all down
+Reward143: 1.0, Score 8, Done False
+
+>> Action144: take all
+Reward144: 1.0, Score 8, Done False
+
+>> Action145: put statue down
+Reward145: -1.28, Score 8, Done False
+
+>> Action146: east
+Reward146: -0.08, Score 8, Done False
+
+>> Action147: put pots down
+Reward147: -1.36, Score 8, Done False
+
+>> Action148: west
+Reward148: -0.16, Score 8, Done False
+
+>> Action149: north
+Reward149: -0.4, Score 8, Done False
+
+>> Action150: south
+Reward150: -0.24, Score 8, Done False
+
+>> Action151: north
+Reward151: -0.48, Score 8, Done False
+
+>> Action152: south
+Reward152: -0.32, Score 8, Done False
+
+>> Action153: south
+Reward153: -0.24, Score 8, Done False
+
+>> Action154: take long
+Reward154: -1.12, Score 8, Done False
+
+>> Action155: put all down
+Reward155: 1.0, Score 8, Done False
+

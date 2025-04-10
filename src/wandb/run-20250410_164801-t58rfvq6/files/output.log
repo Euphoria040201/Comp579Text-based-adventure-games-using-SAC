@@ -1,0 +1,3829 @@
+--> Saving logs at: output/game_name/2025-04-10_16-48-02
+[Step 0] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+[Step 0] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+The carpark is large and mostly empty - perhaps the size of a football field. Surely there should be more cars here. You parked over in the south east corner. The office building lies to the north. Signs point at a delivery bay to the west.
+[Step 0] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 0] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+[Step 0] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+[Step 0] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 0] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+[Step 0] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 1] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+The bikeshed is big and dusty. Nobody actually rides a bike to work - that would be madness - but they have a bikeshed anyway. You suspect that employees come out here to smoke. Bushes block your passage to the south - the only path leads east.
+[Step 1] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+You're standing in the south east corner of the carpark.
+
+You can see your Car (which is closed) here.
+[Step 1] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+You are concealed in a thick clump of bushes. The office building is barely visible to the north.
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 1] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+The bikeshed is big and dusty. Nobody actually rides a bike to work - that would be madness - but they have a bikeshed anyway. You suspect that employees come out here to smoke. Bushes block your passage to the south - the only path leads east.
+[Step 1] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+You are concealed in a thick clump of bushes. The office building is barely visible to the north.
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 2] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+[Step 2] Valid Actions: ['get in car', 'close car', 'north']
+New Scene!
+OBSERVATION: You open the Car.
+[Step 2] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+Secluded by thick bushes, you are standing at the top of a stone stairwell, set into the floor. It smells of damp, and moss grows on the steps.
+[Step 2] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+[Step 2] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+[Step 2] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+Secluded by thick bushes, you are standing at the top of a stone stairwell, set into the floor. It smells of damp, and moss grows on the steps.
+[Step 2] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+The carpark is large and mostly empty - perhaps the size of a football field. Surely there should be more cars here. You parked over in the south east corner. The office building lies to the north. Signs point at a delivery bay to the west.
+[Step 2] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+The carpark is large and mostly empty - perhaps the size of a football field. Surely there should be more cars here. You parked over in the south east corner. The office building lies to the north. Signs point at a delivery bay to the west.
+[Step 3] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+[Step 3] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION: You close the Car.
+[Step 3] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+You are standing at the bottom of a stone stairwell. Moss grows all around you. A low passage leads north east.
+[Step 3] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+The bikeshed is big and dusty. Nobody actually rides a bike to work - that would be madness - but they have a bikeshed anyway. You suspect that employees come out here to smoke. Bushes block your passage to the south - the only path leads east.
+[Step 3] Valid Actions: ['south', 'north', 'east', 'west']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 3] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+[Step 3] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+You're standing in the south east corner of the carpark.
+
+You can see your Car (which is closed) here.
+[Step 3] Valid Actions: ['up', 'east']
+New Scene!
+OBSERVATION:
+The Delivery Bay Gateway
+A large gate blocks the delivery bay to the west. There is some sort of control panel mounted by the side of the gate. The carpark lies to the east.
+[Step 4] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 4] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 4] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+[Step 4] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 4] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 4] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 4] Valid Actions: ['get in car', 'close car', 'north']
+New Scene!
+OBSERVATION: You open the Car.
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 4 out of a possible 150, in 13 turns, earning you the rank of "Hideously Awful".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+Learn begins!
+[Step 5] Valid Actions: ['south', 'north', 'east', 'west']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 5] Valid Actions: ['get up', 'take gun', 'close car']
+New Scene!
+OBSERVATION:
+Car
+You are sitting inside your car. It smells a bit.
+
+You can see a Gun here.
+[Step 5] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+[Step 5] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 5] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 5] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 5] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION: You close the Car.
+[Step 6] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+The main entrance to the building is plush and opulent. And locked. The lights are off and the doors are securely locked. Through the toughened glass you can see a half finished cup of coffee (or perhaps tea - no accounting for taste) sitting on the receptionists desk. It looks like someone left in a hurry. The only way out is back south.
+[Step 6] Valid Actions: ['get up', 'close car', 'put gun down']
+New Scene!
+OBSERVATION: Taken.
+[Step 6] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 6] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 6] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 6] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+[Step 6] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+[Step 0] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+The main entrance to the building is plush and opulent. And locked. The lights are off and the doors are securely locked. Through the toughened glass you can see a half finished cup of coffee (or perhaps tea - no accounting for taste) sitting on the receptionists desk. It looks like someone left in a hurry. The only way out is back south.
+[Step 7] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 7] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+
+You can see your Car (which is empty) here.
+[Step 7] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+[Step 7] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 7] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 7] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+You are standing at the bottom of a stone stairwell. Moss grows all around you. A low passage leads north east.
+[Step 7] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 8] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 8] Valid Actions: ['put gun down', 'open car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 8] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 8] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+You are in a concrete room with a low ceiling. Thick black cables run from ducts in the walls. There is a small yellow label on the duct. A low tunnel leads south west.
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 8] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+The main entrance to the building is plush and opulent. And locked. The lights are off and the doors are securely locked. Through the toughened glass you can see a half finished cup of coffee (or perhaps tea - no accounting for taste) sitting on the receptionists desk. It looks like someone left in a hurry. The only way out is back south.
+[Step 2] Valid Actions: ['west', 'north', 'southeast']
+[Step 9] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 9] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 9] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 9] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 9] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 9] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+[Step 9] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 3] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 10] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+The carpark is large and mostly empty - perhaps the size of a football field. Surely there should be more cars here. You parked over in the south east corner. The office building lies to the north. Signs point at a delivery bay to the west.
+[Step 10] Valid Actions: ['get in car', 'take gun', 'close car', 'empty car', 'push gun to car', 'north']
+New Scene!
+OBSERVATION: You put the Gun into the Car.
+[Step 10] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 10] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 10] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 10] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 10] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+[Step 4] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+[Step 11] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 11] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 11] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 11] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+You are concealed in a thick clump of bushes. The office building is barely visible to the north.
+[Step 11] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+[Step 11] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 11] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+The bikeshed is big and dusty. Nobody actually rides a bike to work - that would be madness - but they have a bikeshed anyway. You suspect that employees come out here to smoke. Bushes block your passage to the south - the only path leads east.
+[Step 5] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 12] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+[Step 12] Valid Actions: ['west', 'north', 'put gun down', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+[Step 12] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 12] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+Secluded by thick bushes, you are standing at the top of a stone stairwell, set into the floor. It smells of damp, and moss grows on the steps.
+[Step 12] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 12] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 12] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 6] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+[Step 13] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 13] Valid Actions: ['east', 'west', 'south', 'north', 'put gun down']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 13] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 13] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+You are standing at the bottom of a stone stairwell. Moss grows all around you. A low passage leads north east.
+[Step 13] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 13] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 13] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+[Step 7] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 14] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+[Step 14] Valid Actions: ['put gun down', 'south']
+New Scene!
+OBSERVATION:
+Main Entrance
+The main entrance to the building is plush and opulent. And locked. The lights are off and the doors are securely locked. Through the toughened glass you can see a half finished cup of coffee (or perhaps tea - no accounting for taste) sitting on the receptionists desk. It looks like someone left in a hurry. The only way out is back south.
+[Step 14] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+You are in a concrete room with a low ceiling. Thick black cables run from ducts in the walls. There is a small yellow label on the duct. A low tunnel leads south west.
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 14] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+You are in a concrete room with a low ceiling. Thick black cables run from ducts in the walls. There is a small yellow label on the duct. A low tunnel leads south west.
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 14] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+The carpark is large and mostly empty - perhaps the size of a football field. Surely there should be more cars here. You parked over in the south east corner. The office building lies to the north. Signs point at a delivery bay to the west.
+[Step 14] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 14] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 8] Valid Actions: ['south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 15] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+You're standing in the south east corner of the carpark.
+
+You can see your Car (which is closed) here.
+[Step 15] Valid Actions: ['east', 'west', 'south', 'north', 'put gun down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 15] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 15] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+[Step 15] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+You're standing in the south east corner of the carpark.
+
+You can see your Car (which is closed) here.
+[Step 15] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 15] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 9] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 16] Valid Actions: ['get in car', 'close car', 'north']
+New Scene!
+OBSERVATION: You open the Car.
+[Step 16] Valid Actions: ['put gun down', 'south']
+New Scene!
+OBSERVATION:
+Main Entrance
+[Step 16] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 16] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+[Step 16] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+[Step 16] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 16] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 10] Valid Actions: ['south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 17] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 17] Valid Actions: ['take gun', 'south']
+New Scene!
+OBSERVATION: Dropped.
+[Step 17] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 17] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+[Step 17] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 17] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 17] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 11] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 18] Valid Actions: ['up', 'east']
+New Scene!
+OBSERVATION:
+The Delivery Bay Gateway
+A large gate blocks the delivery bay to the west. There is some sort of control panel mounted by the side of the gate. The carpark lies to the east.
+[Step 18] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 18] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 18] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 18] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+The main entrance to the building is plush and opulent. And locked. The lights are off and the doors are securely locked. Through the toughened glass you can see a half finished cup of coffee (or perhaps tea - no accounting for taste) sitting on the receptionists desk. It looks like someone left in a hurry. The only way out is back south.
+[Step 18] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 18] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 12] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 7 out of a possible 150, in 58 turns, earning you the rank of "Hideously Awful".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+[Step 19] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+[Step 19] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 19] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 19] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 19] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 19] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 13] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 20] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+The bikeshed is big and dusty. Nobody actually rides a bike to work - that would be madness - but they have a bikeshed anyway. You suspect that employees come out here to smoke. Bushes block your passage to the south - the only path leads east.
+[Step 20] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 20] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 20] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 20] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 20] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 14] Valid Actions: ['south', 'east', 'west']
+[Step 0] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 21] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+[Step 21] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 21] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 21] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 21] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 21] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 15] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 22] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 22] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 22] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 22] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+[Step 22] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 22] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 16] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 2] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 23] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 23] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 23] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 23] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 23] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 23] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 17] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 3] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 24] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 24] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 24] Valid Actions: ['west', 'take pots', 'take statue', 'take wire', 'put long down', 'take all']
+New Scene!
+OBSERVATION: Taken.
+[Step 24] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 24] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 24] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 18] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 4] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 25] Valid Actions: ['open car', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 25] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 25] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 25] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 25] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 25] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+You are concealed in a thick clump of bushes. The office building is barely visible to the north.
+[Step 19] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 5] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 26] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 26] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 26] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+[Step 26] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 26] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 26] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+Secluded by thick bushes, you are standing at the top of a stone stairwell, set into the floor. It smells of damp, and moss grows on the steps.
+[Step 20] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 6] Valid Actions: ['south']
+[Step 27] Valid Actions: ['open car', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 27] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 27] Valid Actions: ['west', 'take wire', 'put pots down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Dropped.
+[Step 27] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 27] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 27] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+You are standing at the bottom of a stone stairwell. Moss grows all around you. A low passage leads north east.
+[Step 21] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 7] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 28] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 28] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 28] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 28] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 28] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 28] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+[Step 22] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['south']
+[Step 29] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+
+You can see your Car (which is closed) here.
+[Step 29] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 29] Valid Actions: ['get in well', 'put plant down', 'put statue down', 'put long down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 29] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 29] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 29] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+[Step 23] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 9] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 30] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 30] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 30] Valid Actions: ['get up', 'take other', 'get in well', 'put pots down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Fuse here.
+[Step 30] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 30] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 30] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 24] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 10] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 31] Valid Actions: ['open car', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 31] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 31] Valid Actions: ['get up', 'take other', 'take statue', 'take pots', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Dragon Statue: Dropped.
+Long Ladder: Dropped.
+[Step 31] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 31] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 31] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 25] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 11] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 32] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 32] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 32] Valid Actions: ['get up', 'take statue', 'take other', 'take fuse', 'get in well', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 32] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 32] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 32] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 26] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 12] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 33] Valid Actions: ['get up', 'close car']
+New Scene!
+OBSERVATION:
+Car
+You are sitting inside your car. It smells a bit.
+[Step 33] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 33] Valid Actions: ['get up', 'take statue', 'take other', 'take fuse', 'get in well', 'put pots down', 'take all']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Long Ladder, a Dragon Statue and a Fuse here.
+[Step 33] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 33] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 33] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 27] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 13] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 34] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 34] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 34] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'put pots down', 'put other down', 'put all down', 'take all']
+New Scene!
+OBSERVATION: (the Long Ladder)
+Taken.
+[Step 34] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 34] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 34] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 28] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 14] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 35] Valid Actions: ['open car', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 35] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 35] Valid Actions: ['get up', 'take statue', 'take other', 'take fuse', 'get in well', 'put pots down', 'take all']
+New Scene!
+OBSERVATION: (the Long Ladder down)
+Dropped.
+[Step 35] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 35] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 35] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 29] Valid Actions: ['up', 'east']
+[Step 15] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 36] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 36] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 36] Valid Actions: ['get up', 'take statue', 'take other', 'take fuse', 'get in well', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 36] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 36] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 36] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 8 out of a possible 150, in 91 turns, earning you the rank of "Hideously Awful".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+[Step 16] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 37] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 37] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 37] Valid Actions: ['get up', 'take statue', 'take other', 'take fuse', 'get in well', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 37] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 37] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 37] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 17] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 38] Valid Actions: ['up', 'east']
+New Scene!
+OBSERVATION:
+The Delivery Bay Gateway
+A large gate blocks the delivery bay to the west. There is some sort of control panel mounted by the side of the gate. The carpark lies to the east.
+[Step 38] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 38] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'put pots down', 'put other down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 38] Valid Actions: ['south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 38] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 38] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 0] Valid Actions: ['west', 'east']
+[Step 18] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 8 out of a possible 150, in 118 turns, earning you the rank of "Hideously Awful".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+[Step 39] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 39] Valid Actions: ['get up', 'get in well', 'put pots down', 'put other down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Fuse: Taken.
+Murky Water: Urgh - no way!
+Well: That's hardly portable.
+[Step 39] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 39] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 39] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 19] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Fuse here.
+[Step 40] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 40] Valid Actions: ['get up', 'take other', 'take statue', 'take long', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+Long Ladder: Dropped.
+Plant Pots: Dropped.
+[Step 40] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 40] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 40] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Plant Pots: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+[Step 2] Valid Actions: ['south', 'east', 'west']
+[Step 20] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Fuse)
+Taken.
+[Step 0] Valid Actions: ['west', 'east']
+[Step 41] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 41] Valid Actions: ['get up', 'get in well', 'put pots down', 'put other down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Long Ladder: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Murky Water: Urgh - no way!
+Well: That's hardly portable.
+[Step 41] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 41] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 41] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+Long Ladder: Dropped.
+[Step 3] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+You are concealed in a thick clump of bushes. The office building is barely visible to the north.
+[Step 21] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+[Step 1] Valid Actions: ['east']
+[Step 42] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 42] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 42] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 42] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 42] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'put statue down', 'take all']
+New Scene!
+OBSERVATION: Taken.
+[Step 4] Valid Actions: ['south', 'east', 'west']
+[Step 22] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 2] Valid Actions: ['west', 'east']
+[Step 43] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 43] Valid Actions: ['get in well', 'take fuse', 'put pots down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 43] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 43] Valid Actions: ['south', 'north', 'east', 'west']
+New Scene!
+OBSERVATION:
+Front Of The Office
+[Step 43] Valid Actions: ['east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 5] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+[Step 23] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 3] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 44] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 44] Valid Actions: ['get in well', 'take pots', 'take fuse', 'put long down', 'put statue down', 'put all down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 44] Valid Actions: ['west', 'take pots', 'take statue', 'take wire', 'put long down', 'take all']
+New Scene!
+OBSERVATION: Taken.
+[Step 44] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+You are standing to the west of the office building's facia. Thick bushes block your way to the south and a gravel path leads east to west.
+[Step 44] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'put statue down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Long Ladder, some Plant Pots and a Coil of wire here.
+[Step 6] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+Secluded by thick bushes, you are standing at the top of a stone stairwell, set into the floor. It smells of damp, and moss grows on the steps.
+[Step 24] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 4] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+You are standing to the east of the office building's facia. There are thick bushes to the south and a gravel path leads east to west.
+[Step 45] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 45] Valid Actions: ['get in well', 'take pots', 'take statue', 'take fuse', 'put long down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 45] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 45] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 45] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Dropped.
+[Step 7] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+You are standing at the bottom of a stone stairwell. Moss grows all around you. A low passage leads north east.
+[Step 25] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 5] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+You are in a damp corner where the front of the office building meets a low brick building, with no windows, which runs south.
+[Step 46] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 46] Valid Actions: ['get in well', 'take pots', 'take statue', 'take fuse', 'put long down', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+
+You can see a Dragon Statue, some Plant Pots and a Fuse here.
+[Step 46] Valid Actions: ['east', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 46] Valid Actions: ['west', 'east']
+New Scene!
+OBSERVATION:
+West Of Office
+[Step 46] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 8] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+[Step 26] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 6] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+The low building is a storage shed of some kind. You can enter the door to the east, or continue down the pathway which leads north to south down the edge of the building. Dense bushes lie to the west.
+[Step 47] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 47] Valid Actions: ['get in well', 'take pots', 'take fuse', 'put long down', 'put statue down', 'put all down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 47] Valid Actions: ['take statue', 'east', 'put long down', 'north', 'south']
+New Scene!
+OBSERVATION: Dropped.
+[Step 47] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+The bikeshed is big and dusty. Nobody actually rides a bike to work - that would be madness - but they have a bikeshed anyway. You suspect that employees come out here to smoke. Bushes block your passage to the south - the only path leads east.
+[Step 47] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 9] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 27] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 7] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 48] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 48] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Long Ladder: Dropped.
+[Step 48] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see some Plant Pots and a Coil of wire here.
+[Step 48] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 48] Valid Actions: ['west', 'take statue', 'take long', 'take wire', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 10] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 28] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Fuse down)
+Dropped.
+[Step 8] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 49] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 49] Valid Actions: ['get in well', 'take statue', 'take long', 'take fuse', 'put pots down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 49] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 49] Valid Actions: ['east']
+New Scene!
+OBSERVATION:
+Bike Shed
+[Step 49] Valid Actions: ['west', 'take statue', 'take long', 'put pots down', 'put wire down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 11] Valid Actions: ['northeast', 'up']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Bottom)
+[Step 29] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 9] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 50] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 50] Valid Actions: ['get in well', 'take statue', 'take fuse', 'put pots down', 'put long down', 'put all down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 50] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 50] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 50] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 12] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+You are in a concrete room with a low ceiling. Thick black cables run from ducts in the walls. There is a small yellow label on the duct. A low tunnel leads south west.
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 30] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 10] Valid Actions: ['south', 'east', 'west']
+New Scene!
+OBSERVATION:
+East Of Office
+[Step 51] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 51] Valid Actions: ['get in well', 'take fuse', 'put pots down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 51] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 51] Valid Actions: ['east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 51] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 13] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 31] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 11] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 52] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 52] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 52] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 52] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 52] Valid Actions: ['west', 'take long', 'put pots down', 'put wire down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 14] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 32] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 12] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 53] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 53] Valid Actions: ['get in well', 'take fuse', 'put pots down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 53] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 53] Valid Actions: ['east']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 53] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 15] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 33] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 13] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 54] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 54] Valid Actions: ['get in well', 'take pots', 'take fuse', 'put long down', 'put statue down', 'put all down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 54] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 54] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 54] Valid Actions: ['west', 'take statue', 'take long', 'take wire', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 16] Valid Actions: ['southwest']
+New Scene!
+OBSERVATION:
+Generator Room
+
+There is a big diesel generator in the corner of the room, connected to the cables.
+[Step 34] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 14] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Fuse here.
+[Step 55] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 55] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 55] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'take all']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 55] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 55] Valid Actions: ['east', 'put pots down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 17] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 35] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 15] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 56] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 56] Valid Actions: ['get in well', 'take pots', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 56] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Coil of wire: Taken.
+Plant Pots: Taken.
+[Step 56] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+The carpark is large and mostly empty - perhaps the size of a football field. Surely there should be more cars here. You parked over in the south east corner. The office building lies to the north. Signs point at a delivery bay to the west.
+[Step 56] Valid Actions: ['get in well', 'put plant down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 18] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 36] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 16] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 57] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 57] Valid Actions: ['get in well', 'take pots', 'take fuse', 'put long down', 'put statue down', 'put all down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 57] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 57] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 57] Valid Actions: ['get in well', 'put plant down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 19] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 37] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 17] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 58] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 58] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 58] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 58] Valid Actions: ['west', 'east']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 58] Valid Actions: ['get in well', 'take pots', 'leave well', 'north']
+New Scene!
+OBSERVATION: (the Plant Pots down)
+Dropped.
+[Step 20] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 38] Valid Actions: ['get in well', 'take fuse', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dropped.
+[Step 18] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 59] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 59] Valid Actions: ['get up', 'get in well']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+[Step 59] Valid Actions: ['west', 'take long', 'put pots down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 59] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 59] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Fuse here.
+[Step 21] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 39] Valid Actions: ['get in well', 'take fuse', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+
+You can see a Fuse here.
+[Step 19] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 60] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 60] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 60] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 60] Valid Actions: ['west', 'north', 'southeast']
+New Scene!
+OBSERVATION:
+The Main Carpark
+[Step 60] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Fuse)
+Taken.
+[Step 22] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 40] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Taken.
+[Step 20] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Fuse)
+Taken.
+[Step 61] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 61] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 61] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'take all']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 61] Valid Actions: ['up', 'east']
+New Scene!
+OBSERVATION:
+The Delivery Bay Gateway
+A large gate blocks the delivery bay to the west. There is some sort of control panel mounted by the side of the gate. The carpark lies to the east.
+[Step 61] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Fuse down)
+Dropped.
+[Step 23] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 41] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 21] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Fuse down)
+Dropped.
+[Step 62] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 62] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 62] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Plant Pots: Taken.
+Long Ladder: Taken.
+[Step 62] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 62] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 24] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 42] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 22] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 63] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 63] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 63] Valid Actions: ['west', 'take wire', 'put pots down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 63] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 63] Valid Actions: ['get in well', 'take pots', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see some Plant Pots here.
+[Step 25] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 43] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 23] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 64] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 64] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see a Long Ladder, a Dragon Statue, a Fuse and some Plant Pots here.
+[Step 64] Valid Actions: ['west', 'take long', 'take wire', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 64] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 64] Valid Actions: ['get in well', 'put plant down', 'leave well', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 26] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 44] Valid Actions: ['east', 'put fuse down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 24] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 65] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 65] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 65] Valid Actions: ['west', 'take long', 'put pots down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 65] Valid Actions: ['up', 'east']
+New Scene!
+OBSERVATION:
+The Delivery Bay Gateway
+[Step 65] Valid Actions: ['get in well', 'put plant down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 27] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 45] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'put fuse down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 25] Valid Actions: ['west', 'take statue', 'take long', 'take wire', 'put pots down', 'take all']
+[Step 66] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 66] Valid Actions: ['south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+[Step 66] Valid Actions: ['take statue', 'east', 'put pots down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see a Dragon Statue here.
+[Step 66] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 66] Valid Actions: ['east', 'put pots down', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 28] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 46] Valid Actions: ['west', 'take pots', 'take statue', 'take wire', 'put fuse down', 'put long down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 26] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+[Step 67] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 67] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 67] Valid Actions: ['take statue', 'take wire', 'east', 'put pots down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 67] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+You're standing in the south east corner of the carpark.
+
+You can see your Car (which is closed) here.
+[Step 67] Valid Actions: ['get in well', 'put plant down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 29] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 47] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+[Step 27] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Long Ladder: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+[Step 68] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 68] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 68] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 68] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 68] Valid Actions: ['east', 'put pots down', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 30] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 48] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 28] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 69] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 69] Valid Actions: ['get in well', 'take statue', 'take long', 'take fuse', 'put pots down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 69] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 69] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 69] Valid Actions: ['west', 'take statue', 'take long', 'take wire', 'put pots down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Coil of wire, a Dragon Statue and a Long Ladder here.
+[Step 31] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 49] Valid Actions: ['take long', 'east', 'put pots down', 'put statue down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 29] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION:
+Storage Shed
+[Step 70] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 70] Valid Actions: ['get in well', 'take statue', 'take long', 'take fuse', 'put pots down', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+
+You can see a Long Ladder, a Dragon Statue and a Fuse here.
+[Step 70] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 70] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 70] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Long Ladder: Taken.
+[Step 32] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 50] Valid Actions: ['take statue', 'take long', 'east', 'put pots down', 'put fuse down', 'put wire down', 'put all down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 30] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Long Ladder: Dropped.
+Plant Pots: Dropped.
+[Step 71] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 71] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 71] Valid Actions: ['west', 'take long']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Long Ladder here.
+[Step 71] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+
+You can see your Car (which is closed) here.
+[Step 71] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 33] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 51] Valid Actions: ['take statue', 'take long', 'take wire', 'east', 'put pots down', 'put fuse down', 'put all down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 31] Valid Actions: ['west', 'take pots', 'take statue', 'take wire', 'put long down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 72] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 72] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 72] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 72] Valid Actions: ['get in car', 'close car', 'north']
+New Scene!
+OBSERVATION: You open the Car.
+[Step 72] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 34] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 52] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+New Scene!
+OBSERVATION:
+Storage Shed
+[Step 32] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 73] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 73] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 73] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 73] Valid Actions: ['open car', 'north']
+New Scene!
+OBSERVATION: You close the Car.
+[Step 73] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'put statue down', 'take all']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 35] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 53] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Fuse: Dropped.
+[Step 33] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Long Ladder: Dropped.
+[Step 74] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 74] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 74] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 74] Valid Actions: ['get in car', 'close car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 74] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Long Ladder: Taken.
+Plant Pots: Taken.
+[Step 36] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 54] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+New Scene!
+OBSERVATION: Fuse: Taken.
+Plant Pots: Taken.
+[Step 34] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Dragon Statue: Taken.
+Plant Pots: Taken.
+Coil of wire: Taken.
+[Step 75] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=18, punishment=1.44
+[Step 75] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 75] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 75] Valid Actions: ['get up', 'take gun', 'close car']
+New Scene!
+OBSERVATION:
+Car
+You are sitting inside your car. It smells a bit.
+
+You can see a Gun here.
+[Step 75] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Long Ladder: Dropped.
+Coil of wire: Dropped.
+Dragon Statue: Dropped.
+[Step 37] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 55] Valid Actions: ['west', 'take fuse', 'put pots down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 35] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 76] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 76] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 76] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 76] Valid Actions: ['take gun', 'open car']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 76] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'put statue down', 'take all']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 38] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 56] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 36] Valid Actions: ['west', 'take pots', 'take statue', 'put wire down', 'put long down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 77] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 77] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Plant Pots down)
+Dropped.
+[Step 77] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 77] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 77] Valid Actions: ['west', 'take pots', 'take wire', 'put long down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 39] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 57] Valid Actions: ['west', 'take fuse', 'put pots down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 37] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Coil of wire: Dropped.
+Long Ladder: Dropped.
+[Step 78] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 78] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Plant Pots)
+Taken.
+[Step 78] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 78] Valid Actions: ['get in car', 'close car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+
+You can see your Car (which is empty) here.
+[Step 78] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Dragon Statue: Dropped.
+[Step 40] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 58] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 38] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+Plant Pots: Taken.
+[Step 79] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 79] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 79] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 79] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 79] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Coil of wire: Taken.
+Plant Pots: Taken.
+[Step 41] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 59] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Plant Pots: Dropped.
+[Step 39] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 80] Valid Actions: ['east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+[Step 80] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see some Plant Pots here.
+[Step 80] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 80] Valid Actions: ['take gun', 'open car']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 80] Valid Actions: ['west', 'take long', 'put pots down', 'put wire down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 42] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 60] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Fuse: Taken.
+[Step 40] Valid Actions: ['take pots', 'east', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 81] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 81] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 81] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 81] Valid Actions: ['put gun down', 'open car']
+New Scene!
+OBSERVATION: Taken.
+[Step 81] Valid Actions: ['east', 'put pots down', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 43] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 61] Valid Actions: ['west', 'take pots', 'put fuse down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 41] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 82] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Fuse here.
+[Step 82] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 82] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 82] Valid Actions: ['take gun', 'open car']
+New Scene!
+OBSERVATION: Dropped.
+[Step 82] Valid Actions: ['get in well', 'put pots down', 'put wire down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 44] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 62] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 42] Valid Actions: ['take pots', 'east', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 83] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Fuse)
+Taken.
+[Step 83] Valid Actions: ['get in well', 'take statue', 'take long', 'take fuse', 'put pots down', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see a Long Ladder, a Dragon Statue and a Fuse here.
+[Step 83] Valid Actions: ['take statue', 'take wire', 'east', 'put pots down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 83] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 83] Valid Actions: ['get in well', 'take pots', 'take statue', 'take wire', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Coil of wire: Dropped.
+Dragon Statue: Dropped.
+[Step 45] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 63] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 43] Valid Actions: ['take pots', 'take long', 'east', 'put statue down', 'put wire down', 'put all down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 84] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Fuse down)
+Dropped.
+[Step 84] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 84] Valid Actions: ['east', 'put pots down', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 84] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 84] Valid Actions: ['get in well', 'put pots down', 'put wire down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Coil of wire: Taken.
+Plant Pots: Taken.
+Bushes: That's hardly portable.
+Well: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 46] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 64] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 44] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 85] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 85] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 85] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+[Step 85] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 85] Valid Actions: ['get in well', 'take wire', 'put pots down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 47] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=18, punishment=1.44
+[Step 65] Valid Actions: ['west', 'take fuse', 'put pots down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 45] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'put wire down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 86] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 86] Valid Actions: ['get in well', 'take pots', 'take statue', 'take fuse', 'put long down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 86] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 86] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 86] Valid Actions: ['east', 'put pots down', 'put statue down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 48] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 66] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 46] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Plant Pots: Taken.
+Bushes: That's hardly portable.
+[Step 87] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 87] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 87] Valid Actions: ['west', 'put long down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 87] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 87] Valid Actions: ['take statue', 'take pots', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Dragon Statue: Dropped.
+[Step 49] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=19, punishment=1.52
+[Step 67] Valid Actions: ['west', 'take fuse', 'put pots down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 47] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Long Ladder: Dropped.
+Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 88] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 88] Valid Actions: ['get in well', 'take long', 'put pots down', 'put fuse down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 88] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 88] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 88] Valid Actions: ['take statue', 'east', 'put pots down', 'north', 'south']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 50] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 68] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 48] Valid Actions: ['take statue', 'take long', 'take wire', 'east', 'put pots down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 89] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 89] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 89] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 89] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 89] Valid Actions: ['east', 'put pots down', 'put statue down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 51] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=20, punishment=1.60
+[Step 69] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 49] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+[Step 90] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 90] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Long Ladder: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 90] Valid Actions: ['east', 'put pots down', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 90] Valid Actions: ['west', 'north', 'put gun down', 'southeast']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 90] Valid Actions: ['take statue', 'take pots', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 52] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 70] Valid Actions: ['west', 'take pots', 'put fuse down']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 50] Valid Actions: ['take wire', 'east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 91] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+[Step 91] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Fuse: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 91] Valid Actions: ['take wire', 'east', 'put pots down', 'put statue down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 91] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 91] Valid Actions: ['get in well', 'take wire', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see a Coil of wire here.
+[Step 53] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=21, punishment=1.68
+[Step 71] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 51] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 92] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 92] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 92] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 92] Valid Actions: ['get up', 'close car', 'put gun down']
+New Scene!
+OBSERVATION:
+Car
+You are sitting inside your car. It smells a bit.
+[Step 92] Valid Actions: ['take statue', 'take pots', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see some Plant Pots and a Dragon Statue here.
+[Step 54] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 72] Valid Actions: ['west', 'take pots', 'put fuse down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 52] Valid Actions: ['take statue', 'take long', 'take wire', 'east', 'put pots down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 93] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 93] Valid Actions: ['get in well', 'take pots', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 93] Valid Actions: ['take statue', 'take pots', 'east', 'put wire down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 93] Valid Actions: ['put gun down', 'open car']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 93] Valid Actions: ['get in well', 'take wire', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 55] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=22, punishment=1.76
+[Step 73] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 53] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Coil of wire: Taken.
+Bushes: That's hardly portable.
+[Step 94] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 94] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Fuse: Dropped.
+Dragon Statue: Dropped.
+[Step 94] Valid Actions: ['west', 'take long', 'put wire down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 94] Valid Actions: ['take gun', 'open car']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 94] Valid Actions: ['get in well', 'put wire down', 'leave well', 'north']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 56] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 74] Valid Actions: ['west', 'take pots', 'put fuse down']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 54] Valid Actions: ['put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down', 'south', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 95] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 95] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'put fuse down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 95] Valid Actions: ['west', 'take long', 'take wire', 'take all']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 95] Valid Actions: ['put gun down', 'open car']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 95] Valid Actions: ['get in well', 'take wire', 'leave well', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 57] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=23, punishment=1.84
+[Step 75] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 55] Valid Actions: ['take long', 'put pots down', 'put wire down', 'put statue down', 'put all down', 'south', 'west']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 96] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 96] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 96] Valid Actions: ['take statue', 'take pots', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see some Plant Pots and a Dragon Statue here.
+[Step 96] Valid Actions: ['take gun', 'open car']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 96] Valid Actions: ['get in well', 'put wire down', 'leave well', 'north']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 58] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 76] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 56] Valid Actions: ['take pots', 'take statue', 'take long', 'take wire', 'take all', 'south', 'west']
+New Scene!
+OBSERVATION: Coil of wire: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 97] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 97] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Fuse down)
+Dropped.
+[Step 97] Valid Actions: ['east', 'put pots down', 'put statue down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 97] Valid Actions: ['put gun down', 'open car']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 97] Valid Actions: ['get in well', 'take wire', 'leave well', 'north']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 59] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=24, punishment=1.92
+[Step 77] Valid Actions: ['take statue', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see a Coil of wire, a Dragon Statue and a Long Ladder here.
+[Step 57] Valid Actions: ['take statue', 'take long', 'take wire', 'put pots down', 'take all', 'south', 'west']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 98] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 98] Valid Actions: ['get in well', 'take statue', 'take pots', 'take long', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see a Dragon Statue, a Long Ladder and some Plant Pots here.
+[Step 98] Valid Actions: ['take statue', 'east', 'put pots down', 'north', 'south']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 98] Valid Actions: ['take gun', 'open car']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 98] Valid Actions: ['get in well', 'put wire down', 'leave well', 'north']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 60] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=18, punishment=1.44
+[Step 78] Valid Actions: ['east', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+[Step 58] Valid Actions: ['put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down', 'south', 'west']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Office Building: That's hardly portable.
+Bushes: That's hardly portable.
+[Step 99] Valid Actions: ['get in well', 'take fuse', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dropped.
+[Step 99] Valid Actions: ['get in well', 'put plant down', 'put statue down', 'put long down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Plant Pots: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 99] Valid Actions: ['west', 'take long', 'take wire', 'put pots down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Coil of wire and a Long Ladder here.
+[Step 99] Valid Actions: ['put gun down', 'open car']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 99] Valid Actions: ['take statue', 'take pots', 'east', 'put wire down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 61] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=25, punishment=2.00
+--------------------------------------
+| critc_loss              | 0.864    |
+| train/Last100Episode... | 2.62     |
+--------------------------------------
+[Step 79] Valid Actions: ['take statue', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 59] Valid Actions: ['take pots', 'take statue', 'take long', 'take wire', 'take all', 'south', 'west']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Coil of wire: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 100] Valid Actions: ['get in well', 'put fuse down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Taken.
+[Step 100] Valid Actions: ['get in well', 'take statue', 'take pots', 'take long', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Long Ladder: Dropped.
+Dragon Statue: Dropped.
+[Step 100] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Long Ladder: Taken.
+[Step 100] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 100] Valid Actions: ['east', 'put pots down', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 62] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=19, punishment=1.52
+[Step 80] Valid Actions: ['east', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 60] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 101] Valid Actions: ['east', 'put fuse down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 101] Valid Actions: ['get in well', 'put plant down', 'put statue down', 'put long down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 101] Valid Actions: ['west', 'take pots', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+[Step 101] Valid Actions: ['put gun down', 'open car']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 101] Valid Actions: ['get in well', 'put pots down', 'put wire down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 63] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=26, punishment=2.08
+[Step 81] Valid Actions: ['take statue', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 61] Valid Actions: ['west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 102] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'put fuse down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 102] Valid Actions: ['get in well', 'take statue', 'take pots', 'take long', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 102] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+[Step 102] Valid Actions: ['take gun', 'open car']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 102] Valid Actions: ['get in well', 'take statue', 'put pots down', 'put wire down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 64] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=20, punishment=1.60
+[Step 82] Valid Actions: ['take statue', 'take long', 'east', 'put wire down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 62] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 103] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'put wire down', 'put fuse down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 103] Valid Actions: ['get in well', 'put plant down', 'put statue down', 'put long down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 103] Valid Actions: ['take statue', 'east', 'put pots down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 103] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 103] Valid Actions: ['get in well', 'take statue', 'put pots down', 'put wire down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+
+You can see a Dragon Statue here.
+[Step 65] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=27, punishment=2.16
+[Step 83] Valid Actions: ['east', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+[Step 63] Valid Actions: ['west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 104] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take fuse', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 104] Valid Actions: ['get in well', 'take pots', 'put statue down', 'put long down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 104] Valid Actions: ['take statue', 'take wire', 'east', 'put pots down', 'put long down', 'put all down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 104] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 104] Valid Actions: ['get up', 'take other', 'get in well', 'put pots down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 66] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=21, punishment=1.68
+[Step 84] Valid Actions: ['take statue', 'east', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 64] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 105] Valid Actions: ['west', 'take statue', 'take long', 'take fuse', 'put pots down', 'put wire down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 105] Valid Actions: ['get up', 'take other', 'get in well', 'put other down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 105] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Plant Pots: Dropped.
+[Step 105] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 105] Valid Actions: ['get in well', 'take statue', 'put pots down', 'put wire down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see a Dragon Statue here.
+[Step 67] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=28, punishment=2.24
+[Step 85] Valid Actions: ['get in well', 'put long down', 'put wire down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 65] Valid Actions: ['take pots', 'take statue', 'take long', 'take wire', 'take all', 'south', 'west']
+New Scene!
+OBSERVATION:
+Damp Corner
+
+You can see some Plant Pots, a Dragon Statue, a Coil of wire and a Long Ladder here.
+[Step 106] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Coil of wire: Dropped.
+[Step 106] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'put other down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 106] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'put wire down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 106] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 106] Valid Actions: ['get in well', 'take statue', 'take wire', 'put pots down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 68] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 86] Valid Actions: ['get in well', 'take long', 'put wire down', 'leave well', 'north']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 66] Valid Actions: ['take statue', 'take long', 'take wire', 'put pots down', 'take all', 'south', 'west']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 107] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take fuse', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 107] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: (the Dragon Statue down)
+Dropped.
+[Step 107] Valid Actions: ['get in well', 'put wire down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 107] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 107] Valid Actions: ['get in well', 'take statue', 'put pots down', 'put wire down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 69] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=29, punishment=2.32
+[Step 87] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 67] Valid Actions: ['put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down', 'south', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 108] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put long down', 'put wire down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Fuse: Taken.
+Long Ladder: Taken.
+Dragon Statue: Taken.
+[Step 108] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Murky Water: Urgh - no way!
+[Step 108] Valid Actions: ['get up', 'take other', 'get in well', 'put other down']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Fuse here.
+[Step 108] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 108] Valid Actions: ['get in well', 'take pots', 'take statue', 'take wire', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Coil of wire: Dropped.
+Plant Pots: Dropped.
+[Step 70] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=22, punishment=1.76
+[Step 88] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 68] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 109] Valid Actions: ['west', 'take fuse', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 109] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Long Ladder: Dropped.
+Dragon Statue: Dropped.
+[Step 109] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION: (the Fuse)
+Taken.
+[Step 109] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 109] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 71] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=30, punishment=2.40
+[Step 89] Valid Actions: ['get up', 'take other', 'get in well']
+New Scene!
+OBSERVATION: (the Coil of wire down)
+Dropped.
+[Step 69] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 110] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 110] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 110] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Coil of wire: Dropped.
+[Step 110] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 110] Valid Actions: ['west', 'take long']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Long Ladder here.
+[Step 72] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=23, punishment=1.84
+[Step 90] Valid Actions: ['get up', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Coil of wire)
+Taken.
+[Step 70] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Office Building: That's hardly portable.
+Bushes: That's hardly portable.
+[Step 111] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Long Ladder: Dropped.
+Plant Pots: Dropped.
+Coil of wire: Dropped.
+[Step 111] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 111] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Fuse: Taken.
+Murky Water: Urgh - no way!
+Well: That's hardly portable.
+[Step 111] Valid Actions: ['get up', 'take gun', 'close car']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 111] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 73] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=31, punishment=2.48
+[Step 91] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 71] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 112] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Plant Pots: Taken.
+Long Ladder: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 112] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 112] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 112] Valid Actions: ['get up', 'close car', 'put gun down']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 112] Valid Actions: ['west', 'take long']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 74] Valid Actions: ['southwest']
+Punishing repeated scene: times_visited=24, punishment=1.92
+[Step 92] Valid Actions: ['get in well', 'take long', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see a Long Ladder here.
+[Step 72] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 113] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 113] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 113] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 113] Valid Actions: ['get in car', 'close car', 'put gun down', 'put gun in car', 'north']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 113] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 75] Valid Actions: ['northeast', 'up']
+Punishing repeated scene: times_visited=32, punishment=2.56
+[Step 93] Valid Actions: ['take statue', 'east', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see a Dragon Statue here.
+[Step 73] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 114] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 114] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'put other down', 'take all']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 114] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 114] Valid Actions: ['get in car', 'take gun', 'close car', 'push gun to car', 'north']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 114] Valid Actions: ['south', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 76] Valid Actions: ['get in floor', 'north']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 94] Valid Actions: ['west', 'take pots', 'take fuse', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Fuse and some Plant Pots here.
+[Step 74] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 115] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 115] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Murky Water: Urgh - no way!
+[Step 115] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 115] Valid Actions: ['get up', 'close car']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 115] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 77] Valid Actions: ['north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 95] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 75] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 116] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'put long down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 116] Valid Actions: ['get up', 'take other', 'get in well', 'put other down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 116] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 116] Valid Actions: ['get in car', 'take gun', 'close car', 'push gun to car', 'north']
+New Scene!
+OBSERVATION:
+Corner Of the Carpark
+
+You can see a Gun and your Car (which is empty) here.
+[Step 116] Valid Actions: ['get in well', 'take pots', 'take statue', 'take wire', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 78] Valid Actions: ['south', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 96] Valid Actions: ['west', 'take fuse', 'put pots down']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 76] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+You are concealed in a thick clump of bushes. The office building is barely visible to the north.
+[Step 117] Valid Actions: ['west', 'take fuse', 'put long down']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Fuse here.
+[Step 117] Valid Actions: ['get up', 'take other', 'get in well', 'put other down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 117] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+
+You can see a Coil of wire and a Fuse here.
+[Step 117] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 117] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 79] Valid Actions: ['south', 'west']
+[Step 97] Valid Actions: ['take statue', 'east', 'put pots down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 77] Valid Actions: ['get in floor', 'north']
+New Scene!
+OBSERVATION:
+Maintanence Stairwell (Top)
+Secluded by thick bushes, you are standing at the top of a stone stairwell, set into the floor. It smells of damp, and moss grows on the steps.
+[Step 118] Valid Actions: ['take statue', 'take pots', 'take wire', 'east', 'put long down', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see a Coil of wire, some Plant Pots and a Dragon Statue here.
+[Step 118] Valid Actions: ['get up', 'take other', 'take statue', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 118] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 118] Valid Actions: ['get in car', 'take gun', 'close car', 'push gun to car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 118] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 80] Valid Actions: ['east', 'north', 'south']
+[Step 98] Valid Actions: ['east', 'put pots down', 'put statue down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 78] Valid Actions: ['north', 'south']
+New Scene!
+OBSERVATION:
+Some Bushes
+[Step 119] Valid Actions: ['take statue', 'take pots', 'east', 'put long down', 'put wire down', 'put all down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 119] Valid Actions: ['get up', 'take other', 'take statue', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 119] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION:
+Bottom Of The Well
+You are lodged at the bottom of the well, your feet against one side and your back against the other. You can't help but think these stains will never come out. Yuck. Below you is a few inches of murky water.
+[Step 119] Valid Actions: ['get up', 'close car']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 119] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 81] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+[Step 99] Valid Actions: ['take statue', 'take pots', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 79] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+New Scene!
+OBSERVATION:
+East Of Office
+
+You can see some Plant Pots, a Dragon Statue, a Coil of wire and a Long Ladder here.
+[Step 120] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 120] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Murky Water: Urgh - no way!
+[Step 120] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 120] Valid Actions: ['get in car', 'take gun', 'close car', 'push gun to car', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 120] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 82] Valid Actions: ['east', 'north', 'south']
+[Step 100] Valid Actions: ['east', 'put pots down', 'put statue down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 80] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+Office Building: That's hardly portable.
+[Step 121] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Plant Pots: Dropped.
+Coil of wire: Dropped.
+Long Ladder: Dropped.
+[Step 121] Valid Actions: ['get up', 'take other', 'take statue', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+Long Ladder: Dropped.
+[Step 121] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 121] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 121] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 83] Valid Actions: ['south', 'west']
+[Step 101] Valid Actions: ['take statue', 'take pots', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 81] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 122] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Coil of wire: Taken.
+Plant Pots: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 122] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 122] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 122] Valid Actions: ['up', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 122] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 84] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 102] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 82] Valid Actions: ['take pots', 'take long', 'take wire', 'east', 'west', 'south', 'put statue down', 'take all']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 123] Valid Actions: ['west', 'take fuse', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 123] Valid Actions: ['get up', 'take other', 'get in well', 'put other down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 123] Valid Actions: ['get up', 'take other', 'get in well', 'put other down']
+New Scene!
+OBSERVATION: (the Coil of wire)
+Taken.
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 12 out of a possible 150, in 370 turns, earning you the rank of "Afwul".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+[Step 123] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 85] Valid Actions: ['get in well', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+[Step 103] Valid Actions: ['west', 'take fuse', 'put statue down']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Fuse here.
+[Step 83] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+Office Building: That's hardly portable.
+[Step 124] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 124] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+[Step 124] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 124] Valid Actions: ['get up', 'take other', 'get in well']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 86] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 104] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see some Plant Pots here.
+[Step 84] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+Dragon Statue: Dropped.
+[Step 125] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Coil of wire: Taken.
+Plant Pots: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+[Step 125] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put fuse down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Fuse: Taken.
+Long Ladder: Taken.
+Well: That's hardly portable.
+Murky Water: Urgh - no way!
+[Step 125] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 0] Valid Actions: ['west', 'north', 'southeast']
+[Step 125] Valid Actions: ['get up', 'get in well', 'put other down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 87] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 105] Valid Actions: ['west', 'take fuse', 'put statue down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 85] Valid Actions: ['east', 'west', 'south', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Plant Pots: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+Office Building: That's hardly portable.
+[Step 126] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+Coil of wire: Dropped.
+Long Ladder: Dropped.
+[Step 126] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 126] Valid Actions: ['get up', 'get in well', 'put other down', 'put wire down', 'put all down']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 126] Valid Actions: ['get in well', 'take pots', 'take statue', 'take wire', 'put fuse down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 88] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 106] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 86] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'west', 'south', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 127] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 127] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 127] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 2] Valid Actions: ['west', 'north', 'southeast']
+[Step 127] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put wire down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 89] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+You are standing is a huge storage shed. The door out leads west.
+
+You can see a Long Ladder, some Plant Pots, a Coil of wire and a Dragon Statue here.
+[Step 107] Valid Actions: ['get in well', 'take long', 'put statue down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 87] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'west', 'south', 'put wire down', 'take all']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 128] Valid Actions: ['west', 'take pots', 'put fuse down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 128] Valid Actions: ['get up', 'take other', 'get in well', 'put other down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 128] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 3] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 128] Valid Actions: ['get in well', 'take wire', 'put pots down', 'put fuse down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 90] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'put wire down', 'take all']
+New Scene!
+OBSERVATION: Taken.
+[Step 108] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 88] Valid Actions: ['east', 'west', 'south', 'north', 'put wire down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 129] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Long Ladder: Dropped.
+[Step 129] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'put other down', 'take all']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 129] Valid Actions: ['get in well', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 4] Valid Actions: ['south']
+New Scene!
+OBSERVATION:
+Main Entrance
+The main entrance to the building is plush and opulent. And locked. The lights are off and the doors are securely locked. Through the toughened glass you can see a half finished cup of coffee (or perhaps tea - no accounting for taste) sitting on the receptionists desk. It looks like someone left in a hurry. The only way out is back south.
+[Step 129] Valid Actions: ['get in well', 'take statue', 'take wire', 'put pots down', 'put fuse down', 'put all down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 91] Valid Actions: ['west', 'take statue', 'take long', 'put pots down', 'put wire down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 109] Valid Actions: ['put statue down', 'south', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 89] Valid Actions: ['west', 'north', 'put wire down', 'southeast']
+[Step 130] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Plant Pots: Taken.
+[Step 130] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Fuse: Taken.
+Well: That's hardly portable.
+Murky Water: Urgh - no way!
+[Step 130] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see some Plant Pots, a Long Ladder and a Dragon Statue here.
+[Step 5] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 130] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put wire down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Coil of wire: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 92] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Dragon Statue: Taken.
+[Step 110] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 90] Valid Actions: ['up', 'east', 'put wire down']
+[Step 131] Valid Actions: ['west', 'take wire', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 131] Valid Actions: ['get up', 'take other', 'get in well', 'put other down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 131] Valid Actions: ['take statue', 'take long', 'east', 'put pots down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=11, punishment=0.88
+[Step 6] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 131] Valid Actions: ['get in well', 'take pots', 'put fuse down', 'put wire down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 93] Valid Actions: ['west', 'take long', 'put pots down', 'put wire down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Dropped.
+[Step 111] Valid Actions: ['get in well', 'take long', 'put statue down', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 13 out of a possible 150, in 274 turns, earning you the rank of "Afwul".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+[Step 132] Valid Actions: ['west', 'take statue', 'take wire', 'put pots down', 'put fuse down', 'put long down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 132] Valid Actions: ['get up', 'take other', 'take long', 'take fuse', 'get in well', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 132] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=18, punishment=1.44
+[Step 7] Valid Actions: ['open car', 'north']
+[Step 132] Valid Actions: ['east', 'put statue down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 94] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 112] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 133] Valid Actions: ['west', 'take wire', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 133] Valid Actions: ['get up', 'take other', 'take fuse', 'get in well', 'put other down', 'take all']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 133] Valid Actions: ['take pots', 'take long', 'east', 'put statue down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 8] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 133] Valid Actions: ['take statue', 'east', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 95] Valid Actions: ['east', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 113] Valid Actions: ['west', 'take fuse', 'put statue down']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 0] Valid Actions: ['west', 'north', 'southeast']
+[Step 134] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Plant Pots: Dropped.
+Fuse: Dropped.
+Long Ladder: Dropped.
+[Step 134] Valid Actions: ['get up', 'get in other', 'put other down', 'put statue down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 134] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+[Step 9] Valid Actions: ['up', 'east']
+[Step 134] Valid Actions: ['take statue', 'take fuse', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Coil of wire: Dropped.
+Fuse: Dropped.
+[Step 96] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'put statue down', 'put all down', 'take all']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see some Plant Pots and a Long Ladder here.
+[Step 114] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 135] Valid Actions: ['west', 'put pots down', 'put wire down', 'put fuse down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Fuse: Taken.
+Plant Pots: Taken.
+Dragon Statue: Taken.
+Coil of wire: Taken.
+[Step 135] Valid Actions: ['get in well', 'take pots', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+
+You can see some Plant Pots here.
+[Step 135] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Plant Pots: Dropped.
+Dragon Statue: Dropped.
+[Step 10] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 135] Valid Actions: ['east', 'put statue down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Fuse: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 97] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Long Ladder: Taken.
+[Step 115] Valid Actions: ['put statue down', 'south', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 2] Valid Actions: ['west', 'north', 'southeast']
+[Step 136] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Coil of wire: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+Fuse: Dropped.
+Long Ladder: Dropped.
+[Step 136] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 136] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Plant Pots: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+[Step 11] Valid Actions: ['open car', 'north']
+[Step 136] Valid Actions: ['take statue', 'take fuse', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Fuse: Dropped.
+[Step 98] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Plant Pots: Dropped.
+Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 116] Valid Actions: ['take pots', 'east', 'put statue down', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 3] Valid Actions: ['open car', 'north']
+[Step 137] Valid Actions: ['west', 'put pots down', 'put wire down', 'put fuse down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 137] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Dragon Statue: Taken.
+Fuse: Taken.
+Plant Pots: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 137] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 12] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 137] Valid Actions: ['east', 'put statue down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 99] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Plant Pots: Taken.
+Long Ladder: Taken.
+[Step 117] Valid Actions: ['west', 'take fuse', 'put statue down']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 4] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 138] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 138] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 138] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 13] Valid Actions: ['up', 'east']
+[Step 138] Valid Actions: ['take fuse', 'east', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 100] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 118] Valid Actions: ['west', 'put statue down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 5] Valid Actions: ['up', 'east']
+[Step 139] Valid Actions: ['west', 'put pots down', 'put wire down', 'put fuse down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION:
+Storage Shed
+[Step 139] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Fuse: Dropped.
+Dragon Statue: Dropped.
+Long Ladder: Dropped.
+[Step 139] Valid Actions: ['take statue', 'take pots', 'take long', 'east', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 14] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 139] Valid Actions: ['take statue', 'take fuse', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 101] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION:
+Storage Shed
+[Step 119] Valid Actions: ['take pots', 'east', 'put statue down', 'put fuse down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=7, punishment=0.56
+New Scene!
+OBSERVATION: You slice your neck on the razor-wire running along the top of the gate.
+
+
+    *** You have died ***
+
+
+In that game you scored 4 out of a possible 150, in 19 turns, earning you the rank of "Hideously Awful".
+
+Would you like to RESTART, RESTORE a saved game, UNDO your last move or QUIT
+[Step 140] Valid Actions: ['west', 'take long', 'put pots down', 'put fuse down', 'put wire down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 140] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=12, punishment=0.96
+[Step 140] Valid Actions: ['take statue', 'take pots', 'east', 'put long down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 15] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 140] Valid Actions: ['take statue', 'take fuse', 'east', 'put wire down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 102] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 120] Valid Actions: ['east', 'put pots down', 'put statue down', 'put fuse down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 141] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Coil of wire: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+Fuse: Dropped.
+[Step 141] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 141] Valid Actions: ['west', 'put long down']
+New Scene!
+OBSERVATION:
+Storage Shed
+[Step 16] Valid Actions: ['south', 'east', 'west']
+[Step 141] Valid Actions: ['get in well', 'take pots', 'put wire down', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 103] Valid Actions: ['take statue', 'east', 'put pots down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 121] Valid Actions: ['take statue', 'take pots', 'take fuse', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Fuse: Dropped.
+Dragon Statue: Dropped.
+[Step 0] Valid Actions: ['west', 'east']
+[Step 142] Valid Actions: ['west', 'take statue', 'take long', 'take wire', 'take fuse', 'put pots down', 'take all']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 142] Valid Actions: ['get up', 'get in well']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 142] Valid Actions: ['take statue', 'take pots', 'east', 'put long down', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see a Dragon Statue and some Plant Pots here.
+[Step 17] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 142] Valid Actions: ['get in well', 'put plant down', 'put wire down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 104] Valid Actions: ['take statue', 'take wire', 'east', 'put pots down', 'put long down', 'put all down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 122] Valid Actions: ['east', 'put pots down', 'put statue down', 'put fuse down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Fuse: Taken.
+Plant Pots: Taken.
+Bushes: That's hardly portable.
+[Step 1] Valid Actions: ['south', 'north', 'east', 'west']
+[Step 143] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put long down', 'put wire down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Fuse: Taken.
+Dragon Statue: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+[Step 143] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 143] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Plant Pots: Taken.
+Bushes: That's hardly portable.
+[Step 18] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 143] Valid Actions: ['get in well', 'take pots', 'take wire', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Coil of wire: Dropped.
+[Step 105] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 123] Valid Actions: ['take statue', 'east', 'put pots down', 'put fuse down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=16, punishment=1.28
+[Step 2] Valid Actions: ['south', 'east', 'west']
+[Step 144] Valid Actions: ['west', 'take fuse', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 144] Valid Actions: ['get in well', 'take pots', 'take long', 'take fuse', 'put statue down', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 144] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 19] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 144] Valid Actions: ['get in well', 'take pots', 'take wire', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION:
+Abandoned Well
+At the end of the path lies a clearing in the bushes, containing an old abandoned well, covered in wild plants. You estimate it to be about 5 meters deep and about a meter in diameter. There are footprints in the dirt next to the well - someone has been here recently. The path leads north, between thick bushes.
+
+You can see a Coil of wire and some Plant Pots here.
+[Step 106] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Long Ladder: Dropped.
+Plant Pots: Dropped.
+[Step 124] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 3] Valid Actions: ['south', 'west']
+[Step 145] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Coil of wire: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 145] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Fuse: Taken.
+Plant Pots: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 145] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Dragon Statue: Dropped.
+Long Ladder: Dropped.
+[Step 20] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=7, punishment=0.56
+[Step 145] Valid Actions: ['get in well', 'put plant down', 'put wire down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Plant Pots: Taken.
+Bushes: That's hardly portable.
+Well: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 107] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Long Ladder: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+Bushes: That's hardly portable.
+[Step 125] Valid Actions: ['west', 'take pots', 'put fuse down']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 4] Valid Actions: ['east', 'north', 'south']
+[Step 146] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put long down', 'put wire down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Fuse: Taken.
+[Step 146] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Fuse: Dropped.
+Long Ladder: Dropped.
+Dragon Statue: Dropped.
+[Step 146] Valid Actions: ['west', 'take pots', 'take long', 'put statue down', 'take all']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 21] Valid Actions: ['south', 'north', 'east', 'west']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 146] Valid Actions: ['get in well', 'put plant down', 'put wire down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 108] Valid Actions: ['take long', 'east', 'put pots down', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 126] Valid Actions: ['take statue', 'east', 'put fuse down', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 5] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+[Step 147] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Long Ladder: Dropped.
+Coil of wire: Dropped.
+Dragon Statue: Dropped.
+Plant Pots: Dropped.
+[Step 147] Valid Actions: ['get in well', 'put pots down', 'put fuse down', 'put long down', 'put statue down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Long Ladder: Taken.
+Fuse: Taken.
+Plant Pots: Taken.
+Well: That's hardly portable.
+Bushes: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 147] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Plant Pots: Taken.
+[Step 22] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 147] Valid Actions: ['get in well', 'take pots', 'take wire', 'take all', 'leave well', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 109] Valid Actions: ['take statue', 'take pots', 'take long', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+[Step 127] Valid Actions: ['put fuse down', 'south', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 6] Valid Actions: ['west', 'take statue', 'take long', 'take wire', 'put pots down', 'take all']
+[Step 148] Valid Actions: ['west', 'take pots', 'take statue', 'take wire', 'take fuse', 'put long down', 'take all']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 148] Valid Actions: ['get in well', 'take long', 'put pots down', 'put fuse down', 'put statue down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=13, punishment=1.04
+[Step 148] Valid Actions: ['west', 'take long', 'put pots down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=19, punishment=1.52
+[Step 23] Valid Actions: ['open car', 'north']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 148] Valid Actions: ['get in well', 'take pots', 'put wire down', 'leave well', 'north']
+Punishing repeated scene: times_visited=18, punishment=1.44
+[Step 110] Valid Actions: ['take pots', 'take long', 'take wire', 'east', 'put statue down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 128] Valid Actions: ['take statue', 'east', 'put fuse down', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 7] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Coil of wire: Taken.
+Dragon Statue: Taken.
+[Step 149] Valid Actions: ['west', 'put pots down', 'put wire down', 'put fuse down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Dragon Statue: Taken.
+Coil of wire: Taken.
+Fuse: Taken.
+[Step 149] Valid Actions: ['get in well', 'take pots', 'take statue', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Fuse: Dropped.
+Dragon Statue: Dropped.
+[Step 149] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Dragon Statue: Dropped.
+[Step 24] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=9, punishment=0.72
+[Step 149] Valid Actions: ['take statue', 'take fuse', 'east', 'put wire down', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION:
+Storage Shed Door
+
+You can see a Dragon Statue and a Fuse here.
+[Step 111] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put wire down', 'put all down', 'north', 'south']
+New Scene!
+OBSERVATION: Plant Pots: Taken.
+Coil of wire: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+[Step 129] Valid Actions: ['put fuse down', 'south', 'west']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 8] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put statue down', 'put all down']
+[Step 150] Valid Actions: ['west', 'take statue', 'put pots down', 'put fuse down', 'put wire down', 'put long down', 'put all down']
+Punishing repeated scene: times_visited=8, punishment=0.64
+[Step 150] Valid Actions: ['east', 'north', 'south']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 150] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Plant Pots: Taken.
+Long Ladder: Taken.
+[Step 25] Valid Actions: ['up', 'east']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 150] Valid Actions: ['take fuse', 'east', 'put statue down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=19, punishment=1.52
+[Step 112] Valid Actions: ['take wire', 'east', 'put pots down', 'put statue down', 'put long down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 130] Valid Actions: ['take statue', 'east', 'put fuse down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 9] Valid Actions: ['west', 'take pots', 'take long', 'put wire down', 'put statue down', 'put all down', 'take all']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 151] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take fuse', 'take all']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+Long Ladder: Dropped.
+[Step 151] Valid Actions: ['west', 'take wire']
+New Scene!
+OBSERVATION:
+Storage Shed
+
+You can see a Coil of wire here.
+[Step 151] Valid Actions: ['west', 'take long', 'put pots down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=20, punishment=1.60
+[Step 26] Valid Actions: ['west', 'north', 'southeast']
+Punishing repeated scene: times_visited=10, punishment=0.80
+[Step 151] Valid Actions: ['take fuse', 'take wire', 'east', 'put statue down', 'take all', 'north', 'south']
+Punishing repeated scene: times_visited=17, punishment=1.36
+[Step 113] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 131] Valid Actions: ['get in well', 'take long', 'put fuse down', 'leave well', 'north']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 10] Valid Actions: ['west', 'take pots', 'put wire down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 152] Valid Actions: ['west', 'put pots down', 'put fuse down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Long Ladder: Taken.
+Plant Pots: Taken.
+Coil of wire: Taken.
+Fuse: Taken.
+Dragon Statue: Taken.
+[Step 152] Valid Actions: ['west', 'put wire down']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 152] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=15, punishment=1.20
+[Step 27] Valid Actions: ['open car', 'north']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 152] Valid Actions: ['take wire', 'east', 'put statue down', 'put fuse down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=20, punishment=1.60
+[Step 114] Valid Actions: ['west', 'take long', 'put pots down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=6, punishment=0.48
+[Step 132] Valid Actions: ['get in well', 'put long down', 'put fuse down', 'put all down', 'leave well', 'north']
+Punishing repeated scene: times_visited=14, punishment=1.12
+[Step 11] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Dragon Statue: Dropped.
+Coil of wire: Dropped.
+[Step 153] Valid Actions: ['east', 'put pots down', 'put statue down', 'put long down', 'put fuse down', 'put wire down', 'put all down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 153] Valid Actions: ['east', 'put wire down', 'north', 'south']
+Punishing repeated scene: times_visited=4, punishment=0.32
+[Step 153] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take all']
+Punishing repeated scene: times_visited=3, punishment=0.24
+[Step 28] Valid Actions: ['get in car', 'close car', 'north']
+[Step 153] Valid Actions: ['put fuse down', 'put statue down', 'put all down', 'south', 'west']
+Punishing repeated scene: times_visited=5, punishment=0.40
+[Step 115] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take all']
+New Scene!
+OBSERVATION: Plant Pots: Dropped.
+Dragon Statue: Dropped.
+[Step 133] Valid Actions: ['get in well', 'take long', 'take fuse', 'take all', 'leave well', 'north']
+New Scene!
+OBSERVATION: Long Ladder: Dropped.
+Fuse: Dropped.
+[Step 12] Valid Actions: ['west', 'put pots down', 'put wire down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Coil of wire: Taken.
+Dragon Statue: Taken.
+Long Ladder: Taken.
+Plant Pots: Taken.
+[Step 154] Valid Actions: ['take statue', 'take pots', 'take long', 'take fuse', 'take wire', 'east', 'take all', 'north', 'south']
+New Scene!
+OBSERVATION: Dragon Statue: Dropped.
+Fuse: Dropped.
+Coil of wire: Dropped.
+Plant Pots: Dropped.
+Long Ladder: Dropped.
+[Step 154] Valid Actions: ['west', 'put wire down']
+New Scene!
+OBSERVATION:
+Storage Shed
+[Step 154] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 29] Valid Actions: ['get up', 'take gun', 'close car']
+[Step 154] Valid Actions: ['take statue', 'take fuse', 'take all', 'south', 'west']
+New Scene!
+OBSERVATION: Fuse: Dropped.
+Dragon Statue: Dropped.
+[Step 116] Valid Actions: ['west', 'put pots down', 'put long down', 'put statue down', 'put all down']
+New Scene!
+OBSERVATION: Dragon Statue: Taken.
+Plant Pots: Taken.
+Long Ladder: Taken.
+[Step 134] Valid Actions: ['get in well', 'put long down', 'put fuse down', 'put all down', 'leave well', 'north']
+New Scene!
+OBSERVATION: Fuse: Taken.
+Long Ladder: Taken.
+Bushes: That's hardly portable.
+Well: That's hardly portable.
+Footprints: That's hardly portable.
+Wild Plants: That's hardly portable.
+[Step 13] Valid Actions: ['west', 'take pots', 'take statue', 'take long', 'take wire', 'take all']
+Traceback (most recent call last):
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 223, in <module>
+    main()
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 209, in main
+    train(agent, envs, args, args.max_steps, args.update_freq,
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/train.py", line 135, in train
+    ob, reward, done, info = env.step(action)
+                             ^^^^^^^^^^^^^^^^
+  File "/root/Github/Comp579Text-based-adventure-games-using-SAC/Learning to play text-based games with maximum entropy rl copy/env.py", line 104, in step
+    valid = self.env.get_valid_actions(use_parallel=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/myenv/lib/python3.12/site-packages/jericho/jericho.py", line 574, in get_valid_actions
+    diff2acts         = self._filter_candidate_actions(candidate_actions, use_ctypes, use_parallel)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/myenv/lib/python3.12/site-packages/jericho/jericho.py", line 978, in _filter_candidate_actions
+    valid_cnt = self.frotz_lib.filter_candidate_actions(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

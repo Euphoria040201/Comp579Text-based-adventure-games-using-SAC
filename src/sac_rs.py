@@ -73,6 +73,7 @@ class SACAgent(nn.Module):
         set_seed_everywhere(args.seed)
         self.save_path =  os.path.join( args.output_dir, 'model'+'.pt')
 
+
     def train(self, training=True):
         self.training = training
         self.actor.train(training)
@@ -202,7 +203,9 @@ class SACAgent(nn.Module):
         return actor_loss
 
     def update(self, args,replay_buffer, logger, step):
+
         transitions = replay_buffer.sample(self.batch_size, self.device, self)
+
         batch = Transition(*zip(*transitions))
 
         critic_loss = self.update_critic(args.reward_shaping, batch, logger,step)
@@ -231,6 +234,7 @@ class SACAgent(nn.Module):
             }, self.save_path) #pjoin(self.save_path, 'model.pt')
         except Exception as e:
             print("Error saving model.")
+
 
 
 class REMCritic(nn.Module):
@@ -584,3 +588,4 @@ class RNDAgent(nn.Module):
         self.rnd_optimizer.step()
 
         return Q1_loss + Q2_loss, rnd_loss
+

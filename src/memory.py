@@ -2,6 +2,7 @@ from collections import deque
 import numpy as np
 import random
 import torch
+
 from collections import namedtuple
 State = namedtuple('State', ('obs','look', 'inv'))
 Transition = namedtuple('Transition', ('state', 'next_state', 'act', 'valids','next_valids', 'rew', 'done'))
@@ -12,6 +13,7 @@ class ReplayMemory(object):
         self.memory = []
         self.position = 0
         self.sampling_strategy = sampling_strategy
+
 
     def push(self, transition):
         if len(self.memory) < self.capacity:
