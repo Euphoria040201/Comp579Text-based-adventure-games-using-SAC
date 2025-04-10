@@ -10,9 +10,10 @@
 source myenv/bin/activate
 module load miniconda
 conda activate /home/mila/q/qingchen.hu/textgame_579/src/myenv
-
+cd /home/mila/q/qingchen.hu/textgame_579/src/
 python train.py --output_dir 'output' \
-    --rom_path 'z-machine-games-master/jericho-game-suite/zork3.z5' \
+    --rom_path 'z-machine-games-master/jericho-game-suite/zork1.z5' \
     --spm_path 'unigram_8k.model' --wandb=1 --wandb_project="579_textgame"\
-    --max_steps=5000
+    --max_steps=5000 --memory_size=10000\
+    --agent_type=REM --sample_strat='uniform'
     
