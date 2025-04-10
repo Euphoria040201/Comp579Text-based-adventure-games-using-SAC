@@ -45,7 +45,7 @@ def parse_args():
     parser.add_argument('--rom_path', default= '/905.z5')
     parser.add_argument('--env_name', default='game_name')
     parser.add_argument('--spm_path', default='.../unigram_8k.model')
-    parser.add_argument('--env_step_limit', default=100, type=int)
+    parser.add_argument('--env_step_limit', default=200, type=int)
     parser.add_argument('--seed', default=0, type=int)
     parser.add_argument('--num_envs', default=8, type=int)
     parser.add_argument('--max_steps', default=1000000, type=int)
@@ -133,13 +133,15 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
 
             ob, reward, done, info = env.step(action)
+            
             prev_score = old_scores[i]
             score = info['score']
             score_diff = score - prev_score
+            if score_diff < 0:
+                done = True
             if score_diff != 0:
                 reward = score_diff
             old_scores[i] = score
-
 
             next_obs, next_rewards, next_dones, next_infos = \
                 next_obs + [ob], next_rewards + [reward], next_dones + [done], next_infos + [info]

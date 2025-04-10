@@ -28,21 +28,11 @@ class JerichoEnv:
         self.end_scores = []
         #The code below for auxiliary reward
         self.good_word_list = [
-            "better", "success", "open", "unlock", "new", "discover",
-            "explore", "gain", "win", "reward", "treasure", "gold",
-            "magic", "power", "strong", "found", "secret", "hidden",
-            "achievement", "safe", "light", "progress", "advance",
-            "level up", "heal", "improve", "key", "special", "victory",
-            "bonus", "item", "weapon", "helpful", "great", "taken"
+            "lantern", "cellar", "egg", "sword"
         ]
         self.bad_word_list = [
-            "ignore", "hit", "miss", "fail", "lose", "blocked", "stuck",
-            "invalid", "impossible", "wrong", "cannot", "locked", "unable",
-            "error", "nothing", "empty", "dead", "danger",
-            "hostile", "injured", "hurt", "poison", "damage", "useless",
-            "waste", "boring", "repeat", "already", "bad", "badly", "grue", "impassable"
         ]
-        self.aux_reward_value = 0.0
+        self.aux_reward_value = 0
         self.not_repeat_value = 1
         self.visited_scenes = set()
         self.scene_visit_count = collections.defaultdict(int)
