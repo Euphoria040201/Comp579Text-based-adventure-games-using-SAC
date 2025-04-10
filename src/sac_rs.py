@@ -321,6 +321,7 @@ class REMSACAgent(SACAgent):
 
         self.critic_target.load_state_dict(self.critic1.state_dict())
         self.critic_target2.load_state_dict(self.critic2.state_dict())
+        self.prev_targets= None
 
     def update_critic(self, reward_shaping, batch, logger, step):
         with torch.no_grad():
@@ -373,6 +374,23 @@ class REMSACAgent(SACAgent):
             targets = torch.clamp(targets, min=-10, max=10) #-20~20
 
             targets = targets + (1-torch.tensor(batch.done, dtype=torch.float, device=device)) * self.discount * next_Q
+        
+            
+
+        with torch.no_grad():
+            # Add EMA smoothing to targets (β=0.95)
+            if self.prev_targets is None:
+                batch_size = len(batch.state)
+                self.prev_targets = torch.zeros(batch_size, device=device)
+            raw_targets = reward_shaping + reward + self.discount * next_Q
+            if self.prev_targets.size(0) != raw_targets.size(0):
+                self.prev_targets = torch.zeros_like(raw_targets)
+                
+            targets = 0.95 * self.prev_targets + 0.05 * raw_targets
+            self.prev_targets = targets.detach().clone()
+            targets = torch.clamp(targets, 
+                                min=-np.percentile(targets.cpu().numpy(), 10),  # preserve lower 10% 
+                                max=np.percentile(targets.cpu().numpy(), 90))    #cap upper 10%
         current_Q1 = []
         current_Q2 = []
         for i in range(len(batch.state)):
