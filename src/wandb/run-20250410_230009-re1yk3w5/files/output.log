@@ -1,0 +1,15 @@
+--> Saving logs at: output/game_name/2025-04-10_23-00-11
+Learn begins!
+--> using reward_shaping
+Traceback (most recent call last):
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 228, in <module>
+    main()
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 225, in main
+    train(agent, envs, args, args.max_steps, args.update_freq, args.checkpoint_freq, args.log_freq)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 193, in train
+    critic_loss, actor_loss = agent.update(args, expert_memory_replay, logger, step)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/sac_rs.py", line 248, in update
+    critic_loss = self.update_critic(args.reward_shaping, batch, logger,step)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/sac_rs.py", line 162, in update_critic
+    prev_act_idx = prev_valids.index(batch.prev_act[i])
+ValueError: 'look under bed' is not in list

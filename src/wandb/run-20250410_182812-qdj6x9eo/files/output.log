@@ -1,0 +1,5428 @@
+--> Saving logs at: output/game_name/2025-04-10_18-28-16
+Step 1 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 2 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 3 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 4 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 5 Env 0 Action put wallet on phone Reward 0 Done False
+obs: you put the wallet on the telephone.
+
+the phone rings.
+Learn begins!
+-->using reward_shaping
+/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/sac_rs.py:140: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_Q = torch.tensor(rewards, dtype=torch.float, device=device) + ((1-torch.tensor(batch.done, dtype=torch.float, device=device)) * self.discount *  target_V.clone())#.detach()
+Step 6 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 7 Env 0 Action take all from phone Reward 0 Done False
+obs: (the wallet from the telephone)
+removed.
+
+the phone rings.
+Step 8 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 9 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+Step 10 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+Step 11 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+Step 12 Env 0 Action put license in wallet Reward 0 Done False
+obs: you put the driver's license into the wallet.
+Step 13 Env 0 Action take all from bed Reward 0 Done False
+obs: wallet: removed.
+gold watch: removed.
+Step 14 Env 0 Action put all down Reward 0 Done False
+obs: gold watch: dropped.
+wallet: dropped.
+id card: dropped.
+Step 15 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 16 Env 0 Action put watch on end Reward 0 Done False
+obs: you put the gold watch on the end table.
+Step 17 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+Step 18 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 19 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license.
+Step 20 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 21 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+Step 22 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 23 Env 0 Action put all on telephone Reward 0 Done False
+obs: wallet: done.
+keys: done.
+Step 24 Env 0 Action put clothing on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+Step 25 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 26 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 27 Env 0 Action take gold Reward 0 Done False
+obs: taken.
+Step 28 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is an id card.
+
+on the end table is a telephone.
+Step 29 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+Step 30 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 31 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 32 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 33 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 34 Env 0 Action put clothing on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+Step 35 Env 0 Action put wallet on telephone Reward 0 Done False
+obs: you put the wallet on the telephone.
+Step 36 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 37 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+Step 38 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 39 Env 0 Action put wallet on table Reward 0 Done False
+obs: you put the wallet on the end table.
+Step 40 Env 0 Action put watch on telephone Reward 0 Done False
+obs: you put the gold watch on the telephone.
+Step 41 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 42 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 43 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 44 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 45 Env 0 Action take all from telephone Reward 0 Done False
+obs: gold watch: removed.
+keys: removed.
+Step 46 Env 0 Action put card on telephone Reward 0 Done False
+obs: you put the id card on the telephone.
+Step 47 Env 0 Action put all on end Reward 0 Done False
+obs: keys: done.
+gold watch: done.
+soiled clothing: done.
+wallet: done.
+Step 48 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet, some soiled clothing, a gold watch, some keys and a telephone.
+Step 49 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 50 Env 0 Action put license in wallet Reward 0 Done False
+obs: you put the driver's license into the wallet.
+Step 51 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 52 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 53 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+Step 54 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+Step 55 Env 0 Action take all from table Reward 0 Done False
+obs: soiled clothing: removed.
+keys: removed.
+Step 56 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+Step 57 Env 0 Action take clothing Reward 0 Done False
+obs: (the clean clothing)
+taken.
+Step 58 Env 0 Action put keys in dresser Reward 0 Done False
+obs: you put the keys into the dresser.
+Step 59 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 60 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 61 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 62 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 63 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 64 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 65 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 66 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 67 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 68 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 69 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 70 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 71 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 72 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 73 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 74 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 75 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 76 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 77 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 78 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 79 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 80 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 81 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 82 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 83 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 84 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 85 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 86 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 87 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 88 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 89 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 90 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 91 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 92 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 93 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 94 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 95 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 96 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 97 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 98 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 99 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 100 Env 0 Action wait Reward 0 Done True
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.00572  |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 102 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 103 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 104 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 105 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 106 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 107 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 108 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 109 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+Step 110 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 111 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 112 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+Step 113 Env 0 Action take all from end Reward 0 Done False
+obs: keys: removed.
+wallet: removed.
+Step 114 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+Step 115 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 116 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 117 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 118 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is some soiled clothing.
+
+on the end table is a telephone.
+Step 119 Env 0 Action put wallet on table Reward 0 Done False
+obs: you put the wallet on the end table.
+Step 120 Env 0 Action put keys in bed Reward 0 Done False
+obs: you put the keys into bed.
+Step 121 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+Step 122 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 123 Env 0 Action take all from bed Reward 0 Done False
+obs: keys: removed.
+soiled clothing: removed.
+Step 124 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+Step 125 Env 0 Action put all on telephone Reward 0 Done False
+obs: keys: done.
+gold watch: done.
+Step 126 Env 0 Action take all from telephone Reward 0 Done False
+obs: gold watch: removed.
+keys: removed.
+Step 127 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 128 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+Step 129 Env 0 Action put keys on telephone Reward 0 Done False
+obs: you put the keys on the telephone.
+Step 130 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+Step 131 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 132 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+Step 133 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 134 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 135 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+Step 136 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet and a telephone.
+Step 137 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+Step 138 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+Step 139 Env 0 Action put clothing on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+Step 140 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 141 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 142 Env 0 Action put watch on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+Step 143 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 144 Env 0 Action take all from telephone Reward 0 Done False
+obs: removed.
+Step 145 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 146 Env 0 Action put all on telephone Reward 0 Done False
+obs: wallet: done.
+keys: done.
+Step 147 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 148 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+Step 149 Env 0 Action take gold Reward 0 Done False
+obs: taken.
+Step 150 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is some soiled clothing.
+
+on the end table is a telephone.
+Step 151 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+Step 152 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 153 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+Step 154 Env 0 Action take all from telephone Reward 0 Done False
+obs: keys: removed.
+wallet: removed.
+Step 155 Env 0 Action put keys on table Reward 0 Done False
+obs: you put the keys on the end table.
+Step 156 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+Step 157 Env 0 Action take clean clothing Reward 0 Done False
+obs: taken.
+Step 158 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+Step 159 Env 0 Action put wallet on telephone Reward 0 Done False
+obs: you put the wallet on the telephone.
+Step 160 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 161 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 162 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 163 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 164 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 165 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 166 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 167 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 168 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 169 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 170 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 171 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 172 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 173 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 174 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 175 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 176 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 177 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 178 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 179 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 180 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 181 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 182 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 183 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 184 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 185 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 186 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 187 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 188 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 189 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 190 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 191 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 192 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 193 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 194 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 195 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 196 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 197 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 198 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 199 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 200 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.0111   |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 201 Env 0 Action wait Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 203 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 204 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+Step 205 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 206 Env 0 Action put watch on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the telephone.
+Step 207 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 208 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+Step 209 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+Step 210 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 211 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet, some soiled clothing and a telephone.
+Step 212 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+Step 213 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 214 Env 0 Action put wallet in bed Reward 0 Done False
+obs: you put the wallet into bed.
+Step 215 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+Step 216 Env 0 Action close dresser Reward 0 Done False
+obs: you close the dresser.
+Step 217 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 218 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+Step 219 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 220 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+Step 221 Env 0 Action put license on table Reward 0 Done False
+obs: you put the driver's license on the end table.
+Step 222 Env 0 Action south Reward 0 Done False
+obs:
+bathroom
+this is a far from luxurious but still quite functional bathroom, with a sink, toilet and shower. the bedroom lies to the north.
+Step 223 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+Step 224 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+Step 225 Env 0 Action north Reward 0 Done False
+obs:
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a driver's license and a telephone.
+
+you can also see an id card and some keys here.
+Step 226 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 227 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 228 Env 0 Action put card on telephone Reward 0 Done False
+obs: you put the id card on the telephone.
+Step 229 Env 0 Action take all from telephone Reward 0 Done False
+obs: id card: removed.
+gold watch: removed.
+Step 230 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 231 Env 0 Action put all on table Reward 0 Done False
+obs: gold watch: done.
+id card: done.
+Step 232 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 233 Env 0 Action put clothing on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+Step 234 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+Step 235 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 236 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 237 Env 0 Action take off all Reward 0 Done False
+obs: soiled clothing: you take off the soiled clothing.
+gold watch: you take off the gold watch.
+Step 238 Env 0 Action put all down Reward 0 Done False
+obs: soiled clothing: dropped.
+gold watch: dropped.
+Step 239 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 240 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed are a gold watch and some soiled clothing.
+
+on the end table are an id card, a driver's license and a telephone.
+
+you can also see some keys here.
+Step 241 Env 0 Action take all from bed Reward 0 Done False
+obs: gold watch: removed.
+soiled clothing: removed.
+Step 242 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+Step 243 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 244 Env 0 Action take all from table Reward 0 Done False
+obs: id card: removed.
+driver's license: removed.
+Step 245 Env 0 Action put card in bed Reward 0 Done False
+obs: you put the id card into bed.
+Step 246 Env 0 Action put clothing in dresser Reward 0 Done False
+obs: (the soiled clothing in the dresser)
+you put the soiled clothing into the dresser.
+Step 247 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+Step 248 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 249 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 250 Env 0 Action put all on end Reward 0 Done False
+obs: id card: done.
+gold watch: done.
+Step 251 Env 0 Action take id Reward 0 Done False
+obs: taken.
+Step 252 Env 0 Action put on gold Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 253 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 254 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 255 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 256 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table is a telephone.
+
+you can also see a driver's license here.
+Step 257 Env 0 Action put keys on table Reward 0 Done False
+obs: you put the keys on the end table.
+Step 258 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 259 Env 0 Action put watch on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+Step 260 Env 0 Action put card in bed Reward 0 Done False
+obs: you put the id card into bed.
+Step 261 Env 0 Action take all from dresser Reward 0 Done False
+obs: soiled clothing: removed.
+clean clothing: removed.
+Step 262 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 263 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 264 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 265 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 266 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 267 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 268 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 269 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 270 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 271 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 272 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 273 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 274 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 275 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 276 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 277 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 278 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 279 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 280 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 281 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 282 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 283 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 284 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 285 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 286 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 287 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 288 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 289 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 290 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 291 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 292 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 293 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 294 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 295 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 296 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 297 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 298 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 299 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 300 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.158    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 301 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 302 Env 0 Action wait Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 304 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 305 Env 0 Action put all on phone Reward 0 Done False
+obs: keys: done.
+wallet: done.
+
+the phone rings.
+Step 306 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 307 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 308 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 309 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 310 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 311 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 312 Env 0 Action take all from phone Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 313 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 314 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 315 Env 0 Action put watch on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 316 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 317 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 318 Env 0 Action put clothing on end Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 319 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are some soiled clothing, a wallet, a gold watch, some keys and a telephone.
+
+the phone rings.
+Step 320 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 321 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 322 Env 0 Action put all on table Reward 0 Done False
+obs: driver's license: done.
+gold watch: done.
+
+the phone rings.
+Step 323 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 324 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 325 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 326 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 327 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 328 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 329 Env 0 Action put clothing in bed Reward 0 Done False
+obs: you put the soiled clothing into bed.
+
+the phone rings.
+Step 330 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 331 Env 0 Action put license in bed Reward 0 Done False
+obs: you put the driver's license into bed.
+
+the phone rings.
+Step 332 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 333 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 334 Env 0 Action take all from table Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+Step 335 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 336 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+Step 337 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 338 Env 0 Action put clothing in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing into bed.
+Step 339 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 340 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+Step 341 Env 0 Action put watch on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+Step 342 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 343 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+Step 344 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 345 Env 0 Action put wallet on telephone Reward 0 Done False
+obs: you put the wallet on the telephone.
+Step 346 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 347 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 348 Env 0 Action take all Reward 0 Done False
+obs: (from floor)
+driver's license: taken.
+keys: taken.
+dirty laundry: these clothes are no cleaner than the ones you have on.
+Step 349 Env 0 Action put clothing on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+Step 350 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+Step 351 Env 0 Action put license on telephone Reward 0 Done False
+obs: you put the driver's license on the telephone.
+Step 352 Env 0 Action put keys in dresser Reward 0 Done False
+obs: you put the keys into the dresser.
+Step 353 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing an id card.
+Step 354 Env 0 Action take soiled clothing Reward 0 Done False
+obs: taken.
+Step 355 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 356 Env 0 Action put clothing on table Reward 0 Done False
+obs: (the soiled clothing on the end table)
+you put the soiled clothing on the end table.
+Step 357 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 358 Env 0 Action put all in bed Reward 0 Done False
+obs: wallet: done.
+gold watch: done.
+Step 359 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 360 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 361 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+Step 362 Env 0 Action put license on telephone Reward 0 Done False
+obs: you put the driver's license on the telephone.
+Step 363 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 364 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 365 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 366 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 367 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 368 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 369 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 370 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 371 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 372 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 373 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 374 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 375 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 376 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 377 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 378 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 379 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 380 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 381 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 382 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 383 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 384 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 385 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 386 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 387 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 388 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 389 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 390 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 391 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 392 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 393 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 394 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 395 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 396 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 397 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 398 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 399 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 400 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.051    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 401 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 402 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 403 Env 0 Action yes Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 405 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 406 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 407 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 408 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 409 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 410 Env 0 Action put watch on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 411 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 412 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 413 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a gold watch, a wallet and a telephone.
+
+the phone rings.
+Step 414 Env 0 Action put clothing on table Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 415 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 416 Env 0 Action put clothing in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing into bed.
+
+the phone rings.
+Step 417 Env 0 Action put keys in bed Reward 0 Done False
+obs: you put the keys into bed.
+
+the phone rings.
+Step 418 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 419 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 420 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 421 Env 0 Action put clothing on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 422 Env 0 Action take all from table Reward 0 Done False
+obs: gold watch: removed.
+wallet: removed.
+
+the phone rings.
+Step 423 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 424 Env 0 Action put wallet in bed Reward 0 Done False
+obs: you put the wallet into bed.
+
+the phone rings.
+Step 425 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 426 Env 0 Action take off all Reward 0 Done False
+obs: soiled clothing: you take off the soiled clothing.
+gold watch: you take off the gold watch.
+
+the phone rings.
+Step 427 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 428 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 429 Env 0 Action put watch on table Reward 0 Done False
+obs: you put the gold watch on the end table.
+
+the phone rings.
+Step 430 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 431 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+Step 432 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 433 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+Step 434 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 435 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+Step 436 Env 0 Action put card on telephone Reward 0 Done False
+obs: you put the id card on the telephone.
+Step 437 Env 0 Action put license in wallet Reward 0 Done False
+obs: you put the driver's license into the wallet.
+Step 438 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 439 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 440 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 441 Env 0 Action put all on telephone Reward 0 Done False
+obs: keys: done.
+wallet: done.
+Step 442 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 443 Env 0 Action take all from telephone Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+id card: removed.
+Step 444 Env 0 Action put wallet on telephone Reward 0 Done False
+obs: you put the wallet on the telephone.
+Step 445 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table is a telephone.
+
+you can also see some soiled clothing here.
+Step 446 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 447 Env 0 Action take all from telephone Reward 0 Done False
+obs: (the wallet from the telephone)
+removed.
+Step 448 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table is a telephone.
+
+you can also see some soiled clothing here.
+Step 449 Env 0 Action put watch on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+Step 450 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+Step 451 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license.
+Step 452 Env 0 Action put wallet on table Reward 0 Done False
+obs: you put the wallet on the end table.
+Step 453 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 454 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+Step 455 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+Step 456 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+Step 457 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+Step 458 Env 0 Action south Reward 0 Done False
+obs:
+bathroom
+this is a far from luxurious but still quite functional bathroom, with a sink, toilet and shower. the bedroom lies to the north.
+Step 459 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+Step 460 Env 0 Action north Reward 0 Done False
+obs:
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet and a telephone.
+
+you can also see some keys, an id card and some soiled clothing here.
+Step 461 Env 0 Action put watch on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the telephone.
+Step 462 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 463 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 464 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 465 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 466 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 467 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 468 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 469 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 470 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 471 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 472 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 473 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 474 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 475 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 476 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 477 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 478 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 479 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 480 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 481 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 482 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 483 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 484 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 485 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 486 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 487 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 488 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 489 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 490 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 491 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 492 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 493 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 494 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 495 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 496 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 497 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 498 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 499 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 500 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.118    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 501 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 502 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 503 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 504 Env 0 Action yes Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 506 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 507 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 508 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 509 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 510 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 511 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 512 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 513 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 514 Env 0 Action put watch on phone Reward 0 Done False
+obs: you put the gold watch on the telephone.
+
+the phone rings.
+Step 515 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 516 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are some soiled clothing, a telephone and some keys.
+
+the phone rings.
+Step 517 Env 0 Action take all from table Reward 0 Done False
+obs: soiled clothing: removed.
+keys: removed.
+
+the phone rings.
+Step 518 Env 0 Action put wallet on phone Reward 0 Done False
+obs: you put the wallet on the telephone.
+
+the phone rings.
+Step 519 Env 0 Action put all in bed Reward 0 Done False
+obs: keys: done.
+soiled clothing: done.
+
+the phone rings.
+Step 520 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 521 Env 0 Action take all from bed Reward 0 Done False
+obs: soiled clothing: removed.
+keys: removed.
+
+the phone rings.
+Step 522 Env 0 Action put all on phone Reward 0 Done False
+obs: keys: done.
+soiled clothing: done.
+
+the phone rings.
+Step 523 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 524 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 525 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 526 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 527 Env 0 Action put card in wallet Reward 0 Done False
+obs: you put the id card into the wallet.
+
+the phone rings.
+Step 528 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 529 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 530 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 531 Env 0 Action put all on table Reward 0 Done False
+obs: gold watch: done.
+driver's license: done.
+
+the phone rings.
+Step 532 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 533 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 534 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 535 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 536 Env 0 Action put clothing on table Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 537 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 538 Env 0 Action take all from table Reward 0 Done False
+obs: soiled clothing: removed.
+driver's license: removed.
+
+the phone rings.
+Step 539 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 540 Env 0 Action put license on phone Reward 0 Done False
+obs: you put the driver's license on the telephone.
+
+the phone rings.
+Step 541 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 542 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 543 Env 0 Action put watch on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the telephone.
+
+the phone rings.
+Step 544 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 545 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 546 Env 0 Action take all from phone Reward 0 Done False
+obs: gold watch: removed.
+driver's license: removed.
+keys: removed.
+wallet: removed.
+
+the phone rings.
+Step 547 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 548 Env 0 Action put all on phone Reward 0 Done False
+obs: wallet: done.
+driver's license: done.
+gold watch: done.
+
+the phone rings.
+Step 549 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed are some keys and some soiled clothing.
+
+on the end table is a telephone.
+
+the phone rings.
+Step 550 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 551 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 552 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 553 Env 0 Action put clothing on table Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 554 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 555 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is some keys.
+
+on the end table are some soiled clothing and a telephone.
+
+the phone rings.
+Step 556 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 557 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 558 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 559 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 560 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 561 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 562 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 563 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 564 Env 0 Action put watch on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the telephone.
+
+the phone rings.
+Step 565 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 566 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 567 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 568 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 569 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 570 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 571 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 572 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 573 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 574 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 575 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 576 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 577 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 578 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 579 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 580 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 581 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 582 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 583 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 584 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 585 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 586 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 587 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 588 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 589 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 590 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 591 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 592 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 593 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 594 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 595 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 596 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 597 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 598 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 599 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 600 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.183    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 601 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 602 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 603 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 604 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 605 Env 0 Action yes Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 607 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 608 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 609 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 610 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 611 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 612 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 613 Env 0 Action put all on end Reward 0 Done False
+obs: keys: done.
+wallet: done.
+gold watch: done.
+
+the phone rings.
+Step 614 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 615 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 616 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 617 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 618 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 619 Env 0 Action put all in wallet Reward 0 Done False
+obs: id card: done.
+driver's license: done.
+
+the phone rings.
+Step 620 Env 0 Action take gold Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 621 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is some soiled clothing.
+
+on the end table are some keys and a telephone.
+
+the phone rings.
+Step 622 Env 0 Action put wallet in bed Reward 0 Done False
+obs: you put the wallet into bed.
+
+the phone rings.
+Step 623 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 624 Env 0 Action put all on table Reward 0 Done False
+obs: id card: done.
+driver's license: done.
+gold watch: done.
+
+the phone rings.
+Step 625 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 626 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 627 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 628 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 629 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 630 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 631 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 632 Env 0 Action put license on table Reward 0 Done False
+obs: you put the driver's license on the end table.
+
+the phone rings.
+Step 633 Env 0 Action put wallet on table Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 634 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 635 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 636 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 637 Env 0 Action east Reward 0 Done False
+obs:
+living room
+the furniture isn't as carefully arranged as one might like, and it's a bit lacking in the luxuries that might make this a more pleasant place to spend an evening - no stereo, no tv, no dvd, none of that - but this living room is still nicer than most of those in this neighborhood. a kitchenette lies to the east, the bedroom to the west and the front door to the south.
+
+the phone in the bedroom rings.
+Step 638 Env 0 Action open front door Reward 0 Done False
+obs: you open the front door.
+
+the phone in the bedroom rings.
+Step 639 Env 0 Action west Reward 0 Done False
+obs:
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet, a driver's license, an id card, some keys and a telephone.
+
+the phone rings.
+Step 640 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 641 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 642 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 643 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 644 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 645 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 646 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 647 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 648 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 649 Env 0 Action put card in wallet Reward 0 Done False
+obs: you put the id card into the wallet.
+
+the phone rings.
+Step 650 Env 0 Action put clothing on end Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 651 Env 0 Action take all from end Reward 0 Done False
+obs: soiled clothing: removed.
+wallet: removed.
+driver's license: removed.
+keys: removed.
+
+the phone rings.
+Step 652 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 653 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 654 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 655 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 656 Env 0 Action put wallet on phone Reward 0 Done False
+obs: you put the wallet on the telephone.
+
+the phone rings.
+Step 657 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 658 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 659 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are some keys and a telephone.
+
+the phone rings.
+Step 660 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 661 Env 0 Action put license in wallet Reward 0 Done False
+obs: you put the driver's license into the wallet.
+
+the phone rings.
+Step 662 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 663 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 664 Env 0 Action put keys on table Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 665 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 666 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 667 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 668 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 669 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 670 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 671 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 672 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 673 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 674 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 675 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 676 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 677 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 678 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 679 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 680 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 681 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 682 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 683 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 684 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 685 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 686 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 687 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 688 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 689 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 690 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 691 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 692 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 693 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 694 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 695 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 696 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 697 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 698 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 699 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 700 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.217    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 701 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 702 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 703 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 704 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 705 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 706 Env 0 Action no Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 708 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 709 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 710 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 711 Env 0 Action put all down Reward 0 Done False
+obs: keys: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 712 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 713 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 714 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 715 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 716 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 717 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 718 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 719 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 720 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 721 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 722 Env 0 Action put all down Reward 0 Done False
+obs: wallet: dropped.
+keys: dropped.
+
+the phone rings.
+Step 723 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 724 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 725 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 726 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 727 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+Step 728 Env 0 Action put watch on telephone Reward 0 Done False
+obs: you put the gold watch on the telephone.
+Step 729 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 730 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+Step 731 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 732 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is some keys.
+
+on the end table is a telephone.
+Step 733 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+Step 734 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 735 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+Step 736 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+Step 737 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 738 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 739 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 740 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+Step 741 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 742 Env 0 Action put all down Reward 0 Done False
+obs: wallet: dropped.
+driver's license: dropped.
+Step 743 Env 0 Action put clothing on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+Step 744 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+Step 745 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+Step 746 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 747 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 748 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+Step 749 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+Step 750 Env 0 Action put clothing on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+Step 751 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 752 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 753 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 754 Env 0 Action put all in bed Reward 0 Done False
+obs: keys: done.
+driver's license: done.
+Step 755 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 756 Env 0 Action put keys on telephone Reward 0 Done False
+obs: you put the keys on the telephone.
+Step 757 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 758 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+Step 759 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 760 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing an id card.
+Step 761 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 762 Env 0 Action put clothing in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing into bed.
+Step 763 Env 0 Action put license in bed Reward 0 Done False
+obs: you put the driver's license into bed.
+Step 764 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 765 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+Step 766 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 767 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 768 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 769 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 770 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 771 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 772 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 773 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 774 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 775 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 776 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 777 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 778 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 779 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 780 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 781 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 782 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 783 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 784 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 785 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 786 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 787 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 788 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 789 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 790 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 791 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 792 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 793 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 794 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 795 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 796 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 797 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 798 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 799 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 800 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.0209   |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 801 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 802 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 803 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 804 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 805 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 806 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 807 Env 0 Action no Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 809 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 810 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 811 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 812 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 813 Env 0 Action take all from bed Reward 0 Done False
+obs: gold watch: removed.
+soiled clothing: removed.
+
+the phone rings.
+Step 814 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 815 Env 0 Action put clothing on end Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 816 Env 0 Action put all down Reward 0 Done False
+obs: keys: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 817 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 818 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 819 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 820 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 821 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 822 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 823 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 824 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 825 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 826 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 827 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet and a telephone.
+
+the phone rings.
+Step 828 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 829 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 830 Env 0 Action put keys on phone Reward 0 Done False
+obs: you put the keys on the telephone.
+
+the phone rings.
+Step 831 Env 0 Action put watch on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the telephone.
+
+the phone rings.
+Step 832 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 833 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 834 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 835 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 836 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 837 Env 0 Action put watch on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 838 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 839 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 840 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a gold watch, a wallet and a telephone.
+
+the phone rings.
+Step 841 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 842 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 843 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 844 Env 0 Action put clothing on table Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 845 Env 0 Action put license in bed Reward 0 Done False
+obs: you put the driver's license into bed.
+
+the phone rings.
+Step 846 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 847 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 848 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 849 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 850 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet.
+
+the phone rings.
+Step 851 Env 0 Action put card in wallet Reward 0 Done False
+obs: you put the id card into the wallet.
+
+the phone rings.
+Step 852 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 853 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 854 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 855 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 856 Env 0 Action take all from end Reward 0 Done False
+obs: soiled clothing: removed.
+gold watch: removed.
+
+the phone rings.
+Step 857 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 858 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 859 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 860 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 861 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 862 Env 0 Action put watch on end Reward 0 Done False
+obs: you put the gold watch on the end table.
+
+the phone rings.
+Step 863 Env 0 Action put license in wallet Reward 0 Done False
+obs: you put the driver's license into the wallet.
+
+the phone rings.
+Step 864 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 865 Env 0 Action put all on end Reward 0 Done False
+obs: soiled clothing: done.
+wallet: done.
+keys: done.
+
+the phone rings.
+Step 866 Env 0 Action take gold Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 867 Env 0 Action take all from end Reward 0 Done False
+obs: keys: removed.
+wallet: removed.
+soiled clothing: removed.
+
+the phone rings.
+Step 868 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 869 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 870 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 871 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 872 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 873 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 874 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 875 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 876 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 877 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 878 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 879 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 880 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 881 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 882 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 883 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 884 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 885 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 886 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 887 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 888 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 889 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 890 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 891 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 892 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 893 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 894 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 895 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 896 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 897 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 898 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 899 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 900 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.0249   |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 901 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 902 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 903 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 904 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 905 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 906 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 907 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 908 Env 0 Action no Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 910 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 911 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 912 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 913 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 914 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 915 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 916 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 917 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 918 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 919 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 920 Env 0 Action put card on end Reward 0 Done False
+obs: you put the id card on the end table.
+
+the phone rings.
+Step 921 Env 0 Action put license on end Reward 0 Done False
+obs: you put the driver's license on the end table.
+
+the phone rings.
+Step 922 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 923 Env 0 Action take id Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 924 Env 0 Action put clothing on end Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 925 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 926 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 927 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 928 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 929 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 930 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 931 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 932 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 933 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 934 Env 0 Action put watch on end Reward 0 Done False
+obs: you put the gold watch on the end table.
+
+the phone rings.
+Step 935 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 936 Env 0 Action take all from end Reward 0 Done False
+obs: gold watch: removed.
+wallet: removed.
+keys: removed.
+driver's license: removed.
+
+the phone rings.
+Step 937 Env 0 Action put license on end Reward 0 Done False
+obs: you put the driver's license on the end table.
+
+the phone rings.
+Step 938 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 939 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 940 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 941 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 942 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is a gold watch.
+
+on the end table are some keys, a driver's license and a telephone.
+
+the phone rings.
+Step 943 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 944 Env 0 Action put all in bed Reward 0 Done False
+obs: gold watch: done.
+wallet: done.
+id card: done.
+soiled clothing: done.
+
+the phone rings.
+Step 945 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 946 Env 0 Action take all from bed Reward 0 Done False
+obs: soiled clothing: removed.
+id card: removed.
+wallet: removed.
+gold watch: removed.
+
+the phone rings.
+Step 947 Env 0 Action put wallet on phone Reward 0 Done False
+obs: you put the wallet on the telephone.
+
+the phone rings.
+Step 948 Env 0 Action put all on end Reward 0 Done False
+obs: gold watch: done.
+id card: done.
+soiled clothing: done.
+
+the phone rings.
+Step 949 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 950 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 951 Env 0 Action take all from phone Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 952 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 953 Env 0 Action put on gold Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 954 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet.
+
+the phone rings.
+Step 955 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 956 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 957 Env 0 Action put all on end Reward 0 Done False
+obs: soiled clothing: done.
+wallet: done.
+
+the phone rings.
+Step 958 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet, some soiled clothing, an id card, some keys, a driver's license and a telephone.
+
+the phone rings.
+Step 959 Env 0 Action take all from table Reward 0 Done False
+obs: wallet: removed.
+soiled clothing: removed.
+id card: removed.
+keys: removed.
+driver's license: removed.
+
+the phone rings.
+Step 960 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 961 Env 0 Action put watch on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 962 Env 0 Action put all in bed Reward 0 Done False
+obs: driver's license: done.
+keys: done.
+id card: done.
+soiled clothing: done.
+wallet: done.
+
+the phone rings.
+Step 963 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 964 Env 0 Action take all from bed Reward 0 Done False
+obs: wallet: removed.
+soiled clothing: removed.
+id card: removed.
+keys: removed.
+driver's license: removed.
+
+the phone rings.
+Step 965 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 966 Env 0 Action put keys in bed Reward 0 Done False
+obs: you put the keys into bed.
+
+the phone rings.
+Step 967 Env 0 Action put card in wallet Reward 0 Done False
+obs: you put the id card into the wallet.
+
+the phone rings.
+Step 968 Env 0 Action put license in bed Reward 0 Done False
+obs: you put the driver's license into bed.
+
+the phone rings.
+Step 969 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 970 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 971 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 972 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 973 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 974 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 975 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 976 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 977 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 978 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 979 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 980 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 981 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 982 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 983 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 984 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 985 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 986 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 987 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 988 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 989 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 990 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 991 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 992 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 993 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 994 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 995 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 996 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 997 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 998 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 999 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1000 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.852    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1001 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1002 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1003 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1004 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1005 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1006 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1007 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1008 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1009 Env 0 Action no Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1011 Env 0 Action take off all Reward 0 Done False
+obs: soiled clothing: you take off the soiled clothing.
+gold watch: you take off the gold watch.
+
+the phone rings.
+Step 1012 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1013 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1014 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 1015 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1016 Env 0 Action put all on end Reward 0 Done False
+obs: keys: done.
+gold watch: done.
+
+the phone rings.
+Step 1017 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1018 Env 0 Action put clothing on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1019 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1020 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1021 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 1022 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is a wallet.
+
+on the end table are a gold watch and a telephone.
+
+the phone rings.
+Step 1023 Env 0 Action put keys on phone Reward 0 Done False
+obs: you put the keys on the telephone.
+
+the phone rings.
+Step 1024 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1025 Env 0 Action put clothing in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing into bed.
+
+the phone rings.
+Step 1026 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1027 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1028 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1029 Env 0 Action south Reward 0 Done False
+obs:
+bathroom
+this is a far from luxurious but still quite functional bathroom, with a sink, toilet and shower. the bedroom lies to the north.
+
+the phone in the bedroom rings.
+Step 1030 Env 0 Action north Reward 0 Done False
+obs:
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is a wallet.
+
+on the end table are a gold watch and a telephone.
+
+the phone rings.
+Step 1031 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1032 Env 0 Action put clothing on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1033 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 1034 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1035 Env 0 Action take all from end Reward 0 Done False
+obs: soiled clothing: removed.
+gold watch: removed.
+
+the phone rings.
+Step 1036 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1037 Env 0 Action take all from wallet Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 1038 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet and a telephone.
+
+the phone rings.
+Step 1039 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+
+the phone rings.
+Step 1040 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1041 Env 0 Action put all in bed Reward 0 Done False
+obs: keys: done.
+driver's license: done.
+soiled clothing: done.
+id card: done.
+
+the phone rings.
+Step 1042 Env 0 Action take all from bed Reward 0 Done False
+obs: id card: removed.
+soiled clothing: removed.
+driver's license: removed.
+keys: removed.
+gold watch: removed.
+
+the phone rings.
+Step 1043 Env 0 Action put card in bed Reward 0 Done False
+obs: you put the id card into bed.
+
+the phone rings.
+Step 1044 Env 0 Action put clothing on phone Reward 0 Done False
+obs: you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1045 Env 0 Action put all in bed Reward 0 Done False
+obs: gold watch: done.
+keys: done.
+driver's license: done.
+
+the phone rings.
+Step 1046 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1047 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1048 Env 0 Action put clothing on phone Reward 0 Done False
+obs: you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1049 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1050 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1051 Env 0 Action put all in bed Reward 0 Done False
+obs: id card: done.
+driver's license: done.
+
+the phone rings.
+Step 1052 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1053 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1054 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1055 Env 0 Action put all down Reward 0 Done False
+obs: gold watch: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 1056 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1057 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1058 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1059 Env 0 Action put watch in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch into bed.
+
+the phone rings.
+Step 1060 Env 0 Action put card in bed Reward 0 Done False
+obs: you put the id card into bed.
+
+the phone rings.
+Step 1061 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1062 Env 0 Action south Reward 0 Done False
+obs:
+bathroom
+this is a far from luxurious but still quite functional bathroom, with a sink, toilet and shower. the bedroom lies to the north.
+
+the phone in the bedroom rings.
+Step 1063 Env 0 Action north Reward 0 Done False
+obs:
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed are an id card, a gold watch, a driver's license and some keys.
+
+on the end table is a telephone.
+
+you can also see some soiled clothing and a wallet (which is closed) here.
+
+the phone rings.
+Step 1064 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1065 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1066 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+
+the phone rings.
+Step 1067 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1068 Env 0 Action close dresser Reward 0 Done False
+obs: you close the dresser.
+
+the phone rings.
+Step 1069 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1070 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1071 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1072 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1073 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1074 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1075 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1076 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1077 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1078 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1079 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1080 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1081 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1082 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1083 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1084 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1085 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1086 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1087 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1088 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1089 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1090 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1091 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1092 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1093 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1094 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1095 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1096 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1097 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1098 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1099 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1100 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.38     |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1101 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1102 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1103 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1104 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1105 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1106 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1107 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1108 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1109 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1110 Env 0 Action no Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1112 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1113 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1114 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1115 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 1116 Env 0 Action take all from bed Reward 0 Done False
+obs: gold watch: removed.
+soiled clothing: removed.
+
+the phone rings.
+Step 1117 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1118 Env 0 Action put clothing on phone Reward 0 Done False
+obs: you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1119 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1120 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a telephone and some keys.
+
+the phone rings.
+Step 1121 Env 0 Action put all down Reward 0 Done False
+obs: wallet: dropped.
+gold watch: dropped.
+
+the phone rings.
+Step 1122 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1123 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 1124 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1125 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1126 Env 0 Action put all on phone Reward 0 Done False
+obs: keys: done.
+gold watch: done.
+
+the phone rings.
+Step 1127 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1128 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1129 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1130 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1131 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 1132 Env 0 Action put all on phone Reward 0 Done False
+obs: wallet: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1133 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1134 Env 0 Action take all from phone Reward 0 Done False
+obs: soiled clothing: removed.
+wallet: removed.
+gold watch: removed.
+keys: removed.
+
+the phone rings.
+Step 1135 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1136 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1137 Env 0 Action put all on phone Reward 0 Done False
+obs: wallet: done.
+keys: done.
+gold watch: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1138 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1139 Env 0 Action put clothing on phone Reward 0 Done False
+obs: you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1140 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1141 Env 0 Action put clothing on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1142 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1143 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1144 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 1145 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 1146 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1147 Env 0 Action take all from phone Reward 0 Done False
+obs: gold watch: removed.
+keys: removed.
+wallet: removed.
+
+the phone rings.
+Step 1148 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1149 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1150 Env 0 Action put all down Reward 0 Done False
+obs: wallet: dropped.
+keys: dropped.
+
+the phone rings.
+Step 1151 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1152 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1153 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1154 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 1155 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1156 Env 0 Action take all from bed Reward 0 Done False
+obs: wallet: removed.
+gold watch: removed.
+
+the phone rings.
+Step 1157 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 1158 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1159 Env 0 Action put card on phone Reward 0 Done False
+obs: you put the id card on the telephone.
+
+the phone rings.
+Step 1160 Env 0 Action put license on end Reward 0 Done False
+obs: you put the driver's license on the end table.
+
+the phone rings.
+Step 1161 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1162 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 1163 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 1164 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1165 Env 0 Action put keys on phone Reward 0 Done False
+obs: you put the keys on the telephone.
+
+the phone rings.
+Step 1166 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1167 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1168 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1169 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1170 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1171 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1172 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1173 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1174 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1175 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1176 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1177 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1178 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1179 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1180 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1181 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1182 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1183 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1184 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1185 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1186 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1187 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1188 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1189 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1190 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1191 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1192 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1193 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1194 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1195 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1196 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1197 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1198 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1199 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1200 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.381    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1201 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1202 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1203 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1204 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1205 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1206 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1207 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1208 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1209 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1210 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1211 Env 0 Action no Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1213 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1214 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1215 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1216 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 1217 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1218 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1219 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1220 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 1221 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 1222 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1223 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1224 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1225 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1226 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 1227 Env 0 Action put clothing on end Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1228 Env 0 Action put watch on end Reward 0 Done False
+obs: you put the gold watch on the end table.
+
+the phone rings.
+Step 1229 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1230 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1231 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the bed is a wallet.
+
+on the end table are a gold watch, some soiled clothing and a telephone.
+
+the phone rings.
+Step 1232 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+
+the phone rings.
+Step 1233 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 1234 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1235 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1236 Env 0 Action put on gold Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1237 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1238 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 1239 Env 0 Action take all from end Reward 0 Done False
+obs: keys: removed.
+wallet: removed.
+soiled clothing: removed.
+
+the phone rings.
+Step 1240 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1241 Env 0 Action put watch on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 1242 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1243 Env 0 Action take gold Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1244 Env 0 Action put all on phone Reward 0 Done False
+obs: gold watch: done.
+soiled clothing: done.
+wallet: done.
+keys: done.
+
+the phone rings.
+Step 1245 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1246 Env 0 Action take clothing from phone Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 1247 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1248 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1249 Env 0 Action take all from phone Reward 0 Done False
+obs: keys: removed.
+wallet: removed.
+gold watch: removed.
+
+the phone rings.
+Step 1250 Env 0 Action put all on end Reward 0 Done False
+obs: gold watch: done.
+wallet: done.
+keys: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1251 Env 0 Action take all from end Reward 0 Done False
+obs: soiled clothing: removed.
+keys: removed.
+wallet: removed.
+gold watch: removed.
+
+the phone rings.
+Step 1252 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1253 Env 0 Action put watch on phone Reward 0 Done False
+obs: you put the gold watch on the telephone.
+
+the phone rings.
+Step 1254 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1255 Env 0 Action put on soiled clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 1256 Env 0 Action take all from phone Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 1257 Env 0 Action put keys on phone Reward 0 Done False
+obs: you put the keys on the telephone.
+
+the phone rings.
+Step 1258 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 1259 Env 0 Action take all from phone Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 1260 Env 0 Action put soiled clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1261 Env 0 Action put watch on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 1262 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1263 Env 0 Action take gold Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1264 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1265 Env 0 Action put on soiled clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1266 Env 0 Action put clothing on end Reward 0 Done False
+obs: (the soiled clothing on the end table)
+(first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1267 Env 0 Action take clothing from end Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 1268 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1269 Env 0 Action put on watch Reward 0 Done False
+obs: you put on the gold watch.
+
+the phone rings.
+Step 1270 Env 0 Action put on clothing Reward 0 Done False
+obs: (the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1271 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1272 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1273 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1274 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1275 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1276 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1277 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1278 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1279 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1280 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1281 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1282 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1283 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1284 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1285 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1286 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1287 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1288 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1289 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1290 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1291 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1292 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1293 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1294 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1295 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1296 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1297 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1298 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1299 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1300 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.0121   |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1301 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1302 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1303 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1304 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1305 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1306 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1307 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1308 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1309 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1310 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1311 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1312 Env 0 Action wait Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1314 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+
+the phone rings.
+Step 1315 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1316 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 1317 Env 0 Action put all in wallet Reward 0 Done False
+obs: id card: done.
+driver's license: done.
+gold watch: that doesn't seem to fit in the wallet.
+
+the phone rings.
+Step 1318 Env 0 Action take phone Reward 0 Done False
+obs: you pick up the phone. "hadley!" a shrill voice cries. "hadley, haven't you even left yet?? you knew that our presentation was at nine o'clock sharp! first the thing with the printers, now this - there won't even be enough left of you for bowman to fire once he's done with you. now get the hell down here!!"
+
+click.
+Step 1319 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+Step 1320 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 1321 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 1322 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+Step 1323 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 1324 Env 0 Action put watch on telephone Reward 0 Done False
+obs: you put the gold watch on the telephone.
+Step 1325 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+Step 1326 Env 0 Action put wallet down Reward 0 Done False
+obs: dropped.
+Step 1327 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 1328 Env 0 Action take all from telephone Reward 0 Done False
+obs: removed.
+Step 1329 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+Step 1330 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 1331 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 1332 Env 0 Action put all down Reward 0 Done False
+obs: driver's license: dropped.
+soiled clothing: dropped.
+gold watch: dropped.
+id card: dropped.
+keys: dropped.
+Step 1333 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 1334 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 1335 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 1336 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+Step 1337 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 1338 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 1339 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 1340 Env 0 Action put clothing on telephone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+Step 1341 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 1342 Env 0 Action take all from bed Reward 0 Done False
+obs: id card: removed.
+wallet: removed.
+Step 1343 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 1344 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+Step 1345 Env 0 Action put license on telephone Reward 0 Done False
+obs: you put the driver's license on the telephone.
+Step 1346 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+Step 1347 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 1348 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+Step 1349 Env 0 Action take card Reward 0 Done False
+obs: taken.
+Step 1350 Env 0 Action take off watch Reward 0 Done False
+obs: you take off the gold watch.
+Step 1351 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 1352 Env 0 Action take all from telephone Reward 0 Done False
+obs: removed.
+Step 1353 Env 0 Action put all on telephone Reward 0 Done False
+obs: driver's license: done.
+id card: done.
+soiled clothing: done.
+wallet: done.
+gold watch: done.
+Step 1354 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are some keys and a telephone.
+Step 1355 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 1356 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+Step 1357 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 1358 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+Step 1359 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table is a telephone.
+Step 1360 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+Step 1361 Env 0 Action put all in bed Reward 0 Done False
+obs: keys: done.
+driver's license: done.
+Step 1362 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+Step 1363 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+Step 1364 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+Step 1365 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+Step 1366 Env 0 Action put clothing on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+Step 1367 Env 0 Action take license Reward 0 Done False
+obs: taken.
+Step 1368 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+Step 1369 Env 0 Action take all from telephone Reward 0 Done False
+obs: wallet: removed.
+id card: removed.
+Step 1370 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+Step 1371 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+Step 1372 Env 0 Action put card down Reward 0 Done False
+obs: dropped.
+Step 1373 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1374 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1375 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1376 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1377 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1378 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1379 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1380 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1381 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1382 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1383 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1384 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1385 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1386 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1387 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1388 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1389 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1390 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1391 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1392 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1393 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1394 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1395 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1396 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1397 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1398 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1399 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1400 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.0337   |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1401 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1402 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1403 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1404 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1405 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1406 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1407 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1408 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1409 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1410 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1411 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1412 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1413 Env 0 Action wait Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1415 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1416 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1417 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1418 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a telephone, a wallet and some keys.
+
+the phone rings.
+Step 1419 Env 0 Action take all from table Reward 0 Done False
+obs: wallet: removed.
+keys: removed.
+
+the phone rings.
+Step 1420 Env 0 Action put watch in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch into bed.
+
+the phone rings.
+Step 1421 Env 0 Action put all down Reward 0 Done False
+obs: keys: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 1422 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+
+the phone rings.
+Step 1423 Env 0 Action take all Reward 0 Done False
+obs: (from floor)
+wallet: taken.
+keys: taken.
+dirty laundry: these clothes are no cleaner than the ones you have on.
+
+the phone rings.
+Step 1424 Env 0 Action take off clothing Reward 0 Done False
+obs: (the soiled clothing)
+you take off the soiled clothing.
+
+the phone rings.
+Step 1425 Env 0 Action put wallet on table Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1426 Env 0 Action put all in bed Reward 0 Done False
+obs: keys: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1427 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1428 Env 0 Action put watch in bed Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch into bed.
+
+the phone rings.
+Step 1429 Env 0 Action take clean clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1430 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1431 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1432 Env 0 Action put all on phone Reward 0 Done False
+obs: id card: done.
+clean clothing: done.
+
+the phone rings.
+Step 1433 Env 0 Action take all from bed Reward 0 Done False
+obs: gold watch: removed.
+soiled clothing: removed.
+keys: removed.
+
+the phone rings.
+Step 1434 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1435 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1436 Env 0 Action put all on table Reward 0 Done False
+obs: gold watch: done.
+keys: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1437 Env 0 Action take all from table Reward 0 Done False
+obs: soiled clothing: removed.
+keys: removed.
+gold watch: removed.
+wallet: removed.
+
+the phone rings.
+Step 1438 Env 0 Action put all down Reward 0 Done False
+obs: wallet: dropped.
+gold watch: dropped.
+keys: dropped.
+soiled clothing: dropped.
+
+the phone rings.
+Step 1439 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1440 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1441 Env 0 Action put license in bed Reward 0 Done False
+obs: you put the driver's license into bed.
+
+the phone rings.
+Step 1442 Env 0 Action take clean clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1443 Env 0 Action put keys on table Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 1444 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1445 Env 0 Action put clothing in dresser Reward 0 Done False
+obs: (the clean clothing in the dresser)
+you put the clean clothing into the dresser.
+
+the phone rings.
+Step 1446 Env 0 Action put on clothing Reward 0 Done False
+obs: (the soiled clothing)
+(first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1447 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1448 Env 0 Action take clothing Reward 0 Done False
+obs: (the clean clothing)
+taken.
+
+the phone rings.
+Step 1449 Env 0 Action put license down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1450 Env 0 Action put clean clothing on table Reward 0 Done False
+obs: you put the clean clothing on the end table.
+
+the phone rings.
+Step 1451 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1452 Env 0 Action put watch in dresser Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch into the dresser.
+
+the phone rings.
+Step 1453 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 1454 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1455 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1456 Env 0 Action put soiled clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1457 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1458 Env 0 Action take all from end Reward 0 Done False
+obs: wallet: removed.
+soiled clothing: removed.
+clean clothing: removed.
+
+the phone rings.
+Step 1459 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1460 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1461 Env 0 Action put clean clothing on end Reward 0 Done False
+obs: you put the clean clothing on the end table.
+
+the phone rings.
+Step 1462 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1463 Env 0 Action put soiled clothing on end Reward 0 Done False
+obs: you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1464 Env 0 Action take all from phone Reward 0 Done False
+obs: removed.
+
+the phone rings.
+Step 1465 Env 0 Action take driver Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1466 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet.
+
+the phone rings.
+Step 1467 Env 0 Action put license on end Reward 0 Done False
+obs: you put the driver's license on the end table.
+
+the phone rings.
+Step 1468 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1469 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1470 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1471 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet.
+
+the phone rings.
+Step 1472 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1473 Env 0 Action put keys on end Reward 0 Done False
+obs: you put the keys on the end table.
+
+the phone rings.
+Step 1474 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1475 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1476 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1477 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1478 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1479 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1480 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1481 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1482 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1483 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1484 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1485 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1486 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1487 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1488 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1489 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1490 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1491 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1492 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1493 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1494 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1495 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1496 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1497 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1498 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1499 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1500 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.401    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1501 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1502 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1503 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1504 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1505 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1506 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1507 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1508 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1509 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1510 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1511 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1512 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1513 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1514 Env 0 Action yes Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1516 Env 0 Action put clothing on end Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+Step 1517 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1518 Env 0 Action put clothing on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1519 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 1520 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1521 Env 0 Action put clothing on phone Reward 0 Done False
+obs: you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1522 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1523 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1524 Env 0 Action put all down Reward 0 Done False
+obs: soiled clothing: dropped.
+keys: dropped.
+
+the phone rings.
+Step 1525 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1526 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1527 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1528 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1529 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1530 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1531 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1532 Env 0 Action put watch down Reward 0 Done False
+obs: (first taking the gold watch off)
+you take off the gold watch.
+dropped.
+
+the phone rings.
+Step 1533 Env 0 Action put wallet on end Reward 0 Done False
+obs: you put the wallet on the end table.
+
+the phone rings.
+Step 1534 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 1535 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1536 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1537 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1538 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1539 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 1540 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a wallet and a telephone.
+
+the phone rings.
+Step 1541 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1542 Env 0 Action put watch down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1543 Env 0 Action put all on table Reward 0 Done False
+obs: id card: done.
+keys: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1544 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1545 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1546 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1547 Env 0 Action put on clothing Reward 0 Done False
+obs: you put on the soiled clothing.
+
+the phone rings.
+Step 1548 Env 0 Action put wallet on phone Reward 0 Done False
+obs: you put the wallet on the telephone.
+
+the phone rings.
+Step 1549 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1550 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1551 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1552 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1553 Env 0 Action put all down Reward 0 Done False
+obs: soiled clothing: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 1554 Env 0 Action get in bed Reward 0 Done False
+obs: you get back into bed.
+
+the phone rings.
+Step 1555 Env 0 Action take all Reward 0 Done False
+obs: (from floor)
+wallet: taken.
+soiled clothing: taken.
+gold watch: taken.
+dirty laundry: you'll have to get out of bed first.
+
+the phone rings.
+Step 1556 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1557 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1558 Env 0 Action take all from end Reward 0 Done False
+obs: keys: removed.
+id card: removed.
+
+the phone rings.
+Step 1559 Env 0 Action put clothing on phone Reward 0 Done False
+obs: you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1560 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1561 Env 0 Action put all down Reward 0 Done False
+obs: soiled clothing: dropped.
+id card: dropped.
+keys: dropped.
+gold watch: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 1562 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1563 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1564 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1565 Env 0 Action put keys on phone Reward 0 Done False
+obs: you put the keys on the telephone.
+
+the phone rings.
+Step 1566 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1567 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1568 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license.
+
+the phone rings.
+Step 1569 Env 0 Action put all down Reward 0 Done False
+obs: gold watch: dropped.
+soiled clothing: dropped.
+wallet: dropped.
+
+the phone rings.
+Step 1570 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1571 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1572 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1573 Env 0 Action take license Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1574 Env 0 Action take card Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1575 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1576 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1577 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1578 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1579 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1580 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1581 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1582 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1583 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1584 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1585 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1586 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1587 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1588 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1589 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1590 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1591 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1592 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1593 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1594 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1595 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1596 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1597 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1598 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1599 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1600 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+--------------------------------------
+| critc_loss              | 0.268    |
+| train/Last100Episode... | 0        |
+--------------------------------------
+Step 1601 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1602 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1603 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1604 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1605 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1606 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1607 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1608 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1609 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1610 Env 0 Action yes Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1611 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1612 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1613 Env 0 Action wait Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1614 Env 0 Action no Reward 0 Done False
+obs: [!: please give one of the answers above.
+Step 1615 Env 0 Action wait Reward 0 Done True
+obs: [!: please give one of the answers above.
+Step 1617 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1618 Env 0 Action get up Reward 0 Done False
+obs: you get out of bed.
+
+bedroom
+this bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. cleaner clothing can be found in the dresser. a bathroom lies to the south, while a door to the east leads to the living room.
+
+on the end table are a telephone, a wallet and some keys.
+
+the phone rings.
+Step 1619 Env 0 Action take off clothing Reward 0 Done False
+obs: you take off the soiled clothing.
+
+the phone rings.
+Step 1620 Env 0 Action put clothing down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1621 Env 0 Action close door Reward 0 Done False
+obs: you close the bedroom door.
+
+the phone rings.
+Step 1622 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1623 Env 0 Action put clothing down Reward 0 Done False
+obs: (first taking the soiled clothing off)
+you take off the soiled clothing.
+dropped.
+
+the phone rings.
+Step 1624 Env 0 Action put watch on table Reward 0 Done False
+obs: (first taking it off)
+
+you take off the gold watch.
+you put the gold watch on the end table.
+
+the phone rings.
+Step 1625 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1626 Env 0 Action close wallet Reward 0 Done False
+obs: you close the wallet.
+
+the phone rings.
+Step 1627 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1628 Env 0 Action put wallet in bed Reward 0 Done False
+obs: you put the wallet into bed.
+
+the phone rings.
+Step 1629 Env 0 Action open wallet Reward 0 Done False
+obs: you open the wallet, revealing a driver's license and an id card.
+
+the phone rings.
+Step 1630 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1631 Env 0 Action put wallet in bed Reward 0 Done False
+obs: you put the wallet into bed.
+
+the phone rings.
+Step 1632 Env 0 Action take all from table Reward 0 Done False
+obs: gold watch: removed.
+keys: removed.
+
+the phone rings.
+Step 1633 Env 0 Action put all on table Reward 0 Done False
+obs: keys: done.
+gold watch: done.
+
+the phone rings.
+Step 1634 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1635 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+
+the phone rings.
+Step 1636 Env 0 Action put watch in bed Reward 0 Done False
+obs: you put the gold watch into bed.
+
+the phone rings.
+Step 1637 Env 0 Action close dresser Reward 0 Done False
+obs: you close the dresser.
+
+the phone rings.
+Step 1638 Env 0 Action put clothing on phone Reward 0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the telephone.
+
+the phone rings.
+Step 1639 Env 0 Action take clothing Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1640 Env 0 Action take watch Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1641 Env 0 Action open door Reward 0 Done False
+obs: you open the bedroom door.
+
+the phone rings.
+Step 1642 Env 0 Action put all on table Reward 0 Done False
+obs: gold watch: done.
+soiled clothing: done.
+
+the phone rings.
+Step 1643 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1644 Env 0 Action put keys in bed Reward 0 Done False
+obs: you put the keys into bed.
+
+the phone rings.
+Step 1645 Env 0 Action take keys Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1646 Env 0 Action take wallet Reward 0 Done False
+obs: taken.
+
+the phone rings.
+Step 1647 Env 0 Action put on clothing Reward 0 Done False
+obs: (first taking the soiled clothing)
+you put on the soiled clothing.
+
+the phone rings.
+Step 1648 Env 0 Action take all from wallet Reward 0 Done False
+obs: driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 1649 Env 0 Action open dresser Reward 0 Done False
+obs: you open the dresser, revealing some clean clothing.
+
+the phone rings.
+Step 1650 Env 0 Action put keys down Reward 0 Done False
+obs: dropped.
+
+the phone rings.
+Step 1651 Env 0 Action take clothing Reward 0 Done False
+obs: (the clean clothing)
+taken.
+
+the phone rings.
+Step 1652 Env 0 Action put clean clothing on phone Reward 0 Done False
+obs: you put the clean clothing on the telephone.
+
+the phone rings.
+Step 1653 Env 0 Action put on watch Reward 0 Done False
+obs: (first taking the gold watch)
+you put on the gold watch.
+
+the phone rings.
+Step 1654 Env 0 Action put all on table Reward 0 Done False
+obs: id card: done.
+driver's license: done.
+wallet: done.
+
+the phone rings.
+Step 1655 Env 0 Action take all from table Reward 0 Done False
+obs: wallet: removed.
+driver's license: removed.
+id card: removed.
+
+the phone rings.
+Step 1656 Env 0 Action put license in bed Reward 0 Done False
+obs: you put the driver's license into bed.
+
+the phone rings.
+Step 1657 Env 0 Action put clothing in dresser Reward 0 Done False
+obs: (the soiled clothing in the dresser)
+(first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing into the dresser.
+
+the phone rings.
+Step 1658 Env 0 Action look under bed Reward 0 Done False
+obs: under the bed you see the corpse of the guy who owns this house.
+
+the phone rings.
+Step 1659 Env 0 Action close dresser Reward 0 Done False
+obs: you close the dresser.
+
+the phone rings.
+Traceback (most recent call last):
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 228, in <module>
+    main()
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 214, in main
+    train(agent, envs, args, args.max_steps, args.update_freq,
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 137, in train
+    ob, reward, done, info = env.step(action)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/env.py", line 47, in step
+    valid = self.env.get_valid_actions(use_parallel=False)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 574, in get_valid_actions
+    diff2acts         = self._filter_candidate_actions(candidate_actions, use_ctypes, use_parallel)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 978, in _filter_candidate_actions
+    valid_cnt = self.frotz_lib.filter_candidate_actions(
+KeyboardInterrupt

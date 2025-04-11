@@ -1,0 +1,61 @@
+{
+  "os": "Linux-5.15.0-101-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-10T20:43:19.950173Z",
+  "args": [
+    "--output_dir",
+    "output",
+    "--rom_path",
+    "z-machine-games-master/jericho-game-suite/905.z5",
+    "--spm_path",
+    "unigram_8k.model",
+    "--wandb=1",
+    "--wandb_project=comp_579"
+  ],
+  "program": "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py",
+  "codePath": "src/train.py",
+  "git": {
+    "remote": "https://github.com/Euphoria040201/Comp579Text-based-adventure-games-using-SAC.git",
+    "commit": "2613f2e1e643095eb2479e81f34eef995ac12a8b"
+  },
+  "email": "tiany12138@gmail.com",
+  "root": "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src",
+  "host": "cn-c024.server.mila.quebec",
+  "executable": "/home/mila/x/xut/.conda/envs/rl_venv/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 64,
+  "gpu": "Quadro RTX 8000",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "468109746176",
+      "used": "15321808896"
+    }
+  },
+  "memory": {
+    "total": "404506832896"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 64
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Quadro RTX 8000",
+      "memoryTotal": "48318382080",
+      "cudaCores": 4608,
+      "architecture": "Turing"
+    },
+    {
+      "name": "Quadro RTX 8000",
+      "memoryTotal": "48318382080",
+      "cudaCores": 4608,
+      "architecture": "Turing"
+    }
+  ],
+  "slurm": {
+    "job_id": "6558053"
+  },
+  "cudaVersion": "12.6"
+}

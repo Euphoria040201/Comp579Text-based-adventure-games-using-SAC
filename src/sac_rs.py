@@ -11,6 +11,8 @@ from collections import namedtuple
 from torch.distributions import Categorical
 from utils import soft_update,  pad_sequences,set_seed_everywhere
 import os.path
+from memory import Transition
+
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
@@ -19,7 +21,6 @@ steps_done = 0
 #SAC is inspired by https://github.com/toshikwa/sac-discrete.pytorch
 
 State = namedtuple('State', ('obs','look', 'inv'))
-Transition = namedtuple('Transition', ('state', 'next_state', 'act', 'valids','next_valids', 'rew', 'done'))
 
 class SACAgent(nn.Module):
     """SAC algorithm."""
@@ -30,6 +31,7 @@ class SACAgent(nn.Module):
         self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
         self.discount = 0.90
         self.rs_discount = 0.99
+        self.rs_method = getattr(args, 'rs_method', 'potential')  # 'potential' or 'lookback'
         self.critic_tau = 0.1
         self.actor_update_frequency = 1
         self.critic_target_update_frequency = 2
@@ -111,49 +113,88 @@ class SACAgent(nn.Module):
 
         return act_idxs, act_values
 
-    def update_critic(self, reward_shaping, batch,logger,step,t=0):
+    def update_critic(self, reward_shaping, batch, logger, step, t=0):
         with torch.no_grad():
-            act_idxs, act_probs, log_prob = self.actor.act(batch.next_state,batch.next_valids)
-            next_action = tuple([[next_valids[idx]] for next_valids,idx in  zip(batch.next_valids,act_idxs)])
+            # Compute target V as before.
+            act_idxs, act_probs, log_prob = self.actor.act(batch.next_state, batch.next_valids)
             target_Q1 = self.critic_target(batch.next_state, batch.next_valids)
             target_Q2 = self.critic_target2(batch.next_state, batch.next_valids)
-            target_V = [(act*(torch.min(t1,t2) - self.alpha.detach() * log)).sum(dim = 0, keepdim =True) for act,t1,t2,log in zip(act_probs,target_Q1,target_Q2,log_prob)]
-            target_V = torch.cat((target_V),0)
+            target_V = [ (act * (torch.min(t1, t2) - self.alpha.detach() * log)).sum(dim=0, keepdim=True)
+                        for act, t1, t2, log in zip(act_probs, target_Q1, target_Q2, log_prob) ]
+            target_V = torch.cat(target_V, 0)
 
-            if reward_shaping == True:
-                reward = torch.tensor(batch.rew,dtype=torch.float, device=device)
-                current_act_idxs, current_act_probs, current_log_prob = self.actor.act(batch.state, batch.valids)
-                current_Q1 = self.critic_target(batch.state,batch.valids)
-                current_Q2 = self.critic_target2(batch.state,batch.valids)
-                current_V = [(act*(torch.min(t1,t2) - self.alpha.detach() * log)).sum(dim = 0, keepdim =True) for act,t1,t2,log in zip(current_act_probs,current_Q1,current_Q2,current_log_prob)]
-                current_V = torch.cat((current_V),0)
+            if reward_shaping:
+                # Get raw extrinsic reward.
+                reward = torch.tensor(batch.rew, dtype=torch.float, device=self.device)
+                
+                if self.rs_method == "potential":
+                    # ORIGINAL potential-based shaping (state-only):
+                    # Here, we compute a “soft” state value using the current state.
+                    current_act_idxs, current_act_probs, current_log_prob = self.actor.act(batch.state, batch.valids)
+                    current_Q1 = self.critic_target(batch.state, batch.valids)
+                    current_Q2 = self.critic_target2(batch.state, batch.valids)
+                    current_V = [ (act * (torch.min(q1, q2) - self.alpha.detach() * log)).sum(dim=0, keepdim=True)
+                                for act, q1, q2, log in zip(current_act_probs, current_Q1, current_Q2, current_log_prob) ]
+                    current_V = torch.cat(current_V, 0)
+                    # For potential-based shaping, compute a shaping term as in your original code:
+                    current_V = [ (1-0.1)*c_v + 0.1*(rew + self.rs_discount*t_v)
+                                for rew, c_v, t_v in zip(batch.rew, current_V, target_V) ]
+                    current_V = torch.stack(current_V)
+                    shaping_reward = self.rs_discount * target_V - current_V
 
-
-                current_V = [(1-0.1)*c_v + 0.1*(rew + self.rs_discount*t_v) for rew, c_v,t_v in zip(batch.rew, current_V,target_V)]
-                current_V=torch.stack(current_V)
-
-                reward_shaping = self.rs_discount*target_V - current_V
-                rewards = reward_shaping + reward
+                elif self.rs_method == "lookback":
+                    # LOOK-BACK ADVICE: We assume the batch contains additional fields:
+                    # batch.prev_state, batch.prev_valids, batch.prev_act.
+                    # Compute potential for the current state-action pair (Φ(s_t, a_t))
+                    phi_current_list = []
+                    phi_prev_list = []
+                    for i in range(len(batch.state)):
+                        # Current potential: use critic_target as a proxy (could use other estimators)
+                        valid_actions = batch.valids[i]  # assumed to be a list of valid actions (encoded)
+                        current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]  # tensor of shape [num_valids]
+                        act_idx = valid_actions.index(batch.act[i])
+                        phi_current_list.append(current_q_values[act_idx])
+                        
+                        # Previous potential: if available, otherwise zero.
+                        if hasattr(batch, 'prev_state') and (batch.prev_state[i] is not None):
+                            prev_valids = batch.prev_valids[i]
+                            prev_q_values = self.critic_target([batch.prev_state[i]], [prev_valids])[0]
+                            prev_act_idx = prev_valids.index(batch.prev_act[i])
+                            phi_prev_list.append(prev_q_values[prev_act_idx])
+                        else:
+                            phi_prev_list.append(torch.tensor(0.0, device=self.device))
+                    # Stack potentials into tensors.
+                    phi_current = torch.stack(phi_current_list)
+                    phi_prev = torch.stack(phi_prev_list)
+                    # Look-back advice: F(s_t, a_t, s_{t-1}, a_{t-1}) = Φ(s_t, a_t) - (1/γ) * Φ(s_{t-1}, a_{t-1})
+                    shaping_reward = phi_current - (1.0 / self.discount) * phi_prev
+                else:
+                    raise ValueError("Unknown reward shaping method: choose 'potential' or 'lookback'")
+                    
+                # Final shaped reward is extrinsic reward plus the shaping term.
+                rewards = reward + shaping_reward
             else:
                 rewards = batch.rew
 
-        target_Q = torch.tensor(rewards, dtype=torch.float, device=device) + ((1-torch.tensor(batch.done, dtype=torch.float, device=device)) * self.discount *  target_V.clone())#.detach()
+            # Compute target Q using the shaped reward.
+            target_Q = torch.tensor(rewards, dtype=torch.float, device=self.device) + \
+                    ((1 - torch.tensor(batch.done, dtype=torch.float, device=self.device)) * \
+                        self.discount * target_V.clone())
 
+        ##### Extract current Q-values for the taken actions:
+        index = [valids.index(x) for valids, x in zip(batch.valids, batch.act)]
+        index = torch.LongTensor(index).to(self.device)
+        current_Q1 = self.critic1(batch.state, batch.valids)
+        current_Q2 = self.critic2(batch.state, batch.valids)
+        current_Q1 = [q1.gather(0, idx) for q1, idx in zip(current_Q1, index)]
+        current_Q1 = torch.stack(current_Q1)
+        current_Q2 = [q2.gather(0, idx) for q2, idx in zip(current_Q2, index)]
+        current_Q2 = torch.stack(current_Q2)
 
-        #####Q(a)############
-        index = [valids.index(x) for valids, x in zip(batch.valids,batch.act)]
-        index = torch.LongTensor(index).to(device)
-        current_Q1 = self.critic1(batch.state,batch.valids)
-        current_Q2 = self.critic2(batch.state,batch.valids)
-        current_Q1 = [current_q1.gather(0,idx) for current_q1,idx in zip(current_Q1,index)]
-        current_Q1= torch.stack(current_Q1)
-        current_Q2 = [current_q2.gather(0,idx) for current_q2,idx in zip(current_Q2,index)]
-        current_Q2= torch.stack(current_Q2)
+        Q1_loss = torch.mean((current_Q1 - target_Q).pow(2))
+        Q2_loss = torch.mean((current_Q2 - target_Q).pow(2))
 
-        Q1_loss = torch.mean((current_Q1 - target_Q).pow(2) )
-        Q2_loss = torch.mean((current_Q2 - target_Q).pow(2) )
-
-        # Optimize the critic
+        # Optimize the critics.
         self.critic_optimizer1.zero_grad()
         self.critic_optimizer2.zero_grad()
         Q1_loss.backward()
@@ -163,7 +204,6 @@ class SACAgent(nn.Module):
         self.critic_optimizer1.step()
         self.critic_optimizer2.step()
         return Q1_loss + Q2_loss
-
 
 
     def update_actor_and_alpha(self, batch, logger, step):

@@ -1,0 +1,13 @@
+--> Saving logs at: output/game_name/2025-04-10_22-52-11
+Learn begins!
+--> using reward_shaping
+Traceback (most recent call last):
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 235, in <module>
+    main()
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 232, in main
+    train(agent, envs, args, args.max_steps, args.update_freq, args.checkpoint_freq, args.log_freq)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 200, in train
+    critic_loss, actor_loss = agent.update(args, expert_memory_replay, logger, step)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/sac_rs.py", line 245, in update
+    batch = Transition(*zip(*transitions))
+TypeError: Transition.__new__() takes 8 positional arguments but 11 were given

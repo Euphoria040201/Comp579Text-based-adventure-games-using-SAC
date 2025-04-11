@@ -1,0 +1,19 @@
+--> Saving logs at: output/game_name/2025-04-10_23-03-58
+Learn begins!
+--> using reward_shaping
+/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/sac_rs.py:180: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_Q = torch.tensor(rewards, dtype=torch.float, device=self.device) + \
+Traceback (most recent call last):
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 230, in <module>
+    main()
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 227, in main
+    train(agent, envs, args, args.max_steps, args.update_freq, args.checkpoint_freq, args.log_freq)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 142, in train
+    ob, reward, done, info = env.step(action)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/env.py", line 47, in step
+    valid = self.env.get_valid_actions(use_parallel=False)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 574, in get_valid_actions
+    diff2acts         = self._filter_candidate_actions(candidate_actions, use_ctypes, use_parallel)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 978, in _filter_candidate_actions
+    valid_cnt = self.frotz_lib.filter_candidate_actions(
+KeyboardInterrupt

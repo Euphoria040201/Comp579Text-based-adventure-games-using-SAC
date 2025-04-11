@@ -1,0 +1,15 @@
+{"time":"2025-04-10T23:00:09.795544991-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/wandb/run-20250410_230009-re1yk3w5/logs/debug-core.log"}
+{"time":"2025-04-10T23:00:09.964168421-04:00","level":"INFO","msg":"created new stream","id":"re1yk3w5"}
+{"time":"2025-04-10T23:00:09.964267361-04:00","level":"INFO","msg":"stream: started","id":"re1yk3w5"}
+{"time":"2025-04-10T23:00:09.964285471-04:00","level":"INFO","msg":"handler: started","stream_id":"re1yk3w5"}
+{"time":"2025-04-10T23:00:09.964368602-04:00","level":"INFO","msg":"sender: started","stream_id":"re1yk3w5"}
+{"time":"2025-04-10T23:00:09.964413502-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"re1yk3w5"}
+{"time":"2025-04-10T23:00:10.07346787-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T23:01:20.269146834-04:00","level":"INFO","msg":"stream: closing","id":"re1yk3w5"}
+{"time":"2025-04-10T23:01:20.269220684-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T23:01:20.269322144-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T23:01:20.791304008-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T23:01:20.89017605-04:00","level":"INFO","msg":"handler: closed","stream_id":"re1yk3w5"}
+{"time":"2025-04-10T23:01:20.89020547-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"re1yk3w5"}
+{"time":"2025-04-10T23:01:20.890261551-04:00","level":"INFO","msg":"sender: closed","stream_id":"re1yk3w5"}
+{"time":"2025-04-10T23:01:20.891200685-04:00","level":"INFO","msg":"stream: closed","id":"re1yk3w5"}

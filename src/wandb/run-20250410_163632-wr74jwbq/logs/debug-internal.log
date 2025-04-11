@@ -1,0 +1,17 @@
+{"time":"2025-04-10T16:36:32.831652034-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/wandb/run-20250410_163632-wr74jwbq/logs/debug-core.log"}
+{"time":"2025-04-10T16:36:33.018404444-04:00","level":"INFO","msg":"created new stream","id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:33.018486475-04:00","level":"INFO","msg":"stream: started","id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:33.018538405-04:00","level":"INFO","msg":"sender: started","stream_id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:33.018521665-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:33.018563965-04:00","level":"INFO","msg":"handler: started","stream_id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:33.062923093-04:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-10T16:36:33.063043903-04:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-04-10T16:36:34.06583601-04:00","level":"INFO","msg":"stream: closing","id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:34.066100331-04:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-04-10T16:36:34.156713074-04:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-10T16:36:34.156852905-04:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project tiany12138/comp_579 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-10T16:36:34.163494393-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T16:36:34.163649674-04:00","level":"INFO","msg":"handler: closed","stream_id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:34.163690154-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:34.163721614-04:00","level":"INFO","msg":"sender: closed","stream_id":"wr74jwbq"}
+{"time":"2025-04-10T16:36:34.164393157-04:00","level":"INFO","msg":"stream: closed","id":"wr74jwbq"}

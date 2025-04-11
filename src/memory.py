@@ -4,7 +4,10 @@ import random
 import torch
 from collections import namedtuple
 State = namedtuple('State', ('obs','look', 'inv'))
-Transition = namedtuple('Transition', ('state', 'next_state', 'act', 'valids','next_valids', 'rew', 'done'))
+Transition = namedtuple('Transition', (
+    'prev_state', 'prev_valids', 'prev_act', 
+    'state', 'next_state', 'act', 'valids', 'next_valids', 
+    'rew', 'done'))
 
 class ReplayMemory(object):
     def __init__(self, capacity, sampling_strategy='uniform'):
@@ -48,8 +51,8 @@ class ReplayMemory(object):
     def compute_td_errors(self, agent, device):
         td_errors = []
         for transition in self.memory:
-            state, next_state, action, valid, next_valid, reward, done = transition
-        
+            prev_state, prev_valids, prev_act, state, next_state, action, valid, next_valid, reward, done = transition
+                
             current_state = State(*state)
             next_state = State(*next_state)
             with torch.no_grad():

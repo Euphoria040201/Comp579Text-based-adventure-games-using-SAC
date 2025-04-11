@@ -1,0 +1,15 @@
+Logging to output
+>> Action1: put clothing on end
+Reward1: 0, Score 0, Done False
+>> Action2: take wallet
+Reward2: 0, Score 0, Done False
+>> Action3: take clothing
+Reward3: 0, Score 0, Done False
+>> Action4: open wallet
+Reward4: 0, Score 0, Done False
+>> Action5: put clothing on phone
+Reward5: 0, Score 0, Done False
+>> Action6: look under bed
+Reward6: 0, Score 0, Done False
+>> Action7: put watch down
+Reward7: 0, Score 0, Done False
