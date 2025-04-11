@@ -25,6 +25,7 @@ import wandb
 import sentencepiece as spm
 from os.path import join as pjoin
 import  pickle
+from drrn_agent import DRRN_Agent
 
 
 
@@ -70,6 +71,8 @@ def parse_args():
     parser.add_argument('--rnd_scale', default=0.3, type=float)
     #Reward shaping
     parser.add_argument('--reward_shaping', default=True, type=bool)
+
+    parser.add_argument('--use_aux_reward', default=True, type=bool)
 
     # logger
     parser.add_argument('--tensorboard', default=0, type=int)
@@ -205,8 +208,10 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
             if learn_steps == LEARN_STEPS:
                 print('Finished!')
                 return
-
-            critic_loss, actor_loss=agent.update(args,expert_memory_replay,logger,step)
+            if args.agent_type != "DRRN":
+                critic_loss, actor_loss=agent.update(args,expert_memory_replay,logger,step)
+            else:
+                agent.update()
 
         if step % checkpoint_freq == 0:
             agent.save()
@@ -214,7 +219,8 @@ def train(agent, envs, args, max_steps, update_freq, checkpoint_freq, log_freq):
 
         if  step % args.log_freq==0:
             tb.logkv('train/Last100EpisodeScores', sum(env.get_end_scores(last=100) for env in envs) / len(envs))
-            tb.logkv('critc_loss',critic_loss.item())
+            if args.agent_type != "DRRN":
+                tb.logkv('critc_loss',critic_loss.item())
             tb.dumpkvs()
 
 
@@ -236,10 +242,14 @@ def main():
         agent = SACAgent(args)
     elif args.agent_type == "RND":
         agent = RNDAgent(args)
-    else:
+    elif args.agent_type == "REMSAC":
         agent = REMSACAgent(args)
+    elif args.agent_type == "DRRN":
+        agent = DRRN_Agent(args)
+    else:
+        raise ValueError("----Invalid Agent Type!----")
         
-    envs = [JerichoEnv(args.rom_path, args.seed, args.env_step_limit)
+    envs = [JerichoEnv(args.rom_path, args.seed, args.env_step_limit,use_aux_reward=args.use_aux_reward)
                 for _ in range(args.num_envs)]
 
     train(agent, envs, args, args.max_steps, args.update_freq,
