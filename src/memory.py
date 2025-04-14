@@ -4,8 +4,22 @@ import random
 import torch
 
 from collections import namedtuple
-State = namedtuple('State', ('obs','look', 'inv'))
-Transition = namedtuple('Transition', ('state', 'next_state', 'act', 'valids','next_valids', 'rew', 'done'))
+# Define a State tuple.
+State = namedtuple('State', ('obs', 'look', 'inv'))
+
+# Extended Transition tuple for look-back advice.
+Transition = namedtuple('Transition', (
+    'prev_state',   # Previous state (can be None on episode start)
+    'prev_valids',  # Valid actions in the previous state
+    'prev_act',     # The previous action (encoded)
+    'state',        # Current state
+    'next_state',   # Next state
+    'act',          # Action taken in current state (encoded)
+    'valids',       # Valid actions for the current state
+    'next_valids',  # Valid actions for the next state
+    'rew',          # Received reward at this step
+    'done'          # Whether the episode terminated after this transition
+))
 
 class ReplayMemory(object):
     def __init__(self, capacity, sampling_strategy='uniform'):
@@ -50,7 +64,7 @@ class ReplayMemory(object):
     def compute_td_errors(self, agent, device):
         td_errors = []
         for transition in self.memory:
-            state, next_state, action, valid, next_valid, reward, done = transition
+            _, _, _, state, next_state, action, valid, next_valid, reward, done = transition
         
             current_state = State(*state)
             next_state = State(*next_state)
