@@ -1,0 +1,7 @@
+{"time":"2025-04-11T22:52:30.288552627-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/wandb/run-20250411_225230-ne6f7l2e/logs/debug-core.log"}
+{"time":"2025-04-11T22:52:30.657694723-04:00","level":"INFO","msg":"created new stream","id":"ne6f7l2e"}
+{"time":"2025-04-11T22:52:30.657785515-04:00","level":"INFO","msg":"stream: started","id":"ne6f7l2e"}
+{"time":"2025-04-11T22:52:30.657809189-04:00","level":"INFO","msg":"handler: started","stream_id":"ne6f7l2e"}
+{"time":"2025-04-11T22:52:30.657840589-04:00","level":"INFO","msg":"sender: started","stream_id":"ne6f7l2e"}
+{"time":"2025-04-11T22:52:30.657812375-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"ne6f7l2e"}
+{"time":"2025-04-11T22:52:30.77384212-04:00","level":"INFO","msg":"Starting system monitor"}

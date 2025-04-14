@@ -1,0 +1,109 @@
+--> Saving logs at: output/game_name/2025-04-11_22-16-43
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the soiled clothing.
+You put the soiled clothing on the end table.
+
+The phone rings.
+Step 1 Env 0 Action put clothing on end Reward 1.0 Done False
+obs: (first taking it off)
+
+you take off the soiled clothing.
+you put the soiled clothing on the end table.
+
+the phone rings.
+[Step 0] Valid Actions: ['get up', 'take off clothing', 'take off watch', 'take off all', 'take wallet', 'take keys', 'close door', 'put clothing down', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone']
+New Scene!
+OBSERVATION: You pick up the phone. "Hadley!" a shrill voice cries. "Hadley, haven't you even left yet?? You knew that our presentation was at nine o'clock sharp! First the thing with the printers, now this - there won't even be enough left of you for Bowman to fire once he's done with you. Now get the hell down here!!"
+
+Click.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking the soiled clothing off)
+You take off the soiled clothing.
+Dropped.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take wallet', 'take keys', 'close door', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'take all from phone', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the telephone.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take gold', 'take wallet', 'take keys', 'close door', 'put on gold', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the end table.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off watch', 'take off clothing', 'take off all', 'close door', 'put watch down', 'put clothing down', 'put wallet down', 'put keys down', 'put all down', 'look under bed', 'open wallet', 'put watch on phone', 'put watch on end', 'put clothing on phone', 'put clothing on end', 'put wallet on phone', 'put wallet on end', 'put keys on phone', 'put keys on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: wallet: Removed.
+keys: Removed.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'take wallet', 'take keys', 'close door', 'put on watch', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking the gold watch off)
+You take off the gold watch.
+Dropped.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take gold', 'take wallet', 'take keys', 'close door', 'put on gold', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the end table.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take off watch', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put clothing down', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+Step 2 Env 0 Action take clothing Reward 1.0 Done False
+obs: taken.
+
+the phone rings.
+[Step 1] Valid Actions: ['get up', 'take off clothing', 'take off watch', 'take off all', 'take keys', 'close door', 'put clothing down', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: Taken.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'take all from phone', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: You take off the soiled clothing.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take gold', 'take clothing', 'take wallet', 'take keys', 'close door', 'put on gold', 'put on clothing', 'look under bed', 'open wallet', 'take all from end']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the soiled clothing.
+You put the soiled clothing on the end table.
+
+The phone rings.
+Traceback (most recent call last):
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 269, in <module>
+    main()
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 255, in main
+    train(agent, envs, args, args.max_steps, args.update_freq,
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 158, in train
+    ob, reward, done, info = env.step(action)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/env.py", line 105, in step
+    valid = self.env.get_valid_actions(use_parallel=False)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 574, in get_valid_actions
+    diff2acts         = self._filter_candidate_actions(candidate_actions, use_ctypes, use_parallel)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 978, in _filter_candidate_actions
+    valid_cnt = self.frotz_lib.filter_candidate_actions(
+KeyboardInterrupt
