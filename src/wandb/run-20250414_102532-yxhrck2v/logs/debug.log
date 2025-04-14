@@ -1,0 +1,22 @@
+2025-04-14 10:25:32,210 INFO    MainThread:3556866 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_setup.py:_flush():67] Configure stats pid to 3556866
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_setup.py:_flush():67] Loading settings from /home/mila/x/xut/.config/wandb/settings
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_setup.py:_flush():67] Loading settings from /home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/wandb/settings
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/wandb/run-20250414_102532-yxhrck2v/logs/debug.log
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/wandb/run-20250414_102532-yxhrck2v/logs/debug-internal.log
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_init.py:init():781] calling init triggers
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'output_dir': 'output', 'rom_path': 'z-machine-games-master/jericho-game-suite/905.z5', 'env_name': 'game_name', 'spm_path': 'unigram_8k.model', 'env_step_limit': 100, 'seed': 0, 'num_envs': 8, 'max_steps': 10000, 'update_freq': 1, 'checkpoint_freq': 5000, 'log_freq': 100, 'memory_size': 100000, 'batch_size': 32, 'gamma': 0.9, 'learning_rate': 0.0001, 'clip': 5, 'embedding_dim': 128, 'hidden_dim': 128, 'load_checkpoint': '', 'rnd_scale': 0.3, 'reward_shaping': True, 'rs_method': 'lookback', 'use_aux_reward': True, 'tensorboard': 0, 'wandb': 1, 'wandb_project': '579_textgame', 'wandb_group': '', 'agent_type': 'SAC', 'sample_strat': 'uniform', '_wandb': {}}
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_init.py:init():809] starting backend
+2025-04-14 10:25:32,212 INFO    MainThread:3556866 [wandb_init.py:init():813] sending inform_init request
+2025-04-14 10:25:32,225 INFO    MainThread:3556866 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-14 10:25:32,225 INFO    MainThread:3556866 [wandb_init.py:init():823] backend started and connected
+2025-04-14 10:25:32,229 INFO    MainThread:3556866 [wandb_init.py:init():915] updated telemetry
+2025-04-14 10:25:32,263 INFO    MainThread:3556866 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-14 10:25:32,785 INFO    MainThread:3556866 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-14 10:25:33,006 INFO    MainThread:3556866 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-14 10:25:33,006 INFO    MainThread:3556866 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-14 10:25:33,007 INFO    MainThread:3556866 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-14 10:25:33,007 INFO    MainThread:3556866 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-14 10:25:33,014 INFO    MainThread:3556866 [wandb_init.py:init():1056] run started, returning control to user process

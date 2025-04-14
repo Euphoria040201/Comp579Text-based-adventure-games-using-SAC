@@ -1,0 +1,61 @@
+{
+  "os": "Linux-5.15.0-1048-nvidia-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-14T14:25:32.228708Z",
+  "args": [
+    "--output_dir",
+    "output",
+    "--rom_path",
+    "z-machine-games-master/jericho-game-suite/905.z5",
+    "--spm_path",
+    "unigram_8k.model",
+    "--wandb=1",
+    "--wandb_project=579_textgame"
+  ],
+  "program": "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py",
+  "codePath": "src/train.py",
+  "git": {
+    "remote": "https://github.com/Euphoria040201/Comp579Text-based-adventure-games-using-SAC.git",
+    "commit": "10be10be91ffcf8c027de729a735ceeb03ed554c"
+  },
+  "email": "tiany12138@gmail.com",
+  "root": "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src",
+  "host": "cn-d001.server.mila.quebec",
+  "executable": "/home/mila/x/xut/.conda/envs/rl_venv/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 128,
+  "cpu_count_logical": 256,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "1887374536704",
+      "used": "50614964224"
+    }
+  },
+  "memory": {
+    "total": "1081172426752"
+  },
+  "cpu": {
+    "count": 128,
+    "countLogical": 256
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "slurm": {
+    "job_id": "6589101"
+  },
+  "cudaVersion": "12.2"
+}

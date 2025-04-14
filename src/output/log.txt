@@ -1,3 +1,1 @@
 Logging to output
->> Action1: put watch on phone
-Reward1: 1.0, Score 0, Done False

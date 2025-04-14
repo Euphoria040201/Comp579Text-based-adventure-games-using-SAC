@@ -1,0 +1,435 @@
+--> Saving logs at: output/game_name/2025-04-14_10-25-36
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off watch', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the soiled clothing.
+You put the soiled clothing on the end table.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take off clothing', 'take off watch', 'take off all', 'take wallet', 'take keys', 'close door', 'put clothing down', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone']
+New Scene!
+OBSERVATION: You pick up the phone. "Hadley!" a shrill voice cries. "Hadley, haven't you even left yet?? You knew that our presentation was at nine o'clock sharp! First the thing with the printers, now this - there won't even be enough left of you for Bowman to fire once he's done with you. Now get the hell down here!!"
+
+Click.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking the soiled clothing off)
+You take off the soiled clothing.
+Dropped.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take wallet', 'take keys', 'close door', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'take all from phone', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the telephone.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take gold', 'take wallet', 'take keys', 'close door', 'put on gold', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the end table.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take off watch', 'take off all', 'close door', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: wallet: Removed.
+keys: Removed.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'take wallet', 'take keys', 'close door', 'put on watch', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking the gold watch off)
+You take off the gold watch.
+Dropped.
+
+The phone rings.
+[Step 0] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take gold', 'take wallet', 'take keys', 'close door', 'put on gold', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the end table.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'take all from end', 'put watch on end', 'put watch on phone', 'put wallet on end', 'put wallet on phone']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take off clothing', 'take off watch', 'take off all', 'take keys', 'close door', 'put clothing down', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: Taken.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'take all from phone', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: You take off the soiled clothing.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take gold', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on gold', 'put on clothing', 'look under bed', 'open wallet', 'take all from end']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the soiled clothing.
+You put the soiled clothing on the end table.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take off clothing', 'close door', 'put on watch', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: You take off the gold watch.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'take wallet', 'take keys', 'close door', 'put on watch', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: Under the bed you see the corpse of the guy who owns this house.
+
+The phone rings.
+[Step 1] Valid Actions: ['get up', 'take phone', 'take gold', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on gold', 'put on clothing', 'look under bed', 'open wallet', 'take all from end']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the soiled clothing.
+You put the soiled clothing on the end table.
+
+The phone rings.
+[Step 2] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'close door', 'put on clothing', 'put keys down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on phone', 'put keys on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 2] Valid Actions: ['get up', 'take off clothing', 'take off watch', 'take off all', 'take keys', 'close door', 'put clothing down', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: Under the bed you see the corpse of the guy who owns this house.
+[Step 2] Valid Actions: ['get up', 'take off watch', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put watch on end', 'put watch on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: You pick up the phone. "Hadley!" a shrill voice cries. "Hadley, haven't you even left yet?? You knew that our presentation was at nine o'clock sharp! First the thing with the printers, now this - there won't even be enough left of you for Bowman to fire once he's done with you. Now get the hell down here!!"
+
+Click.
+[Step 2] Valid Actions: ['get up', 'take phone', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on clothing', 'look under bed', 'open wallet', 'take all from end', 'take all from phone']
+New Scene!
+OBSERVATION: You put the soiled clothing on the end table.
+
+The phone rings.
+[Step 2] Valid Actions: ['get up', 'take gold', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on gold', 'put on clothing', 'look under bed', 'open wallet', 'take all from end']
+New Scene!
+OBSERVATION: You pick up the phone. "Hadley!" a shrill voice cries. "Hadley, haven't you even left yet?? You knew that our presentation was at nine o'clock sharp! First the thing with the printers, now this - there won't even be enough left of you for Bowman to fire once he's done with you. Now get the hell down here!!"
+
+Click.
+[Step 2] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take gold', 'take wallet', 'take keys', 'close door', 'put on gold', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: keys: Done.
+wallet: Done.
+gold watch: Done.
+
+The phone rings.
+[Step 2] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'take wallet', 'close door', 'put on watch', 'put clothing down', 'put keys down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on phone', 'put keys on end', 'put keys on phone']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+[Step 2] Valid Actions: ['get up', 'take phone', 'take off watch', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking the gold watch)
+You put on the gold watch.
+
+The phone rings.
+[Step 3] Valid Actions: ['get up', 'take phone', 'take off watch', 'take license', 'take card', 'take clothing', 'close wallet', 'close door', 'put on clothing', 'put keys down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'take all from wallet', 'put keys on phone', 'put keys on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: You open the wallet, revealing a driver's license and an ID card.
+
+The phone rings.
+[Step 3] Valid Actions: ['get up', 'take off clothing', 'take gold', 'take keys', 'close door', 'put on gold', 'put clothing down', 'put wallet down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the end table.
+[Step 3] Valid Actions: ['get up', 'take off clothing', 'take off watch', 'take off all', 'take keys', 'close door', 'put clothing down', 'put watch down', 'put wallet down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: (first taking the soiled clothing)
+You put on the soiled clothing.
+[Step 3] Valid Actions: ['get up', 'take phone', 'close door', 'put on clothing', 'put clothing down', 'put wallet down', 'put keys down', 'put all down', 'look under bed', 'open wallet', 'take all from phone', 'put clothing on end', 'put clothing on phone', 'put wallet on end', 'put wallet on phone', 'put keys on end', 'put keys on phone', 'put all on end', 'put all on phone']
+New Scene!
+OBSERVATION: soiled clothing: Removed.
+wallet: Removed.
+keys: Removed.
+
+The phone rings.
+[Step 3] Valid Actions: ['get up', 'close door', 'put on clothing', 'put on watch', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on telephone', 'put keys on end', 'put clothing on telephone', 'put clothing on end', 'put watch on telephone', 'put watch on end', 'put wallet on telephone', 'put wallet on end', 'put all on telephone', 'put all on end']
+New Scene!
+OBSERVATION: soiled clothing: Removed.
+gold watch: Removed.
+wallet: Removed.
+keys: Removed.
+[Step 3] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take wallet', 'take keys', 'close door', 'put on watch', 'put clothing down', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+[Step 3] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'take keys', 'take wallet', 'close door', 'put on watch', 'put clothing down', 'look under bed', 'open wallet', 'take all from bed', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: Dropped.
+
+The phone rings.
+[Step 3] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take off watch', 'take off all', 'take wallet', 'take keys', 'close door', 'put clothing down', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking the soiled clothing)
+You put on the soiled clothing.
+
+The phone rings.
+[Step 4] Valid Actions: ['get up', 'take phone', 'take off watch', 'take license', 'take keys', 'take card', 'take clothing', 'close wallet', 'close door', 'put on clothing', 'put watch down', 'put wallet down', 'look under bed', 'take all from wallet', 'take all from end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end']
+New Scene!
+OBSERVATION: You put the keys on the end table.
+
+The phone rings.
+[Step 4] Valid Actions: ['get up', 'take off clothing', 'take gold', 'take keys', 'put on gold', 'put clothing down', 'put wallet down', 'look under bed', 'open wallet', 'open door', 'take all from end', 'put clothing on end', 'put clothing on telephone', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: You close the bedroom door.
+[Step 4] Valid Actions: ['get up', 'take off watch', 'take keys', 'close door', 'put on clothing', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on telephone', 'put watch on end', 'put watch on telephone', 'put wallet on end', 'put wallet on telephone', 'put all on end', 'put all on telephone']
+New Scene!
+OBSERVATION: You take off the soiled clothing.
+[Step 4] Valid Actions: ['get up', 'take phone', 'take wallet', 'take clothing', 'take keys', 'close door', 'put on clothing', 'look under bed', 'open wallet', 'take all from end', 'take all from phone']
+New Scene!
+OBSERVATION: keys: Done.
+wallet: Done.
+soiled clothing: Done.
+
+The phone rings.
+[Step 4] Valid Actions: ['east', 'close door', 'put on clothing', 'put on watch', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'south', 'get in bed', 'look under bed', 'open dresser', 'open wallet', 'put keys in bed', 'put clothing in bed', 'put watch in bed', 'put wallet in bed', 'put all in bed', 'put keys on telephone', 'put keys on table', 'put clothing on telephone', 'put clothing on table', 'put watch on telephone', 'put watch on table', 'put wallet on telephone', 'put wallet on table', 'put all on telephone', 'put all on table']
+New Scene!
+OBSERVATION: You get out of bed.
+
+Bedroom
+This bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. Cleaner clothing can be found in the dresser. A bathroom lies to the south, while a door to the east leads to the living room.
+
+On the end table is a telephone.
+[Step 4] Valid Actions: ['get up', 'take phone', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put on watch', 'put clothing down', 'put watch down', 'put all down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone', 'put watch on end', 'put watch on phone', 'put all on end', 'put all on phone']
+New Scene!
+OBSERVATION: You take off the soiled clothing.
+
+The phone rings.
+[Step 4] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take wallet', 'close door', 'put on watch', 'put clothing down', 'put watch down', 'put keys down', 'put all down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on phone', 'put watch on end', 'put watch on phone', 'put keys on end', 'put keys on phone', 'put all on end', 'put all on phone']
+New Scene!
+OBSERVATION: keys: Removed.
+gold watch: Removed.
+
+The phone rings.
+[Step 4] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take off watch', 'take off all', 'close door', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: wallet: Removed.
+keys: Removed.
+
+The phone rings.
+Learn begins!
+--> using reward_shaping
+/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/sac_rs.py:158: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_Q = torch.tensor(rewards, dtype=torch.float, device=self.device) + (
+[Step 5] Valid Actions: ['get up', 'take phone', 'take off watch', 'take license', 'take keys', 'take card', 'take clothing', 'close wallet', 'close door', 'put on clothing', 'put watch down', 'put wallet down', 'look under bed', 'take all from wallet', 'take all from end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end']
+New Scene!
+OBSERVATION: Under the bed you see the corpse of the guy who owns this house.
+
+The phone rings.
+[Step 5] Valid Actions: ['get up', 'take gold', 'take clothing', 'take keys', 'put on gold', 'put on clothing', 'put wallet down', 'look under bed', 'open wallet', 'open door', 'take all from end', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: (first taking the soiled clothing off)
+You take off the soiled clothing.
+Dropped.
+[Step 5] Valid Actions: ['get up', 'take off watch', 'take clothing', 'take keys', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'take all from telephone', 'put watch on end', 'put watch on telephone']
+New Scene!
+OBSERVATION: soiled clothing: Done.
+wallet: Done.
+[Step 5] Valid Actions: ['get up', 'take phone', 'take wallet', 'take keys', 'close door', 'put on clothing', 'put clothing down', 'look under bed', 'open wallet', 'take all from end', 'take all from phone', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: Taken.
+
+The phone rings.
+[Step 5] Valid Actions: ['north', 'put on watch', 'put on clothing', 'put watch down', 'put wallet down', 'put keys down', 'put clothing down', 'put all down', 'get in toilet', 'open wallet']
+New Scene!
+OBSERVATION:
+Bathroom
+This is a far from luxurious but still quite functional bathroom, with a sink, toilet and shower. The bedroom lies to the north.
+[Step 5] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take wallet', 'take keys', 'close door', 'put on watch', 'put clothing down', 'put watch down', 'look under bed', 'open wallet', 'take all from end', 'put clothing on end', 'put clothing on phone', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: You put on the soiled clothing.
+
+The phone rings.
+[Step 5] Valid Actions: ['get up', 'take phone', 'take clothing', 'take wallet', 'close door', 'put on watch', 'put on clothing', 'put watch down', 'put keys down', 'put all down', 'look under bed', 'open wallet', 'put watch on end', 'put watch on phone', 'put keys on end', 'put keys on phone', 'put all on end', 'put all on phone']
+New Scene!
+OBSERVATION: (first taking the soiled clothing off)
+You take off the soiled clothing.
+Dropped.
+
+The phone rings.
+[Step 5] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take off watch', 'take off all', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'open door', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: You close the bedroom door.
+
+The phone rings.
+[Step 6] Valid Actions: ['get up', 'take phone', 'take license', 'take keys', 'take watch', 'take card', 'take clothing', 'close wallet', 'close door', 'put on watch', 'put on clothing', 'put wallet down', 'look under bed', 'take all from wallet', 'take all from end', 'put wallet on phone', 'put wallet on end']
+New Scene!
+OBSERVATION: (first taking the gold watch off)
+You take off the gold watch.
+Dropped.
+
+The phone rings.
+[Step 6] Valid Actions: ['get up', 'take gold', 'take clothing', 'put on gold', 'put on clothing', 'put wallet down', 'put keys down', 'put all down', 'look under bed', 'open wallet', 'open door', 'put wallet on end', 'put wallet on telephone', 'put keys on end', 'put keys on telephone', 'put all on end', 'put all on telephone']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 6] Valid Actions: ['get up', 'take off watch', 'take clothing', 'close door', 'put on clothing', 'put watch down', 'put keys down', 'look under bed', 'take all from telephone', 'put watch on end', 'put watch on telephone', 'put keys on end', 'put keys on telephone']
+New Scene!
+OBSERVATION: Taken.
+[Step 6] Valid Actions: ['east', 'take phone', 'take keys', 'take watch', 'take wallet', 'close door', 'put on clothing', 'put on watch', 'put clothing down', 'south', 'get in bed', 'look under bed', 'open dresser', 'open wallet', 'take all from table', 'put clothing in bed', 'put clothing on phone', 'put clothing on table']
+New Scene!
+OBSERVATION: You get out of bed.
+
+Bedroom
+This bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. Cleaner clothing can be found in the dresser. A bathroom lies to the south, while a door to the east leads to the living room.
+
+On the end table are a wallet, some keys and a telephone.
+
+The phone rings.
+[Step 6] Valid Actions: ['north', 'take wallet', 'put on watch', 'put on clothing', 'put watch down', 'put keys down', 'put clothing down', 'put all down', 'get in toilet', 'open wallet']
+New Scene!
+OBSERVATION: Dropped.
+[Step 6] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take keys', 'close door', 'put on watch', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put clothing on phone', 'put clothing on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 6] Valid Actions: ['get up', 'take phone', 'take watch', 'take clothing', 'take wallet', 'close door', 'put on watch', 'put on clothing', 'put keys down', 'look under bed', 'open wallet', 'take all from bed', 'put keys on end', 'put keys on phone']
+Punishing repeated scene: times_visited=1, punishment=0.08
+[Step 6] Valid Actions: ['get up', 'take phone', 'take off watch', 'take off clothing', 'take off all', 'take card', 'take license', 'close wallet', 'put watch down', 'put wallet down', 'put keys down', 'put clothing down', 'put all down', 'look under bed', 'open door', 'take all from wallet', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: You open the wallet, revealing a driver's license and an ID card.
+
+The phone rings.
+[Step 7] Valid Actions: ['get up', 'take card', 'take watch', 'take license', 'take clothing', 'take keys', 'close wallet', 'close door', 'put on watch', 'put on clothing', 'put wallet down', 'look under bed', 'take all from wallet', 'take all from end', 'put wallet on end', 'put wallet on telephone']
+New Scene!
+OBSERVATION: You pick up the phone. "Hadley!" a shrill voice cries. "Hadley, haven't you even left yet?? You knew that our presentation was at nine o'clock sharp! First the thing with the printers, now this - there won't even be enough left of you for Bowman to fire once he's done with you. Now get the hell down here!!"
+
+Click.
+[Step 7] Valid Actions: ['take clothing', 'take watch', 'put on clothing', 'put on watch', 'put keys down', 'put wallet down', 'put all down', 'south', 'get in bed', 'look under bed', 'open door', 'open dresser', 'open wallet', 'put keys in bed', 'put wallet in bed', 'put all in bed', 'put keys on telephone', 'put keys on table', 'put wallet on telephone', 'put wallet on table', 'put all on telephone', 'put all on table']
+New Scene!
+OBSERVATION: You get out of bed.
+
+Bedroom
+This bedroom is extremely spare, with dirty laundry scattered haphazardly all over the floor. Cleaner clothing can be found in the dresser. A bathroom lies to the south, while a door to the east leads to the living room.
+
+On the bed is some soiled clothing.
+
+On the end table are a gold watch and a telephone.
+[Step 7] Valid Actions: ['get up', 'take off watch', 'close door', 'put on clothing', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on telephone', 'put keys on end', 'put clothing on telephone', 'put clothing on end', 'put watch on telephone', 'put watch on end', 'put wallet on telephone', 'put wallet on end', 'put all on telephone', 'put all on end']
+New Scene!
+OBSERVATION: wallet: Removed.
+soiled clothing: Removed.
+[Step 7] Valid Actions: ['east', 'take phone', 'take keys', 'take watch', 'take license', 'take card', 'take wallet', 'close door', 'close wallet', 'put on clothing', 'put on watch', 'put clothing down', 'south', 'get in bed', 'look under bed', 'open dresser', 'take all from table', 'take all from wallet', 'put clothing in bed', 'put clothing on phone', 'put clothing on table']
+New Scene!
+OBSERVATION: You open the wallet, revealing a driver's license and an ID card.
+
+The phone rings.
+[Step 7] Valid Actions: ['north', 'take license', 'take card', 'take wallet', 'close wallet', 'put on watch', 'put on clothing', 'put watch down', 'put keys down', 'put clothing down', 'put all down', 'get in toilet', 'take all from wallet']
+New Scene!
+OBSERVATION: You open the wallet, revealing a driver's license and an ID card.
+[Step 7] Valid Actions: ['get up', 'take phone', 'take off clothing', 'close door', 'put on watch', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'open wallet', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put all on phone', 'put all on end']
+Punishing repeated scene: times_visited=2, punishment=0.16
+[Step 7] Valid Actions: ['get up', 'take phone', 'take watch', 'take clothing', 'take wallet', 'close door', 'put on watch', 'put on clothing', 'look under bed', 'open wallet', 'take all from phone', 'take all from bed']
+New Scene!
+OBSERVATION: You put the keys on the telephone.
+
+The phone rings.
+[Step 7] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'take card', 'take license', 'close wallet', 'put on watch', 'put wallet down', 'put keys down', 'put clothing down', 'put all down', 'look under bed', 'open door', 'take all from wallet', 'put wallet on phone', 'put wallet on end', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: (first taking the gold watch off)
+You take off the gold watch.
+Dropped.
+
+The phone rings.
+[Step 8] Valid Actions: ['get up', 'take license', 'take watch', 'take card', 'close wallet', 'close door', 'put on clothing', 'put on watch', 'put keys down', 'put clothing down', 'put wallet down', 'put all down', 'look under bed', 'take all from wallet', 'put keys on telephone', 'put keys on end', 'put clothing on telephone', 'put clothing on end', 'put wallet on telephone', 'put wallet on end', 'put all on telephone', 'put all on end']
+New Scene!
+OBSERVATION: keys: Removed.
+soiled clothing: Removed.
+[Step 8] Valid Actions: ['take clothing', 'take watch', 'take wallet', 'put on clothing', 'put on watch', 'put keys down', 'south', 'get in bed', 'look under bed', 'open door', 'open dresser', 'open wallet', 'put keys in bed', 'put keys on telephone', 'put keys on table']
+New Scene!
+OBSERVATION: You put the wallet on the telephone.
+[Step 8] Valid Actions: ['get up', 'take gold', 'close door', 'put on clothing', 'put on gold', 'put clothing down', 'put wallet down', 'put keys down', 'put all down', 'look under bed', 'open wallet', 'put clothing on end', 'put clothing on telephone', 'put wallet on end', 'put wallet on telephone', 'put keys on end', 'put keys on telephone', 'put all on end', 'put all on telephone']
+New Scene!
+OBSERVATION: (first taking it off)
+
+You take off the gold watch.
+You put the gold watch on the end table.
+[Step 8] Valid Actions: ['east', 'take phone', 'take off clothing', 'take keys', 'take watch', 'take license', 'take card', 'take wallet', 'close door', 'close wallet', 'put on watch', 'put clothing down', 'south', 'get in bed', 'look under bed', 'open dresser', 'take all from table', 'take all from wallet', 'put clothing in bed', 'put clothing on phone', 'put clothing on table']
+New Scene!
+OBSERVATION: You put on the soiled clothing.
+
+The phone rings.
+[Step 8] Valid Actions: ['take shower', 'north', 'take watch', 'take license', 'take card', 'take wallet', 'take keys', 'take clothing', 'take all', 'close wallet', 'put on watch', 'put on clothing', 'get in toilet', 'take all from wallet']
+New Scene!
+OBSERVATION: keys: Dropped.
+gold watch: Dropped.
+soiled clothing: Dropped.
+[Step 8] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take card', 'take license', 'close wallet', 'close door', 'put on watch', 'put watch down', 'put wallet down', 'put keys down', 'put clothing down', 'put all down', 'look under bed', 'take all from wallet', 'put watch on phone', 'put watch on end', 'put wallet on phone', 'put wallet on end', 'put keys on phone', 'put keys on end', 'put clothing on phone', 'put clothing on end', 'put all on phone', 'put all on end']
+New Scene!
+OBSERVATION: You open the wallet, revealing a driver's license and an ID card.
+
+The phone rings.
+[Step 8] Valid Actions: ['get up', 'take phone', 'take off watch', 'take clothing', 'take wallet', 'close door', 'put on clothing', 'put watch down', 'look under bed', 'open wallet', 'take all from phone', 'put watch on end', 'put watch on phone']
+New Scene!
+OBSERVATION: (first taking the gold watch)
+You put on the gold watch.
+
+The phone rings.
+[Step 8] Valid Actions: ['get up', 'take phone', 'take off clothing', 'take watch', 'put on watch', 'put clothing down', 'look under bed', 'open door', 'take all from phone', 'put clothing on end', 'put clothing on phone']
+New Scene!
+OBSERVATION: keys: Done.
+wallet: Done.
+
+The phone rings.
+[Step 9] Valid Actions: ['get up', 'take off watch', 'take license', 'take card', 'close wallet', 'close door', 'put on clothing', 'put keys down', 'put clothing down', 'put watch down', 'put wallet down', 'put all down', 'look under bed', 'take all from wallet', 'put keys on telephone', 'put keys on end', 'put clothing on telephone', 'put clothing on end', 'put watch on telephone', 'put watch on end', 'put wallet on telephone', 'put wallet on end', 'put all on telephone', 'put all on end']
+New Scene!
+OBSERVATION: (first taking the gold watch)
+You put on the gold watch.
+[Step 9] Valid Actions: ['take soiled clothing', 'take clean clothing', 'take watch', 'take wallet', 'close dresser', 'put on soiled clothing', 'put on watch', 'put keys down', 'south', 'get in bed', 'look under bed', 'open door', 'open wallet', 'put keys in bed', 'put keys in dresser', 'put keys on telephone', 'put keys on table']
+New Scene!
+OBSERVATION: You open the dresser, revealing some clean clothing.
+[Step 9] Valid Actions: ['get up', 'take gold', 'close door', 'put on clothing', 'put on gold', 'put clothing down', 'put keys down', 'put all down', 'look under bed', 'take all from telephone', 'put clothing on end', 'put clothing on telephone', 'put keys on end', 'put keys on telephone', 'put all on end', 'put all on telephone']
+New Scene!
+OBSERVATION: You put the wallet on the telephone.
+[Step 9] Valid Actions: ['north', 'take off clothing', 'put clothing down', 'get in toilet']
+New Scene!
+OBSERVATION:
+Bathroom
+This is a far from luxurious but still quite functional bathroom, with a sink, toilet and shower. The bedroom lies to the north.
+
+The phone in the bedroom rings.
+[Step 9] Valid Actions: ['north', 'take off clothing', 'take watch', 'take license', 'take card', 'take wallet', 'take keys', 'take all', 'close wallet', 'put on watch', 'put clothing down', 'get in toilet', 'take all from wallet']
+New Scene!
+OBSERVATION: (first taking the soiled clothing)
+You put on the soiled clothing.
+Traceback (most recent call last):
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 251, in <module>
+    main()
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 240, in main
+    train(agent, envs, args, args.max_steps, args.update_freq, args.checkpoint_freq, args.log_freq)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/train.py", line 149, in train
+    ob, reward, done, info = env.step(action)
+  File "/home/mila/x/xut/github/Comp579Text-based-adventure-games-using-SAC/src/env.py", line 105, in step
+    valid = self.env.get_valid_actions(use_parallel=False)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 574, in get_valid_actions
+    diff2acts         = self._filter_candidate_actions(candidate_actions, use_ctypes, use_parallel)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/jericho/jericho.py", line 978, in _filter_candidate_actions
+    valid_cnt = self.frotz_lib.filter_candidate_actions(
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7f27f67ad870>
+Traceback (most recent call last):
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/home/mila/x/xut/.conda/envs/rl_venv/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
