@@ -9,17 +9,17 @@ import sentencepiece as spm
 import random
 from collections import namedtuple
 from torch.distributions import Categorical
-from utils import soft_update,  pad_sequences,set_seed_everywhere
+from utils import soft_update, pad_sequences, set_seed_everywhere
 import os.path
 from memory import Transition   # Use the extended Transition with 10 fields.
-
+ 
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
 steps_done = 0
-
-#SAC is inspired by https://github.com/toshikwa/sac-discrete.pytorch
-
+ 
+# SAC is inspired by https://github.com/toshikwa/sac-discrete.pytorch
+ 
 State = namedtuple('State', ('obs','look','inv'))
 # Do not redefine Transition here—use the one from memory.
  
@@ -38,56 +38,44 @@ class SACAgent(nn.Module):
         self.batch_size = args.batch_size
         self.learnable_temperature = None
         self.clip = 5
-        self.critic1 = DoubleQCritic(len(self.sp),args.embedding_dim, args.hidden_dim).to(self.device)
-        self.critic2 = DoubleQCritic(len(self.sp),args.embedding_dim, args.hidden_dim).to(self.device)
-        self.critic_target = DoubleQCritic(len(self.sp),args.embedding_dim, args.hidden_dim).to(
-            self.device)
-        self.critic_target2 = DoubleQCritic(len(self.sp),args.embedding_dim, args.hidden_dim).to(
-                    self.device)
-
+        self.critic1 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic2 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic_target = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+        self.critic_target2 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+ 
         self.critic_target.load_state_dict(self.critic1.state_dict())
         self.critic_target2.load_state_dict(self.critic2.state_dict())
-
-        self.actor = CateoricalPolicy(len(self.sp),args.embedding_dim, args.hidden_dim).to(device)#hydra.utils.instantiate(actor_cfg).to(self.device)
-
+ 
+        self.actor = CateoricalPolicy(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
+ 
         self.log_alpha = torch.tensor(np.log(0.1)).to(self.device)
         self.log_alpha.requires_grad = True
-
-
+ 
         # optimizers
-        self.actor_optimizer = torch.optim.Adam(self.actor.parameters(),
-                                                lr=0.0003,
-                                                betas= [0.9, 0.999])
-
-        self.critic_optimizer1 = torch.optim.Adam(self.critic1.parameters(),
-                                                 lr=0.0003,
-                                                 betas= [0.9, 0.999])
-        self.critic_optimizer2 = torch.optim.Adam(self.critic2.parameters(),
-                                                         lr=0.0003,
-                                                         betas= [0.9, 0.999])
-
-        self.log_alpha_optimizer = torch.optim.Adam([self.log_alpha],
-                                                    lr=0.0003,
-                                                    betas= [0.9, 0.999])
-
+        self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=0.0003, betas=[0.9, 0.999])
+        self.critic_optimizer1 = torch.optim.Adam(self.critic1.parameters(), lr=0.0003, betas=[0.9, 0.999])
+        self.critic_optimizer2 = torch.optim.Adam(self.critic2.parameters(), lr=0.0003, betas=[0.9, 0.999])
+ 
+        self.log_alpha_optimizer = torch.optim.Adam([self.log_alpha], lr=0.0003, betas=[0.9, 0.999])
+ 
         self.train()
         self.critic_target.train()
         set_seed_everywhere(args.seed)
-        self.save_path =  os.path.join( args.output_dir, 'model'+'.pt')
-
+        self.save_path = os.path.join(args.output_dir, 'model' + '.pt')
+ 
         # Store the reward shaping method – e.g., 'potential' or 'lookback'
         self.rs_method = getattr(args, 'rs_method', 'potential')
+ 
     def train(self, training=True):
         self.training = training
         self.actor.train(training)
         self.critic1.train(training)
         self.critic2.train(training)
-
+ 
     @property
     def alpha(self):
         return self.log_alpha.exp()
-
-
+ 
     def choose_action(self, states, poss_acts, sample=True):
         """Returns an action id from poss_acts."""
         global steps_done
@@ -257,9 +245,8 @@ class SACAgent(nn.Module):
             }, self.save_path)
         except Exception as e:
             print("Error saving model.")
-
-
-
+ 
+ 
 class REMCritic(nn.Module):
     """
     Random Ensemble Mixture (REM) Critic for SAC, maintains original 
@@ -269,17 +256,12 @@ class REMCritic(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim, num_ensemble=4):
         super().__init__()
         self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
- 
         self.num_ensemble = num_ensemble
         self.embedding = nn.Embedding(vocab_size, embedding_dim)
- 
-        # Shared encoders.
         self.obs_encoder = nn.GRU(embedding_dim, hidden_dim)
         self.look_encoder = nn.GRU(embedding_dim, hidden_dim)
         self.act_encoder = nn.GRU(embedding_dim, hidden_dim)
         self.inv_encoder = nn.GRU(embedding_dim, hidden_dim)
- 
-        # Ensemble heads.
         self.ensemble = nn.ModuleList([
             nn.Sequential(
                 nn.Linear(4 * hidden_dim, hidden_dim),
@@ -297,7 +279,6 @@ class REMCritic(nn.Module):
                     nn.init.constant_(layer.bias, 0.1 * i)
  
     def packed_rnn(self, x, rnn):
-        """Batch processing of variable-length sequences."""
         lengths = torch.tensor([len(n) for n in x], dtype=torch.long)
         lengths, idx_sort = torch.sort(lengths, dim=0, descending=True)
         _, idx_unsort = torch.sort(idx_sort, dim=0)
@@ -315,7 +296,6 @@ class REMCritic(nn.Module):
         return out.index_select(0, idx_unsort)
  
     def forward(self, state_batch, act_batch):
-        """Processes each batch element separately."""
         obs_out = self.packed_rnn([s.obs for s in state_batch], self.obs_encoder)
         look_out = self.packed_rnn([s.look for s in state_batch], self.look_encoder)
         inv_out = self.packed_rnn([s.inv for s in state_batch], self.inv_encoder)
@@ -375,6 +355,7 @@ class REMSACAgent(SACAgent):
                     current_V = [(act * (torch.min(q1, q2) - self.alpha.detach() * log)).sum(dim=0, keepdim=True)
                                   for act, q1, q2, log in zip(current_act_probs, current_Q1, current_Q2, current_log_prob)]
                     current_V = torch.cat(current_V, 0)
+ 
                     current_V = [(1 - 0.1) * c_v + 0.1 * (rew + self.rs_discount * t_v)
                                  for rew, c_v, t_v in zip(batch.rew, current_V, target_V)]
                     current_V = torch.stack(current_V)
@@ -526,11 +507,13 @@ class REMSACAgent(SACAgent):
             }, self.save_path)
         except Exception as e:
             print("Error saving model.")
+ 
 
+ 
 class RNDModel(nn.Module):
     def __init__(self, input_dim, hidden_dim):
         super(RNDModel, self).__init__()
-
+ 
         self.target = nn.Sequential(
             nn.Linear(384, hidden_dim),
             nn.ReLU(),
@@ -538,16 +521,17 @@ class RNDModel(nn.Module):
         )
         for param in self.target.parameters():
             param.requires_grad = False
-
+ 
         self.predictor = nn.Sequential(
             nn.Linear(384, hidden_dim),
             nn.ReLU(),
             nn.Linear(hidden_dim, hidden_dim)
         )
-
+ 
     def forward(self, x):
         return self.predictor(x), self.target(x)
-
+ 
+ 
 class RNDAgent(nn.Module):
     def __init__(self, args):
         super().__init__()
@@ -557,66 +541,62 @@ class RNDAgent(nn.Module):
         self.discount = 0.90
         self.batch_size = args.batch_size
         self.clip = 5
-
+ 
         self.critic1 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
         self.critic2 = DoubleQCritic(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
         self.actor = CateoricalPolicy(len(self.sp), args.embedding_dim, args.hidden_dim).to(self.device)
-
+ 
         self.rnd = RNDModel(args.embedding_dim, args.hidden_dim).to(self.device)
         self.rnd_optimizer = torch.optim.Adam(self.rnd.predictor.parameters(), lr=1e-4)
-
+ 
         self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=0.0003)
         self.critic_optimizer1 = torch.optim.Adam(self.critic1.parameters(), lr=0.0003)
         self.critic_optimizer2 = torch.optim.Adam(self.critic2.parameters(), lr=0.0003)
-
+ 
         set_seed_everywhere(args.seed)
-
+ 
     def compute_intrinsic_reward(self, states):
         with torch.no_grad():
             features = self.actor.encode_state(states)
             pred, target = self.rnd(features)
             return F.mse_loss(pred, target, reduction='none').mean(dim=1)
-
-    def choose_action(self,states, poss_acts, sample=True):
+ 
+    def choose_action(self, states, poss_acts, sample=True):
         global steps_done
-        sample = random.random()
-        eps_threshold = EPS_END + (EPS_START - EPS_END) * \
-            math.exp(-1. * steps_done / EPS_DECAY)
+        sample_val = random.random()
+        eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * steps_done / EPS_DECAY)
         steps_done += 1
-        if sample > eps_threshold:
+        if sample_val > eps_threshold:
             with torch.no_grad():
-                idxs, values,_= self.actor.act(states, poss_acts)
+                idxs, values, _ = self.actor.act(states, poss_acts)
                 act_ids = [poss_acts[batch][idx] for batch, idx in enumerate(idxs)]
         else:
-
-            idxs = torch.tensor([random.randrange(len(act)) for act in poss_acts], device=device, dtype=torch.long)
+            idxs = torch.tensor([random.randrange(len(act)) for act in poss_acts], device=self.device, dtype=torch.long)
             act_ids = [poss_acts[batch][idx] for batch, idx in enumerate(idxs)]
-
-        return  act_ids,idxs
-
-
-    def update(self, args,replay_buffer, logger, step):
+        return act_ids, idxs
+ 
+    def update(self, args, replay_buffer, logger, step):
         transitions = replay_buffer.sample(self.batch_size, self.device, self)
         batch = Transition(*zip(*transitions))
-
+ 
         with torch.no_grad():
             intrinsic_reward = self.compute_intrinsic_reward(batch.state)
             reward = torch.tensor(batch.rew, dtype=torch.float, device=self.device)
             rewards = reward + args.rnd_scale * intrinsic_reward
-
+ 
         index = [valids.index(x) for valids, x in zip(batch.valids, batch.act)]
         index = torch.LongTensor(index).to(self.device)
         current_Q1 = self.critic1(batch.state, batch.valids)
         current_Q2 = self.critic2(batch.state, batch.valids)
         current_Q1 = torch.stack([q1.gather(0, idx) for q1, idx in zip(current_Q1, index)])
         current_Q2 = torch.stack([q2.gather(0, idx) for q2, idx in zip(current_Q2, index)])
-
+ 
         with torch.no_grad():
-            target_Q = rewards  # no next state value for simplicity as offline RND
-
+            target_Q = rewards  # No next state value for simplicity (offline RND)
+ 
         Q1_loss = F.mse_loss(current_Q1, target_Q)
         Q2_loss = F.mse_loss(current_Q2, target_Q)
-
+ 
         self.critic_optimizer1.zero_grad()
         self.critic_optimizer2.zero_grad()
         Q1_loss.backward()
@@ -625,15 +605,13 @@ class RNDAgent(nn.Module):
         nn.utils.clip_grad_norm_(self.critic2.parameters(), self.clip)
         self.critic_optimizer1.step()
         self.critic_optimizer2.step()
-
-        # RND pred update
+ 
         features = self.actor.encode_state(batch.state)
         pred, target = self.rnd(features)
         rnd_loss = F.mse_loss(pred, target.detach())
-
+ 
         self.rnd_optimizer.zero_grad()
         rnd_loss.backward()
         self.rnd_optimizer.step()
-
+ 
         return Q1_loss + Q2_loss, rnd_loss
-
