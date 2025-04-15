@@ -123,30 +123,41 @@ class SACAgent(nn.Module):
                     current_V = torch.stack(current_V)
                     shaping_reward = self.rs_discount * target_V - current_V
                 elif self.rs_method == "lookback":
-
-                    # First, I init list for potentials
                     phi_current_list = []
                     phi_prev_list = []
-
-                    # loop over the batch samples
                     for i in range(len(batch.state)):
-                        # Compute Φ(s_t, a_t), the current State–Action Potential
+                        # Get the valid actions for the current state.
                         valid_actions = batch.valids[i]
+                        # Compute the Q-values (as a proxy for the potential function) for the current state.
                         current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]
-                        act_idx = valid_actions.index(batch.act[i])
-                        phi_current_list.append(current_q_values[act_idx])
+                        # Attempt to find the index of the stored action.
+                        try:
+                            act_idx = valid_actions.index(batch.act[i])
+                            phi_current = current_q_values[act_idx]
+                        except ValueError:
+                            # If the action isn’t available, use the average potential.
+                            phi_current = current_q_values.mean()
+                            print(f"Warning: stored current action {batch.act[i]} not in valid_actions; using mean potential instead.")
+                        phi_current_list.append(phi_current)
                         
-                        # Compute Φ(s_{t-1}, a_{t-1}) if available, else use zero.
+                        # Process the previous state/action pair.
                         if batch.prev_state[i] is not None:
-                            prev_q_values = self.critic_target([batch.prev_state[i]], [batch.prev_valids[i]])[0]
-                            prev_act_idx = batch.prev_valids[i].index(batch.prev_act[i])
-                            phi_prev_list.append(prev_q_values[prev_act_idx])
+                            prev_valids = batch.prev_valids[i]
+                            prev_q_values = self.critic_target([batch.prev_state[i]], [prev_valids])[0]
+                            try:
+                                prev_act_idx = prev_valids.index(batch.prev_act[i])
+                                phi_prev = prev_q_values[prev_act_idx]
+                            except ValueError:
+                                phi_prev = prev_q_values.mean()
+                                print(f"Warning: stored previous action {batch.prev_act[i]} not in prev_valids; using mean potential instead.")
+                            phi_prev_list.append(phi_prev)
                         else:
                             phi_prev_list.append(torch.tensor(0.0, device=self.device))
-                    # Stack the Collected Potentials Into Tensors:
+                    
+                    # Stack into tensors.
                     phi_current = torch.stack(phi_current_list)
                     phi_prev = torch.stack(phi_prev_list)
-                    # Compute the Shaping Reward:
+                    # Compute the look-back shaping reward:
                     shaping_reward = phi_current - (1.0 / self.discount) * phi_prev
                 else:
                     raise ValueError("Unknown reward shaping method")
@@ -372,19 +383,38 @@ class REMSACAgent(SACAgent):
                     phi_current_list = []
                     phi_prev_list = []
                     for i in range(len(batch.state)):
+                        # Get the valid actions for the current state.
                         valid_actions = batch.valids[i]
+                        # Compute the Q-values (as a proxy for the potential function) for the current state.
                         current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]
-                        act_idx = valid_actions.index(batch.act[i])
-                        phi_current_list.append(current_q_values[act_idx])
- 
+                        # Attempt to find the index of the stored action.
+                        try:
+                            act_idx = valid_actions.index(batch.act[i])
+                            phi_current = current_q_values[act_idx]
+                        except ValueError:
+                            # If the action isn’t available, use the average potential.
+                            phi_current = current_q_values.mean()
+                            print(f"Warning: stored current action {batch.act[i]} not in valid_actions; using mean potential instead.")
+                        phi_current_list.append(phi_current)
+                        
+                        # Process the previous state/action pair.
                         if batch.prev_state[i] is not None:
-                            prev_q_values = self.critic_target([batch.prev_state[i]], [batch.prev_valids[i]])[0]
-                            prev_act_idx = batch.prev_valids[i].index(batch.prev_act[i])
-                            phi_prev_list.append(prev_q_values[prev_act_idx])
+                            prev_valids = batch.prev_valids[i]
+                            prev_q_values = self.critic_target([batch.prev_state[i]], [prev_valids])[0]
+                            try:
+                                prev_act_idx = prev_valids.index(batch.prev_act[i])
+                                phi_prev = prev_q_values[prev_act_idx]
+                            except ValueError:
+                                phi_prev = prev_q_values.mean()
+                                print(f"Warning: stored previous action {batch.prev_act[i]} not in prev_valids; using mean potential instead.")
+                            phi_prev_list.append(phi_prev)
                         else:
                             phi_prev_list.append(torch.tensor(0.0, device=self.device))
+                    
+                    # Stack into tensors.
                     phi_current = torch.stack(phi_current_list)
                     phi_prev = torch.stack(phi_prev_list)
+                    # Compute the look-back shaping reward:
                     shaping_reward = phi_current - (1.0 / self.discount) * phi_prev
                     rewards = reward + shaping_reward
                 else:

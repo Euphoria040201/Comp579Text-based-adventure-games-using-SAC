@@ -1,1 +1,9 @@
 Logging to output
+>> Action1: turn on flashlight
+Reward1: 1.0, Score 0, Done False
+>> Action2: put down uncle
+Reward2: 1.0, Score 0, Done False
+>> Action3: look uncle
+Reward3: 1.0, Score 0, Done False
+>> Action4: take uncle
+Reward4: 1.0, Score 0, Done False
