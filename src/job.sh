@@ -14,10 +14,10 @@ cd /home/mila/q/qingchen.hu/textgame_579/src/
 
 # --rs_method='potential' 
 python train.py --output_dir 'output' \
-    --rom_path 'z-machine-games-master/jericho-game-suite/detective.z5' \
-    --env_name 'detective' \
+    --rom_path 'z-machine-games-master/jericho-game-suite/pentari.z5' \
+    --env_name 'pentari' \
     --spm_path 'unigram_8k.model' --wandb=1 --wandb_project="Jericho_comp579_textgame"\
     --max_steps=5000 --memory_size=10000\
-    --agent_type=SAC --sample_strat='prioritized'\
-    --use_aux_reward=False --seed=1
+    --agent_type=REMSAC --sample_strat='uniform'\
+    --use_aux_reward=False --seed=3
     
