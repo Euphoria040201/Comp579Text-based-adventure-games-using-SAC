@@ -123,31 +123,59 @@ class SACAgent(nn.Module):
                     current_V = torch.stack(current_V)
                     shaping_reward = self.rs_discount * target_V - current_V
                 elif self.rs_method == "lookback":
-
-                    # First, I init list for potentials
                     phi_current_list = []
                     phi_prev_list = []
-
-                    # loop over the batch samples
                     for i in range(len(batch.state)):
-                        # Compute Φ(s_t, a_t), the current State–Action Potential
+                        # Get the valid actions for the current state.
                         valid_actions = batch.valids[i]
-                        current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]
-                        act_idx = valid_actions.index(batch.act[i])
-                        phi_current_list.append(current_q_values[act_idx])
-                        
-                        # Compute Φ(s_{t-1}, a_{t-1}) if available, else use zero.
+                        if len(valid_actions) == 0:
+                            phi_current = torch.tensor(0.0, device=self.device)
+                        else:
+                            # Compute Q-values (our proxy for the potential) for the current state.
+                            current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]
+                            try:
+                                act_idx = valid_actions.index(batch.act[i])
+                                # Ensure that we reduce the tensor to a scalar.
+                                if act_idx < len(current_q_values):
+                                    phi_current = current_q_values[act_idx].mean()
+                                else:
+                                    print(f"Warning: computed index {act_idx} is out of bounds (len={len(current_q_values)}); using average potential.")
+                                    phi_current = current_q_values.mean()
+                            except ValueError:
+                                print(f"Warning: stored current action {batch.act[i]} not in valid_actions; using mean potential instead.")
+                                phi_current = current_q_values.mean()
+                            phi_current = torch.tensor(phi_current.item(), device=self.device)
+                        phi_current_list.append(phi_current)
+
+                        # Process the previous state–action pair.
                         if batch.prev_state[i] is not None:
-                            prev_q_values = self.critic_target([batch.prev_state[i]], [batch.prev_valids[i]])[0]
-                            prev_act_idx = batch.prev_valids[i].index(batch.prev_act[i])
-                            phi_prev_list.append(prev_q_values[prev_act_idx])
+                            prev_valids = batch.prev_valids[i]
+                            if len(prev_valids) == 0:
+                                phi_prev = torch.tensor(0.0, device=self.device)
+                            else:
+                                prev_q_values = self.critic_target([batch.prev_state[i]], [prev_valids])[0]
+                                try:
+                                    prev_act_idx = prev_valids.index(batch.prev_act[i])
+                                    if prev_act_idx < len(prev_q_values):
+                                        phi_prev = prev_q_values[prev_act_idx].mean()
+                                    else:
+                                        print(f"Warning: previous index {prev_act_idx} out of bounds (len={len(prev_q_values)}); using mean potential.")
+                                        phi_prev = prev_q_values.mean()
+                                except ValueError:
+                                    print(f"Warning: stored previous action {batch.prev_act[i]} not in prev_valids; using mean potential instead.")
+                                    phi_prev = prev_q_values.mean()
+                                phi_prev = torch.tensor(phi_prev.item(), device=self.device)
+                            phi_prev_list.append(phi_prev)
                         else:
                             phi_prev_list.append(torch.tensor(0.0, device=self.device))
-                    # Stack the Collected Potentials Into Tensors:
+                    
+                    # Stack the potentials into tensors.
                     phi_current = torch.stack(phi_current_list)
                     phi_prev = torch.stack(phi_prev_list)
-                    # Compute the Shaping Reward:
+                    # Compute the shaping reward:
+                    # F(s_t, a_t, s_{t-1}, a_{t-1}) = Φ(s_t, a_t) - (1/γ) * Φ(s_{t-1}, a_{t-1})
                     shaping_reward = phi_current - (1.0 / self.discount) * phi_prev
+                    rewards = reward + shaping_reward
                 else:
                     raise ValueError("Unknown reward shaping method")
                 # Augment the Original Reward
@@ -255,13 +283,17 @@ class REMCritic(nn.Module):
     """
     def __init__(self, vocab_size, embedding_dim, hidden_dim, num_ensemble=4):
         super().__init__()
-        self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
+ 
         self.num_ensemble = num_ensemble
         self.embedding = nn.Embedding(vocab_size, embedding_dim)
+ 
+        # Shared encoders.
         self.obs_encoder = nn.GRU(embedding_dim, hidden_dim)
         self.look_encoder = nn.GRU(embedding_dim, hidden_dim)
         self.act_encoder = nn.GRU(embedding_dim, hidden_dim)
         self.inv_encoder = nn.GRU(embedding_dim, hidden_dim)
+ 
+        # Ensemble heads.
         self.ensemble = nn.ModuleList([
             nn.Sequential(
                 nn.Linear(4 * hidden_dim, hidden_dim),
@@ -277,11 +309,16 @@ class REMCritic(nn.Module):
                 if isinstance(layer, nn.Linear):
                     nn.init.normal_(layer.weight, mean=0, std=0.1 * i + 0.1)
                     nn.init.constant_(layer.bias, 0.1 * i)
+        self.device = next(self.parameters()).device
+
  
+
     def packed_rnn(self, x, rnn):
+        """Batch processing of variable-length sequences."""
         lengths = torch.tensor([len(n) for n in x], dtype=torch.long)
         lengths, idx_sort = torch.sort(lengths, dim=0, descending=True)
         _, idx_unsort = torch.sort(idx_sort, dim=0)
+        # Use the stored self.device here:
         idx_sort = torch.autograd.Variable(idx_sort).to(self.device)
         idx_unsort = torch.autograd.Variable(idx_unsort).to(self.device)
         padded_x = pad_sequences(x)
@@ -296,11 +333,12 @@ class REMCritic(nn.Module):
         return out.index_select(0, idx_unsort)
  
     def forward(self, state_batch, act_batch):
+        """Processes each batch element separately to handle variable actions."""
         obs_out = self.packed_rnn([s.obs for s in state_batch], self.obs_encoder)
         look_out = self.packed_rnn([s.look for s in state_batch], self.look_encoder)
         inv_out = self.packed_rnn([s.inv for s in state_batch], self.inv_encoder)
         state_out = torch.cat((obs_out, look_out, inv_out), dim=1)
- 
+        
         batch_q_values = []
         for i in range(len(state_batch)):
             valid_acts = act_batch[i]
@@ -309,9 +347,8 @@ class REMCritic(nn.Module):
             z = torch.cat((state_expanded, act_out), dim=1)
             q_values = torch.stack([head(z).squeeze(-1) for head in self.ensemble])
             batch_q_values.append(q_values)
- 
+            
         return batch_q_values
- 
  
 class REMSACAgent(SACAgent):
     """SAC with REM critics."""
@@ -366,19 +403,54 @@ class REMSACAgent(SACAgent):
                     phi_current_list = []
                     phi_prev_list = []
                     for i in range(len(batch.state)):
+                        # Get the valid actions for the current state.
                         valid_actions = batch.valids[i]
-                        current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]
-                        act_idx = valid_actions.index(batch.act[i])
-                        phi_current_list.append(current_q_values[act_idx])
- 
+                        if len(valid_actions) == 0:
+                            phi_current = torch.tensor(0.0, device=self.device)
+                        else:
+                            # Compute Q-values (our proxy for the potential) for the current state.
+                            current_q_values = self.critic_target([batch.state[i]], [valid_actions])[0]
+                            try:
+                                act_idx = valid_actions.index(batch.act[i])
+                                # Ensure that we reduce the tensor to a scalar.
+                                if act_idx < len(current_q_values):
+                                    phi_current = current_q_values[act_idx].mean()
+                                else:
+                                    print(f"Warning: computed index {act_idx} is out of bounds (len={len(current_q_values)}); using average potential.")
+                                    phi_current = current_q_values.mean()
+                            except ValueError:
+                                print(f"Warning: stored current action {batch.act[i]} not in valid_actions; using mean potential instead.")
+                                phi_current = current_q_values.mean()
+                            phi_current = torch.tensor(phi_current.item(), device=self.device)
+                        phi_current_list.append(phi_current)
+
+                        # Process the previous state–action pair.
                         if batch.prev_state[i] is not None:
-                            prev_q_values = self.critic_target([batch.prev_state[i]], [batch.prev_valids[i]])[0]
-                            prev_act_idx = batch.prev_valids[i].index(batch.prev_act[i])
-                            phi_prev_list.append(prev_q_values[prev_act_idx])
+                            prev_valids = batch.prev_valids[i]
+                            if len(prev_valids) == 0:
+                                phi_prev = torch.tensor(0.0, device=self.device)
+                            else:
+                                prev_q_values = self.critic_target([batch.prev_state[i]], [prev_valids])[0]
+                                try:
+                                    prev_act_idx = prev_valids.index(batch.prev_act[i])
+                                    if prev_act_idx < len(prev_q_values):
+                                        phi_prev = prev_q_values[prev_act_idx].mean()
+                                    else:
+                                        print(f"Warning: previous index {prev_act_idx} out of bounds (len={len(prev_q_values)}); using mean potential.")
+                                        phi_prev = prev_q_values.mean()
+                                except ValueError:
+                                    print(f"Warning: stored previous action {batch.prev_act[i]} not in prev_valids; using mean potential instead.")
+                                    phi_prev = prev_q_values.mean()
+                                phi_prev = torch.tensor(phi_prev.item(), device=self.device)
+                            phi_prev_list.append(phi_prev)
                         else:
                             phi_prev_list.append(torch.tensor(0.0, device=self.device))
+                    
+                    # Stack the potentials into tensors.
                     phi_current = torch.stack(phi_current_list)
                     phi_prev = torch.stack(phi_prev_list)
+                    # Compute the shaping reward:
+                    # F(s_t, a_t, s_{t-1}, a_{t-1}) = Φ(s_t, a_t) - (1/γ) * Φ(s_{t-1}, a_{t-1})
                     shaping_reward = phi_current - (1.0 / self.discount) * phi_prev
                     rewards = reward + shaping_reward
                 else:
